@@ -1,0 +1,615 @@
+[2025-04-17 20:35:33][notice]Start restoring themes.
+[2025-04-17 20:35:33][notice]Extracting file:zippy-zoya-wy.zipwp.xyz_wpvivid-c84cf61167c85_2025-04-17-20-02_backup_all.zip
+[2025-04-17 20:35:34][notice]Extracting file:zippy-zoya-wy.zipwp.xyz_wpvivid-c84cf61167c85_2025-04-17-20-02_backup_all.zip succeeded.
+[2025-04-17 20:35:34][notice]Extracting file:zippy-zoya-wy.zipwp.xyz_wpvivid-c84cf61167c85_2025-04-17-20-02_backup_themes.zip index:0
+[2025-04-17 20:35:35][notice]Extracting file:zippy-zoya-wy.zipwp.xyz_wpvivid-c84cf61167c85_2025-04-17-20-02_backup_themes.zip index:0 finished.
+[2025-04-17 20:35:35][notice]End restore themes.
+[2025-04-17 20:35:36][notice]Start restoring themes.
+[2025-04-17 20:35:36][notice]Extracting file:zippy-zoya-wy.zipwp.xyz_wpvivid-c84cf61167c85_2025-04-17-20-02_backup_themes.zip index:1000
+[2025-04-17 20:35:36][notice]Extracting file:zippy-zoya-wy.zipwp.xyz_wpvivid-c84cf61167c85_2025-04-17-20-02_backup_themes.zip index:1000 finished.
+[2025-04-17 20:35:36][notice]End restore themes.
+[2025-04-17 20:35:38][notice]Start restoring plugin.
+[2025-04-17 20:35:38][notice]Extracting file:zippy-zoya-wy.zipwp.xyz_wpvivid-c84cf61167c85_2025-04-17-20-02_backup_all.zip
+[2025-04-17 20:35:38][notice]Extracting file:zippy-zoya-wy.zipwp.xyz_wpvivid-c84cf61167c85_2025-04-17-20-02_backup_all.zip succeeded.
+[2025-04-17 20:35:38][notice]Extracting file:zippy-zoya-wy.zipwp.xyz_wpvivid-c84cf61167c85_2025-04-17-20-02_backup_plugin.zip index:0
+[2025-04-17 20:35:38][notice]Extracting file:zippy-zoya-wy.zipwp.xyz_wpvivid-c84cf61167c85_2025-04-17-20-02_backup_plugin.zip index:0 finished.
+[2025-04-17 20:35:38][notice]End restore plugin.
+[2025-04-17 20:35:39][notice]Start restoring plugin.
+[2025-04-17 20:35:39][notice]Extracting file:zippy-zoya-wy.zipwp.xyz_wpvivid-c84cf61167c85_2025-04-17-20-02_backup_plugin.zip index:1000
+[2025-04-17 20:35:39][notice]Extracting file:zippy-zoya-wy.zipwp.xyz_wpvivid-c84cf61167c85_2025-04-17-20-02_backup_plugin.zip index:1000 finished.
+[2025-04-17 20:35:39][notice]End restore plugin.
+[2025-04-17 20:35:41][notice]Start restoring plugin.
+[2025-04-17 20:35:41][notice]Extracting file:zippy-zoya-wy.zipwp.xyz_wpvivid-c84cf61167c85_2025-04-17-20-02_backup_plugin.zip index:2000
+[2025-04-17 20:35:41][notice]Extracting file:zippy-zoya-wy.zipwp.xyz_wpvivid-c84cf61167c85_2025-04-17-20-02_backup_plugin.zip index:2000 finished.
+[2025-04-17 20:35:41][notice]End restore plugin.
+[2025-04-17 20:35:42][notice]Start restoring plugin.
+[2025-04-17 20:35:42][notice]Extracting file:zippy-zoya-wy.zipwp.xyz_wpvivid-c84cf61167c85_2025-04-17-20-02_backup_plugin.zip index:3000
+[2025-04-17 20:35:43][notice]Extracting file:zippy-zoya-wy.zipwp.xyz_wpvivid-c84cf61167c85_2025-04-17-20-02_backup_plugin.zip index:3000 finished.
+[2025-04-17 20:35:43][notice]End restore plugin.
+[2025-04-17 20:35:44][notice]Start restoring plugin.
+[2025-04-17 20:35:44][notice]Extracting file:zippy-zoya-wy.zipwp.xyz_wpvivid-c84cf61167c85_2025-04-17-20-02_backup_plugin.zip index:4000
+[2025-04-17 20:35:44][notice]Extracting file:zippy-zoya-wy.zipwp.xyz_wpvivid-c84cf61167c85_2025-04-17-20-02_backup_plugin.zip index:4000 finished.
+[2025-04-17 20:35:44][notice]End restore plugin.
+[2025-04-17 20:35:45][notice]Start restoring plugin.
+[2025-04-17 20:35:45][notice]Extracting file:zippy-zoya-wy.zipwp.xyz_wpvivid-c84cf61167c85_2025-04-17-20-02_backup_plugin.zip index:5000
+[2025-04-17 20:35:45][notice]Extracting file:zippy-zoya-wy.zipwp.xyz_wpvivid-c84cf61167c85_2025-04-17-20-02_backup_plugin.zip index:5000 finished.
+[2025-04-17 20:35:45][notice]End restore plugin.
+[2025-04-17 20:35:47][notice]Start restoring wp-content.
+[2025-04-17 20:35:47][notice]Extracting file:zippy-zoya-wy.zipwp.xyz_wpvivid-c84cf61167c85_2025-04-17-20-02_backup_all.zip
+[2025-04-17 20:35:47][notice]Extracting file:zippy-zoya-wy.zipwp.xyz_wpvivid-c84cf61167c85_2025-04-17-20-02_backup_all.zip succeeded.
+[2025-04-17 20:35:47][notice]Extracting file:zippy-zoya-wy.zipwp.xyz_wpvivid-c84cf61167c85_2025-04-17-20-02_backup_content.zip index:0
+[2025-04-17 20:35:47][notice]Extracting file:zippy-zoya-wy.zipwp.xyz_wpvivid-c84cf61167c85_2025-04-17-20-02_backup_content.zip index:0 finished.
+[2025-04-17 20:35:47][notice]End restore wp-content.
+[2025-04-17 20:35:48][notice]Start restoring upload.
+[2025-04-17 20:35:48][notice]Extracting file:zippy-zoya-wy.zipwp.xyz_wpvivid-c84cf61167c85_2025-04-17-20-02_backup_all.zip
+[2025-04-17 20:35:48][notice]Extracting file:zippy-zoya-wy.zipwp.xyz_wpvivid-c84cf61167c85_2025-04-17-20-02_backup_all.zip succeeded.
+[2025-04-17 20:35:48][notice]Extracting file:zippy-zoya-wy.zipwp.xyz_wpvivid-c84cf61167c85_2025-04-17-20-02_backup_uploads.zip index:0
+[2025-04-17 20:35:49][notice]Extracting file:zippy-zoya-wy.zipwp.xyz_wpvivid-c84cf61167c85_2025-04-17-20-02_backup_uploads.zip index:0 finished.
+[2025-04-17 20:35:49][notice]End restore upload.
+[2025-04-17 20:35:50][notice]Start restoring wp-core.
+[2025-04-17 20:35:50][notice]Extracting file:zippy-zoya-wy.zipwp.xyz_wpvivid-c84cf61167c85_2025-04-17-20-02_backup_all.zip
+[2025-04-17 20:35:51][notice]Extracting file:zippy-zoya-wy.zipwp.xyz_wpvivid-c84cf61167c85_2025-04-17-20-02_backup_all.zip succeeded.
+[2025-04-17 20:35:51][notice]Extracting file:zippy-zoya-wy.zipwp.xyz_wpvivid-c84cf61167c85_2025-04-17-20-02_backup_core.zip
+[2025-04-17 20:35:53][notice]Extracting file:zippy-zoya-wy.zipwp.xyz_wpvivid-c84cf61167c85_2025-04-17-20-02_backup_core.zip succeeded.
+[2025-04-17 20:35:53][notice]End restore wp-core.
+[2025-04-17 20:35:54][notice]Start restoring databases.
+[2025-04-17 20:35:54][notice]Extracting file:zippy-zoya-wy.zipwp.xyz_wpvivid-c84cf61167c85_2025-04-17-20-02_backup_all.zip
+[2025-04-17 20:35:54][notice]Extracting file:zippy-zoya-wy.zipwp.xyz_wpvivid-c84cf61167c85_2025-04-17-20-02_backup_all.zip finished.
+[2025-04-17 20:35:54][notice]Extracting file:/home/realsolutions/htdocs/www.realsolutions.ai/wp-content/wpvividbackups/zippy-zoya-wy.zipwp.xyz_wpvivid-c84cf61167c85_2025-04-17-20-02_backup_db.zip
+[2025-04-17 20:35:54][notice]Extracting file:/home/realsolutions/htdocs/www.realsolutions.ai/wp-content/wpvividbackups/zippy-zoya-wy.zipwp.xyz_wpvivid-c84cf61167c85_2025-04-17-20-02_backup_db.zip finished.
+[2025-04-17 20:35:54][notice]End restore databases.
+[2025-04-17 20:35:55][notice]Start restoring databases.
+[2025-04-17 20:35:55][notice]Start restoring sql file offset:0
+[2025-04-17 20:35:55][notice]The test to drop table succeeds.
+[2025-04-17 20:35:56][notice]Drop table if exist tmpa4b641_latepoint_activities
+[2025-04-17 20:35:56][notice]Creating table tmpa4b641_latepoint_activities
+[2025-04-17 20:35:56][notice]Drop table if exist tmpa4b641_latepoint_process_jobs
+[2025-04-17 20:35:56][notice]Creating table tmpa4b641_latepoint_process_jobs
+[2025-04-17 20:35:56][notice]Drop table if exist tmpa4b641_latepoint_processes
+[2025-04-17 20:35:56][notice]Creating table tmpa4b641_latepoint_processes
+[2025-04-17 20:35:56][notice]Drop table if exist tmpa4b641_latepoint_recurrences
+[2025-04-17 20:35:56][notice]Creating table tmpa4b641_latepoint_recurrences
+[2025-04-17 20:35:57][notice]Drop table if exist tmpa4b641_latepoint_steps
+[2025-04-17 20:35:57][notice]Creating table tmpa4b641_latepoint_steps
+[2025-04-17 20:35:57][notice]Drop table if exist tmpa4b641_latepoint_transaction_refunds
+[2025-04-17 20:35:57][notice]Creating table tmpa4b641_latepoint_transaction_refunds
+[2025-04-17 20:35:57][notice]Drop table if exist tmpa4b641_latepoint_transactions
+[2025-04-17 20:35:57][notice]Creating table tmpa4b641_latepoint_transactions
+[2025-04-17 20:35:57][notice]Drop table if exist tmpa4b641_suretriggers_webhook_requests
+[2025-04-17 20:35:57][notice]Creating table tmpa4b641_suretriggers_webhook_requests
+[2025-04-17 20:35:57][notice]Drop table if exist tmpa4b641_actionscheduler_claims
+[2025-04-17 20:35:57][notice]Creating table tmpa4b641_actionscheduler_claims
+[2025-04-17 20:35:57][notice]Drop table if exist tmpa4b641_actionscheduler_groups
+[2025-04-17 20:35:57][notice]Creating table tmpa4b641_actionscheduler_groups
+[2025-04-17 20:35:57][notice]Drop table if exist tmpa4b641_latepoint_agents
+[2025-04-17 20:35:57][notice]Creating table tmpa4b641_latepoint_agents
+[2025-04-17 20:35:57][notice]Drop table if exist tmpa4b641_latepoint_locations
+[2025-04-17 20:35:57][notice]Creating table tmpa4b641_latepoint_locations
+[2025-04-17 20:35:57][notice]Drop table if exist tmpa4b641_latepoint_order_intents
+[2025-04-17 20:35:57][notice]Creating table tmpa4b641_latepoint_order_intents
+[2025-04-17 20:35:57][notice]Drop table if exist tmpa4b641_latepoint_order_items
+[2025-04-17 20:35:58][notice]Creating table tmpa4b641_latepoint_order_items
+[2025-04-17 20:35:58][notice]Drop table if exist tmpa4b641_latepoint_orders
+[2025-04-17 20:35:58][notice]Creating table tmpa4b641_latepoint_orders
+[2025-04-17 20:35:58][notice]Drop table if exist tmpa4b641_latepoint_sessions
+[2025-04-17 20:35:58][notice]Creating table tmpa4b641_latepoint_sessions
+[2025-04-17 20:35:58][notice]Drop table if exist tmpa4b641_latepoint_settings
+[2025-04-17 20:35:58][notice]Creating table tmpa4b641_latepoint_settings
+[2025-04-17 20:35:58][notice]Drop table if exist tmpa4b641_latepoint_transaction_intents
+[2025-04-17 20:35:58][notice]Creating table tmpa4b641_latepoint_transaction_intents
+[2025-04-17 20:35:58][notice]Drop table if exist tmpa4b641_links
+[2025-04-17 20:35:58][notice]Creating table tmpa4b641_links
+[2025-04-17 20:35:58][notice]Drop table if exist tmpa4b641_term_relationships
+[2025-04-17 20:35:58][notice]Creating table tmpa4b641_term_relationships
+[2025-04-17 20:35:58][notice]Drop table if exist tmpa4b641_actionscheduler_logs
+[2025-04-17 20:35:58][notice]Creating table tmpa4b641_actionscheduler_logs
+[2025-04-17 20:35:58][notice]Drop table if exist tmpa4b641_commentmeta
+[2025-04-17 20:35:58][notice]Creating table tmpa4b641_commentmeta
+[2025-04-17 20:35:58][notice]Drop table if exist tmpa4b641_latepoint_agent_meta
+[2025-04-17 20:35:58][notice]Creating table tmpa4b641_latepoint_agent_meta
+[2025-04-17 20:35:58][notice]Drop table if exist tmpa4b641_latepoint_booking_meta
+[2025-04-17 20:35:58][notice]Creating table tmpa4b641_latepoint_booking_meta
+[2025-04-17 20:35:58][notice]Drop table if exist tmpa4b641_latepoint_bundles
+[2025-04-17 20:35:58][notice]Creating table tmpa4b641_latepoint_bundles
+[2025-04-17 20:35:58][notice]Drop table if exist tmpa4b641_latepoint_bundles_services
+[2025-04-17 20:35:58][notice]Creating table tmpa4b641_latepoint_bundles_services
+[2025-04-17 20:35:58][notice]Drop table if exist tmpa4b641_latepoint_cart_items
+[2025-04-17 20:35:58][notice]Creating table tmpa4b641_latepoint_cart_items
+[2025-04-17 20:35:58][notice]Drop table if exist tmpa4b641_latepoint_cart_meta
+[2025-04-17 20:35:58][notice]Creating table tmpa4b641_latepoint_cart_meta
+[2025-04-17 20:35:58][notice]Drop table if exist tmpa4b641_latepoint_customer_meta
+[2025-04-17 20:35:58][notice]Creating table tmpa4b641_latepoint_customer_meta
+[2025-04-17 20:35:58][notice]Drop table if exist tmpa4b641_latepoint_location_categories
+[2025-04-17 20:35:58][notice]Creating table tmpa4b641_latepoint_location_categories
+[2025-04-17 20:35:58][notice]Drop table if exist tmpa4b641_latepoint_order_invoices
+[2025-04-17 20:35:58][notice]Creating table tmpa4b641_latepoint_order_invoices
+[2025-04-17 20:35:58][notice]Drop table if exist tmpa4b641_latepoint_order_meta
+[2025-04-17 20:35:58][notice]Creating table tmpa4b641_latepoint_order_meta
+[2025-04-17 20:35:58][notice]Drop table if exist tmpa4b641_latepoint_payment_requests
+[2025-04-17 20:35:59][notice]Creating table tmpa4b641_latepoint_payment_requests
+[2025-04-17 20:35:59][notice]Drop table if exist tmpa4b641_latepoint_service_categories
+[2025-04-17 20:35:59][notice]Creating table tmpa4b641_latepoint_service_categories
+[2025-04-17 20:35:59][notice]Drop table if exist tmpa4b641_latepoint_service_meta
+[2025-04-17 20:35:59][notice]Creating table tmpa4b641_latepoint_service_meta
+[2025-04-17 20:35:59][notice]Drop table if exist tmpa4b641_latepoint_step_settings
+[2025-04-17 20:35:59][notice]Creating table tmpa4b641_latepoint_step_settings
+[2025-04-17 20:35:59][notice]Drop table if exist tmpa4b641_suremails_email_log
+[2025-04-17 20:35:59][notice]Creating table tmpa4b641_suremails_email_log
+[2025-04-17 20:35:59][notice]Drop table if exist tmpa4b641_term_taxonomy
+[2025-04-17 20:35:59][notice]Creating table tmpa4b641_term_taxonomy
+[2025-04-17 20:35:59][notice]Drop table if exist tmpa4b641_termmeta
+[2025-04-17 20:35:59][notice]Creating table tmpa4b641_termmeta
+[2025-04-17 20:35:59][notice]Drop table if exist tmpa4b641_terms
+[2025-04-17 20:35:59][notice]Creating table tmpa4b641_terms
+[2025-04-17 20:35:59][notice]Drop table if exist tmpa4b641_usermeta
+[2025-04-17 20:35:59][notice]Creating table tmpa4b641_usermeta
+[2025-04-17 20:35:59][notice]Drop table if exist tmpa4b641_latepoint_agents_services
+[2025-04-17 20:35:59][notice]Creating table tmpa4b641_latepoint_agents_services
+[2025-04-17 20:35:59][notice]Drop table if exist tmpa4b641_latepoint_carts
+[2025-04-17 20:35:59][notice]Creating table tmpa4b641_latepoint_carts
+[2025-04-17 20:35:59][notice]Drop table if exist tmpa4b641_latepoint_custom_prices
+[2025-04-17 20:35:59][notice]Creating table tmpa4b641_latepoint_custom_prices
+[2025-04-17 20:35:59][notice]Drop table if exist tmpa4b641_latepoint_customers
+[2025-04-17 20:35:59][notice]Creating table tmpa4b641_latepoint_customers
+[2025-04-17 20:35:59][notice]Drop table if exist tmpa4b641_latepoint_services
+[2025-04-17 20:35:59][notice]Creating table tmpa4b641_latepoint_services
+[2025-04-17 20:35:59][notice]Drop table if exist tmpa4b641_srfm_entries
+[2025-04-17 20:35:59][notice]Creating table tmpa4b641_srfm_entries
+[2025-04-17 20:35:59][notice]Drop table if exist tmpa4b641_users
+[2025-04-17 20:35:59][notice]Creating table tmpa4b641_users
+[2025-04-17 20:35:59][notice]Drop table if exist tmpa4b641_comments
+[2025-04-17 20:35:59][notice]Creating table tmpa4b641_comments
+[2025-04-17 20:35:59][notice]Drop table if exist tmpa4b641_latepoint_blocked_periods
+[2025-04-17 20:35:59][notice]Creating table tmpa4b641_latepoint_blocked_periods
+[2025-04-17 20:35:59][notice]Drop table if exist tmpa4b641_latepoint_work_periods
+[2025-04-17 20:35:59][notice]Creating table tmpa4b641_latepoint_work_periods
+[2025-04-17 20:35:59][notice]Drop table if exist tmpa4b641_actionscheduler_actions
+[2025-04-17 20:36:00][notice]Creating table tmpa4b641_actionscheduler_actions
+[2025-04-17 20:36:00][notice]Drop table if exist tmpa4b641_latepoint_bookings
+[2025-04-17 20:36:00][notice]Creating table tmpa4b641_latepoint_bookings
+[2025-04-17 20:36:00][notice]Drop table if exist tmpa4b641_posts
+[2025-04-17 20:36:00][notice]Creating table tmpa4b641_posts
+[2025-04-17 20:36:00][notice]Drop table if exist tmpa4b641_postmeta
+[2025-04-17 20:36:00][notice]Creating table tmpa4b641_postmeta
+[2025-04-17 20:36:00][notice]Drop table if exist tmpa4b641_options
+[2025-04-17 20:36:00][notice]Creating table tmpa4b641_options
+[2025-04-17 20:36:01][notice]Start replacing table tmpa4b641_latepoint_activities offset:0
+[2025-04-17 20:36:01][notice]
+[2025-04-17 20:36:01][notice]Counting of rows in tmpa4b641_latepoint_activities: 0
+[2025-04-17 20:36:01][notice]End restore databases.
+[2025-04-17 20:36:02][notice]Start restoring databases.
+[2025-04-17 20:36:02][notice]Start replacing table tmpa4b641_latepoint_process_jobs offset:0
+[2025-04-17 20:36:02][notice]
+[2025-04-17 20:36:02][notice]Counting of rows in tmpa4b641_latepoint_process_jobs: 0
+[2025-04-17 20:36:02][notice]End restore databases.
+[2025-04-17 20:36:04][notice]Start restoring databases.
+[2025-04-17 20:36:04][notice]Start replacing table tmpa4b641_latepoint_processes offset:0
+[2025-04-17 20:36:04][notice]
+[2025-04-17 20:36:04][notice]Counting of rows in tmpa4b641_latepoint_processes: 1
+[2025-04-17 20:36:04][notice]Replacing the row in 0 line.
+[2025-04-17 20:36:04][notice]Replacing row completed. Current row:5000
+[2025-04-17 20:36:04][notice]{"result":"success","replace_row":5000,"max_replace_row":10000,"current_replace_table_finish":true,"last_msg":"Importing sql file table: tmpa4b641_latepoint_processes Replaced row: 0\/1;"}
+[2025-04-17 20:36:04][notice]End restore databases.
+[2025-04-17 20:36:06][notice]Start restoring databases.
+[2025-04-17 20:36:06][notice]Start replacing table tmpa4b641_latepoint_recurrences offset:0
+[2025-04-17 20:36:06][notice]
+[2025-04-17 20:36:06][notice]Counting of rows in tmpa4b641_latepoint_recurrences: 0
+[2025-04-17 20:36:06][notice]End restore databases.
+[2025-04-17 20:36:07][notice]Start restoring databases.
+[2025-04-17 20:36:07][notice]Start replacing table tmpa4b641_latepoint_steps offset:0
+[2025-04-17 20:36:07][notice]
+[2025-04-17 20:36:07][notice]Counting of rows in tmpa4b641_latepoint_steps: 0
+[2025-04-17 20:36:07][notice]End restore databases.
+[2025-04-17 20:36:09][notice]Start restoring databases.
+[2025-04-17 20:36:09][notice]Start replacing table tmpa4b641_latepoint_transaction_refunds offset:0
+[2025-04-17 20:36:09][notice]
+[2025-04-17 20:36:09][notice]Counting of rows in tmpa4b641_latepoint_transaction_refunds: 0
+[2025-04-17 20:36:09][notice]End restore databases.
+[2025-04-17 20:36:10][notice]Start restoring databases.
+[2025-04-17 20:36:10][notice]Start replacing table tmpa4b641_latepoint_transactions offset:0
+[2025-04-17 20:36:10][notice]
+[2025-04-17 20:36:10][notice]Counting of rows in tmpa4b641_latepoint_transactions: 0
+[2025-04-17 20:36:10][notice]End restore databases.
+[2025-04-17 20:36:11][notice]Start restoring databases.
+[2025-04-17 20:36:11][notice]Start replacing table tmpa4b641_suretriggers_webhook_requests offset:0
+[2025-04-17 20:36:11][notice]
+[2025-04-17 20:36:11][notice]Counting of rows in tmpa4b641_suretriggers_webhook_requests: 0
+[2025-04-17 20:36:11][notice]End restore databases.
+[2025-04-17 20:36:13][notice]Start restoring databases.
+[2025-04-17 20:36:13][notice]Start replacing table tmpa4b641_actionscheduler_claims offset:0
+[2025-04-17 20:36:13][notice]
+[2025-04-17 20:36:13][notice]Counting of rows in tmpa4b641_actionscheduler_claims: 0
+[2025-04-17 20:36:13][notice]End restore databases.
+[2025-04-17 20:36:14][notice]Start restoring databases.
+[2025-04-17 20:36:14][notice]Start replacing table tmpa4b641_actionscheduler_groups offset:0
+[2025-04-17 20:36:14][notice]
+[2025-04-17 20:36:14][notice]Counting of rows in tmpa4b641_actionscheduler_groups: 2
+[2025-04-17 20:36:14][notice]Replacing the row in 0 line.
+[2025-04-17 20:36:14][notice]Replacing row completed. Current row:5000
+[2025-04-17 20:36:14][notice]{"result":"success","replace_row":5000,"max_replace_row":10000,"current_replace_table_finish":true,"last_msg":"Importing sql file table: tmpa4b641_actionscheduler_groups Replaced row: 0\/2;"}
+[2025-04-17 20:36:14][notice]End restore databases.
+[2025-04-17 20:36:15][notice]Start restoring databases.
+[2025-04-17 20:36:15][notice]Start replacing table tmpa4b641_latepoint_agents offset:0
+[2025-04-17 20:36:15][notice]
+[2025-04-17 20:36:15][notice]Counting of rows in tmpa4b641_latepoint_agents: 0
+[2025-04-17 20:36:15][notice]End restore databases.
+[2025-04-17 20:36:17][notice]Start restoring databases.
+[2025-04-17 20:36:17][notice]Start replacing table tmpa4b641_latepoint_locations offset:0
+[2025-04-17 20:36:17][notice]
+[2025-04-17 20:36:17][notice]Counting of rows in tmpa4b641_latepoint_locations: 1
+[2025-04-17 20:36:17][notice]Replacing the row in 0 line.
+[2025-04-17 20:36:17][notice]Replacing row completed. Current row:5000
+[2025-04-17 20:36:17][notice]{"result":"success","replace_row":5000,"max_replace_row":10000,"current_replace_table_finish":true,"last_msg":"Importing sql file table: tmpa4b641_latepoint_locations Replaced row: 0\/1;"}
+[2025-04-17 20:36:17][notice]End restore databases.
+[2025-04-17 20:36:18][notice]Start restoring databases.
+[2025-04-17 20:36:18][notice]Start replacing table tmpa4b641_latepoint_order_intents offset:0
+[2025-04-17 20:36:18][notice]
+[2025-04-17 20:36:18][notice]Counting of rows in tmpa4b641_latepoint_order_intents: 0
+[2025-04-17 20:36:18][notice]End restore databases.
+[2025-04-17 20:36:19][notice]Start restoring databases.
+[2025-04-17 20:36:19][notice]Start replacing table tmpa4b641_latepoint_order_items offset:0
+[2025-04-17 20:36:19][notice]
+[2025-04-17 20:36:19][notice]Counting of rows in tmpa4b641_latepoint_order_items: 0
+[2025-04-17 20:36:19][notice]End restore databases.
+[2025-04-17 20:36:20][notice]Start restoring databases.
+[2025-04-17 20:36:20][notice]Start replacing table tmpa4b641_latepoint_orders offset:0
+[2025-04-17 20:36:20][notice]
+[2025-04-17 20:36:20][notice]Counting of rows in tmpa4b641_latepoint_orders: 0
+[2025-04-17 20:36:20][notice]End restore databases.
+[2025-04-17 20:36:22][notice]Start restoring databases.
+[2025-04-17 20:36:22][notice]Start replacing table tmpa4b641_latepoint_sessions offset:0
+[2025-04-17 20:36:22][notice]
+[2025-04-17 20:36:22][notice]Counting of rows in tmpa4b641_latepoint_sessions: 0
+[2025-04-17 20:36:22][notice]End restore databases.
+[2025-04-17 20:36:23][notice]Start restoring databases.
+[2025-04-17 20:36:23][notice]Start replacing table tmpa4b641_latepoint_settings offset:0
+[2025-04-17 20:36:23][notice]
+[2025-04-17 20:36:23][notice]Counting of rows in tmpa4b641_latepoint_settings: 9
+[2025-04-17 20:36:23][notice]Replacing the row in 0 line.
+[2025-04-17 20:36:23][notice]Replacing row completed. Current row:5000
+[2025-04-17 20:36:23][notice]{"result":"success","replace_row":5000,"max_replace_row":10000,"current_replace_table_finish":true,"last_msg":"Importing sql file table: tmpa4b641_latepoint_settings Replaced row: 0\/9;"}
+[2025-04-17 20:36:23][notice]End restore databases.
+[2025-04-17 20:36:25][notice]Start restoring databases.
+[2025-04-17 20:36:25][notice]Start replacing table tmpa4b641_latepoint_transaction_intents offset:0
+[2025-04-17 20:36:25][notice]
+[2025-04-17 20:36:25][notice]Counting of rows in tmpa4b641_latepoint_transaction_intents: 0
+[2025-04-17 20:36:25][notice]End restore databases.
+[2025-04-17 20:36:26][notice]Start restoring databases.
+[2025-04-17 20:36:26][notice]Start replacing table tmpa4b641_links offset:0
+[2025-04-17 20:36:26][notice]
+[2025-04-17 20:36:26][notice]Counting of rows in tmpa4b641_links: 0
+[2025-04-17 20:36:26][notice]End restore databases.
+[2025-04-17 20:36:27][notice]Start restoring databases.
+[2025-04-17 20:36:27][notice]Start replacing table tmpa4b641_term_relationships offset:0
+[2025-04-17 20:36:27][notice]
+[2025-04-17 20:36:27][Warning]Skipping table tmpa4b641_term_relationships
+[2025-04-17 20:36:27][notice]End restore databases.
+[2025-04-17 20:36:29][notice]Start restoring databases.
+[2025-04-17 20:36:29][notice]Start replacing table tmpa4b641_actionscheduler_logs offset:0
+[2025-04-17 20:36:29][notice]
+[2025-04-17 20:36:29][notice]Counting of rows in tmpa4b641_actionscheduler_logs: 7
+[2025-04-17 20:36:29][notice]Replacing the row in 0 line.
+[2025-04-17 20:36:29][notice]Replacing row completed. Current row:5000
+[2025-04-17 20:36:29][notice]{"result":"success","replace_row":5000,"max_replace_row":10000,"current_replace_table_finish":true,"last_msg":"Importing sql file table: tmpa4b641_actionscheduler_logs Replaced row: 0\/7;"}
+[2025-04-17 20:36:29][notice]End restore databases.
+[2025-04-17 20:36:30][notice]Start restoring databases.
+[2025-04-17 20:36:30][notice]Start replacing table tmpa4b641_commentmeta offset:0
+[2025-04-17 20:36:30][notice]
+[2025-04-17 20:36:30][notice]Counting of rows in tmpa4b641_commentmeta: 0
+[2025-04-17 20:36:30][notice]End restore databases.
+[2025-04-17 20:36:31][notice]Start restoring databases.
+[2025-04-17 20:36:31][notice]Start replacing table tmpa4b641_latepoint_agent_meta offset:0
+[2025-04-17 20:36:31][notice]
+[2025-04-17 20:36:31][notice]Counting of rows in tmpa4b641_latepoint_agent_meta: 0
+[2025-04-17 20:36:31][notice]End restore databases.
+[2025-04-17 20:36:33][notice]Start restoring databases.
+[2025-04-17 20:36:33][notice]Start replacing table tmpa4b641_latepoint_booking_meta offset:0
+[2025-04-17 20:36:33][notice]
+[2025-04-17 20:36:33][notice]Counting of rows in tmpa4b641_latepoint_booking_meta: 0
+[2025-04-17 20:36:33][notice]End restore databases.
+[2025-04-17 20:36:34][notice]Start restoring databases.
+[2025-04-17 20:36:34][notice]Start replacing table tmpa4b641_latepoint_bundles offset:0
+[2025-04-17 20:36:34][notice]
+[2025-04-17 20:36:34][notice]Counting of rows in tmpa4b641_latepoint_bundles: 0
+[2025-04-17 20:36:34][notice]End restore databases.
+[2025-04-17 20:36:35][notice]Start restoring databases.
+[2025-04-17 20:36:35][notice]Start replacing table tmpa4b641_latepoint_bundles_services offset:0
+[2025-04-17 20:36:35][notice]
+[2025-04-17 20:36:35][notice]Counting of rows in tmpa4b641_latepoint_bundles_services: 0
+[2025-04-17 20:36:35][notice]End restore databases.
+[2025-04-17 20:36:37][notice]Start restoring databases.
+[2025-04-17 20:36:37][notice]Start replacing table tmpa4b641_latepoint_cart_items offset:0
+[2025-04-17 20:36:37][notice]
+[2025-04-17 20:36:37][notice]Counting of rows in tmpa4b641_latepoint_cart_items: 0
+[2025-04-17 20:36:37][notice]End restore databases.
+[2025-04-17 20:36:38][notice]Start restoring databases.
+[2025-04-17 20:36:38][notice]Start replacing table tmpa4b641_latepoint_cart_meta offset:0
+[2025-04-17 20:36:38][notice]
+[2025-04-17 20:36:38][notice]Counting of rows in tmpa4b641_latepoint_cart_meta: 0
+[2025-04-17 20:36:38][notice]End restore databases.
+[2025-04-17 20:36:39][notice]Start restoring databases.
+[2025-04-17 20:36:39][notice]Start replacing table tmpa4b641_latepoint_customer_meta offset:0
+[2025-04-17 20:36:39][notice]
+[2025-04-17 20:36:39][notice]Counting of rows in tmpa4b641_latepoint_customer_meta: 0
+[2025-04-17 20:36:39][notice]End restore databases.
+[2025-04-17 20:36:41][notice]Start restoring databases.
+[2025-04-17 20:36:41][notice]Start replacing table tmpa4b641_latepoint_location_categories offset:0
+[2025-04-17 20:36:41][notice]
+[2025-04-17 20:36:41][notice]Counting of rows in tmpa4b641_latepoint_location_categories: 0
+[2025-04-17 20:36:41][notice]End restore databases.
+[2025-04-17 20:36:42][notice]Start restoring databases.
+[2025-04-17 20:36:42][notice]Start replacing table tmpa4b641_latepoint_order_invoices offset:0
+[2025-04-17 20:36:42][notice]
+[2025-04-17 20:36:42][notice]Counting of rows in tmpa4b641_latepoint_order_invoices: 0
+[2025-04-17 20:36:42][notice]End restore databases.
+[2025-04-17 20:36:44][notice]Start restoring databases.
+[2025-04-17 20:36:44][notice]Start replacing table tmpa4b641_latepoint_order_meta offset:0
+[2025-04-17 20:36:44][notice]
+[2025-04-17 20:36:44][notice]Counting of rows in tmpa4b641_latepoint_order_meta: 0
+[2025-04-17 20:36:44][notice]End restore databases.
+[2025-04-17 20:36:45][notice]Start restoring databases.
+[2025-04-17 20:36:45][notice]Start replacing table tmpa4b641_latepoint_payment_requests offset:0
+[2025-04-17 20:36:45][notice]
+[2025-04-17 20:36:45][notice]Counting of rows in tmpa4b641_latepoint_payment_requests: 0
+[2025-04-17 20:36:45][notice]End restore databases.
+[2025-04-17 20:36:46][notice]Start restoring databases.
+[2025-04-17 20:36:46][notice]Start replacing table tmpa4b641_latepoint_service_categories offset:0
+[2025-04-17 20:36:46][notice]
+[2025-04-17 20:36:46][notice]Counting of rows in tmpa4b641_latepoint_service_categories: 0
+[2025-04-17 20:36:46][notice]End restore databases.
+[2025-04-17 20:36:48][notice]Start restoring databases.
+[2025-04-17 20:36:48][notice]Start replacing table tmpa4b641_latepoint_service_meta offset:0
+[2025-04-17 20:36:48][notice]
+[2025-04-17 20:36:48][notice]Counting of rows in tmpa4b641_latepoint_service_meta: 0
+[2025-04-17 20:36:48][notice]End restore databases.
+[2025-04-17 20:36:49][notice]Start restoring databases.
+[2025-04-17 20:36:49][notice]Start replacing table tmpa4b641_latepoint_step_settings offset:0
+[2025-04-17 20:36:49][notice]
+[2025-04-17 20:36:49][notice]Counting of rows in tmpa4b641_latepoint_step_settings: 0
+[2025-04-17 20:36:49][notice]End restore databases.
+[2025-04-17 20:36:50][notice]Start restoring databases.
+[2025-04-17 20:36:50][notice]Start replacing table tmpa4b641_suremails_email_log offset:0
+[2025-04-17 20:36:50][notice]
+[2025-04-17 20:36:50][notice]Counting of rows in tmpa4b641_suremails_email_log: 0
+[2025-04-17 20:36:50][notice]End restore databases.
+[2025-04-17 20:36:52][notice]Start restoring databases.
+[2025-04-17 20:36:52][notice]Start replacing table tmpa4b641_term_taxonomy offset:0
+[2025-04-17 20:36:52][notice]
+[2025-04-17 20:36:52][notice]Counting of rows in tmpa4b641_term_taxonomy: 5
+[2025-04-17 20:36:52][notice]Replacing the row in 0 line.
+[2025-04-17 20:36:52][notice]Replacing row completed. Current row:5000
+[2025-04-17 20:36:52][notice]{"result":"success","replace_row":5000,"max_replace_row":10000,"current_replace_table_finish":true,"last_msg":"Importing sql file table: tmpa4b641_term_taxonomy Replaced row: 0\/5;"}
+[2025-04-17 20:36:52][notice]End restore databases.
+[2025-04-17 20:36:53][notice]Start restoring databases.
+[2025-04-17 20:36:53][notice]Start replacing table tmpa4b641_termmeta offset:0
+[2025-04-17 20:36:53][notice]
+[2025-04-17 20:36:53][notice]Counting of rows in tmpa4b641_termmeta: 0
+[2025-04-17 20:36:53][notice]End restore databases.
+[2025-04-17 20:36:55][notice]Start restoring databases.
+[2025-04-17 20:36:55][notice]Start replacing table tmpa4b641_terms offset:0
+[2025-04-17 20:36:55][notice]
+[2025-04-17 20:36:55][notice]Counting of rows in tmpa4b641_terms: 5
+[2025-04-17 20:36:55][notice]Replacing the row in 0 line.
+[2025-04-17 20:36:55][notice]Replacing row completed. Current row:5000
+[2025-04-17 20:36:55][notice]{"result":"success","replace_row":5000,"max_replace_row":10000,"current_replace_table_finish":true,"last_msg":"Importing sql file table: tmpa4b641_terms Replaced row: 0\/5;"}
+[2025-04-17 20:36:55][notice]End restore databases.
+[2025-04-17 20:36:56][notice]Start restoring databases.
+[2025-04-17 20:36:56][notice]Start replacing table tmpa4b641_usermeta offset:0
+[2025-04-17 20:36:56][notice]
+[2025-04-17 20:36:56][notice]Counting of rows in tmpa4b641_usermeta: 18
+[2025-04-17 20:36:56][notice]Replacing the row in 0 line.
+[2025-04-17 20:36:56][notice]Replacing row completed. Current row:5000
+[2025-04-17 20:36:56][notice]{"result":"success","replace_row":5000,"max_replace_row":10000,"current_replace_table_finish":true,"last_msg":"Importing sql file table: tmpa4b641_usermeta Replaced row: 0\/18;"}
+[2025-04-17 20:36:56][notice]End restore databases.
+[2025-04-17 20:36:57][notice]Start restoring databases.
+[2025-04-17 20:36:57][notice]Start replacing table tmpa4b641_latepoint_agents_services offset:0
+[2025-04-17 20:36:57][notice]
+[2025-04-17 20:36:57][notice]Counting of rows in tmpa4b641_latepoint_agents_services: 0
+[2025-04-17 20:36:57][notice]End restore databases.
+[2025-04-17 20:36:59][notice]Start restoring databases.
+[2025-04-17 20:36:59][notice]Start replacing table tmpa4b641_latepoint_carts offset:0
+[2025-04-17 20:36:59][notice]
+[2025-04-17 20:36:59][notice]Counting of rows in tmpa4b641_latepoint_carts: 0
+[2025-04-17 20:36:59][notice]End restore databases.
+[2025-04-17 20:37:00][notice]Start restoring databases.
+[2025-04-17 20:37:00][notice]Start replacing table tmpa4b641_latepoint_custom_prices offset:0
+[2025-04-17 20:37:00][notice]
+[2025-04-17 20:37:00][notice]Counting of rows in tmpa4b641_latepoint_custom_prices: 0
+[2025-04-17 20:37:00][notice]End restore databases.
+[2025-04-17 20:37:02][notice]Start restoring databases.
+[2025-04-17 20:37:02][notice]Start replacing table tmpa4b641_latepoint_customers offset:0
+[2025-04-17 20:37:02][notice]
+[2025-04-17 20:37:02][notice]Counting of rows in tmpa4b641_latepoint_customers: 0
+[2025-04-17 20:37:02][notice]End restore databases.
+[2025-04-17 20:37:03][notice]Start restoring databases.
+[2025-04-17 20:37:03][notice]Start replacing table tmpa4b641_latepoint_services offset:0
+[2025-04-17 20:37:03][notice]
+[2025-04-17 20:37:03][notice]Counting of rows in tmpa4b641_latepoint_services: 0
+[2025-04-17 20:37:03][notice]End restore databases.
+[2025-04-17 20:37:05][notice]Start restoring databases.
+[2025-04-17 20:37:05][notice]Start replacing table tmpa4b641_srfm_entries offset:0
+[2025-04-17 20:37:05][notice]
+[2025-04-17 20:37:05][notice]Counting of rows in tmpa4b641_srfm_entries: 0
+[2025-04-17 20:37:05][notice]End restore databases.
+[2025-04-17 20:37:06][notice]Start restoring databases.
+[2025-04-17 20:37:06][notice]Start replacing table tmpa4b641_users offset:0
+[2025-04-17 20:37:06][notice]
+[2025-04-17 20:37:06][notice]Counting of rows in tmpa4b641_users: 1
+[2025-04-17 20:37:06][notice]Replacing the row in 0 line.
+[2025-04-17 20:37:06][notice]Replacing row completed. Current row:5000
+[2025-04-17 20:37:06][notice]{"result":"success","replace_row":5000,"max_replace_row":10000,"current_replace_table_finish":true,"last_msg":"Importing sql file table: tmpa4b641_users Replaced row: 0\/1;"}
+[2025-04-17 20:37:06][notice]End restore databases.
+[2025-04-17 20:37:07][notice]Start restoring databases.
+[2025-04-17 20:37:07][notice]Start replacing table tmpa4b641_comments offset:0
+[2025-04-17 20:37:07][notice]
+[2025-04-17 20:37:07][notice]Counting of rows in tmpa4b641_comments: 0
+[2025-04-17 20:37:07][notice]End restore databases.
+[2025-04-17 20:37:09][notice]Start restoring databases.
+[2025-04-17 20:37:09][notice]Start replacing table tmpa4b641_latepoint_blocked_periods offset:0
+[2025-04-17 20:37:09][notice]
+[2025-04-17 20:37:09][notice]Counting of rows in tmpa4b641_latepoint_blocked_periods: 0
+[2025-04-17 20:37:09][notice]End restore databases.
+[2025-04-17 20:37:10][notice]Start restoring databases.
+[2025-04-17 20:37:10][notice]Start replacing table tmpa4b641_latepoint_work_periods offset:0
+[2025-04-17 20:37:10][notice]
+[2025-04-17 20:37:10][notice]Counting of rows in tmpa4b641_latepoint_work_periods: 0
+[2025-04-17 20:37:10][notice]End restore databases.
+[2025-04-17 20:37:12][notice]Start restoring databases.
+[2025-04-17 20:37:12][notice]Start replacing table tmpa4b641_actionscheduler_actions offset:0
+[2025-04-17 20:37:12][notice]
+[2025-04-17 20:37:12][notice]Counting of rows in tmpa4b641_actionscheduler_actions: 3
+[2025-04-17 20:37:12][notice]Replacing the row in 0 line.
+[2025-04-17 20:37:12][notice]Replacing row completed. Current row:5000
+[2025-04-17 20:37:12][notice]{"result":"success","replace_row":5000,"max_replace_row":10000,"current_replace_table_finish":true,"last_msg":"Importing sql file table: tmpa4b641_actionscheduler_actions Replaced row: 0\/3;"}
+[2025-04-17 20:37:12][notice]End restore databases.
+[2025-04-17 20:37:13][notice]Start restoring databases.
+[2025-04-17 20:37:13][notice]Start replacing table tmpa4b641_latepoint_bookings offset:0
+[2025-04-17 20:37:13][notice]
+[2025-04-17 20:37:13][notice]Counting of rows in tmpa4b641_latepoint_bookings: 0
+[2025-04-17 20:37:13][notice]End restore databases.
+[2025-04-17 20:37:15][notice]Start restoring databases.
+[2025-04-17 20:37:15][notice]Start replacing table tmpa4b641_posts offset:0
+[2025-04-17 20:37:15][notice]
+[2025-04-17 20:37:15][notice]Counting of rows in tmpa4b641_posts: 39
+[2025-04-17 20:37:15][notice]Replacing the row in 0 line.
+[2025-04-17 20:37:15][notice]Replacing row completed. Current row:5000
+[2025-04-17 20:37:15][notice]{"result":"success","replace_row":5000,"max_replace_row":10000,"current_replace_table_finish":true,"last_msg":"Importing sql file table: tmpa4b641_posts Replaced row: 0\/39;"}
+[2025-04-17 20:37:15][notice]End restore databases.
+[2025-04-17 20:37:16][notice]Start restoring databases.
+[2025-04-17 20:37:16][notice]Start replacing table tmpa4b641_postmeta offset:0
+[2025-04-17 20:37:16][notice]
+[2025-04-17 20:37:16][notice]Counting of rows in tmpa4b641_postmeta: 285
+[2025-04-17 20:37:16][notice]Replacing the row in 0 line.
+[2025-04-17 20:37:16][notice]Replacing row completed. Current row:5000
+[2025-04-17 20:37:16][notice]{"result":"success","replace_row":5000,"max_replace_row":10000,"current_replace_table_finish":true,"last_msg":"Importing sql file table: tmpa4b641_postmeta Replaced row: 0\/285;"}
+[2025-04-17 20:37:16][notice]End restore databases.
+[2025-04-17 20:37:18][notice]Start restoring databases.
+[2025-04-17 20:37:18][notice]Start replacing table tmpa4b641_options offset:0
+[2025-04-17 20:37:18][notice]
+[2025-04-17 20:37:18][notice]Counting of rows in tmpa4b641_options: 251
+[2025-04-17 20:37:18][notice]Replacing the row in 0 line.
+[2025-04-17 20:37:18][notice]Replacing row completed. Current row:5000
+[2025-04-17 20:37:18][notice]{"result":"success","replace_row":5000,"max_replace_row":10000,"current_replace_table_finish":true,"last_msg":"Importing sql file table: tmpa4b641_options Replaced row: 0\/251;"}
+[2025-04-17 20:37:18][notice]
+[2025-04-17 20:37:18][notice]UPDATE tmpa4b641_options SET option_value="https://www.realsolutions.ai" WHERE option_name="siteurl";
+[2025-04-17 20:37:18][notice]update query len:101
+[2025-04-17 20:37:18][notice]UPDATE tmpa4b641_options SET option_value="https://www.realsolutions.ai" WHERE option_name="home";
+[2025-04-17 20:37:18][notice]update query len:98
+[2025-04-17 20:37:18][notice]Restore db success
+[2025-04-17 20:37:18][notice]End restore databases.
+[2025-04-17 20:37:19][notice]Restore db success,now start rename temp table name prefix to new site prefix.
+[2025-04-17 20:37:19][notice]DROP TABLE IF EXISTS wp_actionscheduler_actions
+[2025-04-17 20:37:19][notice]DROP TABLE IF EXISTS wp_actionscheduler_claims
+[2025-04-17 20:37:19][notice]DROP TABLE IF EXISTS wp_actionscheduler_groups
+[2025-04-17 20:37:19][notice]DROP TABLE IF EXISTS wp_actionscheduler_logs
+[2025-04-17 20:37:19][notice]DROP TABLE IF EXISTS wp_commentmeta
+[2025-04-17 20:37:20][notice]DROP TABLE IF EXISTS wp_comments
+[2025-04-17 20:37:20][notice]DROP TABLE IF EXISTS wp_latepoint_activities
+[2025-04-17 20:37:20][notice]DROP TABLE IF EXISTS wp_latepoint_agent_meta
+[2025-04-17 20:37:20][notice]DROP TABLE IF EXISTS wp_latepoint_agents
+[2025-04-17 20:37:20][notice]DROP TABLE IF EXISTS wp_latepoint_agents_services
+[2025-04-17 20:37:20][notice]DROP TABLE IF EXISTS wp_latepoint_blocked_periods
+[2025-04-17 20:37:20][notice]DROP TABLE IF EXISTS wp_latepoint_booking_meta
+[2025-04-17 20:37:20][notice]DROP TABLE IF EXISTS wp_latepoint_bookings
+[2025-04-17 20:37:20][notice]DROP TABLE IF EXISTS wp_latepoint_bundles
+[2025-04-17 20:37:20][notice]DROP TABLE IF EXISTS wp_latepoint_bundles_services
+[2025-04-17 20:37:20][notice]DROP TABLE IF EXISTS wp_latepoint_cart_items
+[2025-04-17 20:37:20][notice]DROP TABLE IF EXISTS wp_latepoint_cart_meta
+[2025-04-17 20:37:20][notice]DROP TABLE IF EXISTS wp_latepoint_carts
+[2025-04-17 20:37:20][notice]DROP TABLE IF EXISTS wp_latepoint_custom_prices
+[2025-04-17 20:37:20][notice]DROP TABLE IF EXISTS wp_latepoint_customer_meta
+[2025-04-17 20:37:20][notice]DROP TABLE IF EXISTS wp_latepoint_customers
+[2025-04-17 20:37:20][notice]DROP TABLE IF EXISTS wp_latepoint_location_categories
+[2025-04-17 20:37:20][notice]DROP TABLE IF EXISTS wp_latepoint_locations
+[2025-04-17 20:37:20][notice]DROP TABLE IF EXISTS wp_latepoint_order_intents
+[2025-04-17 20:37:20][notice]DROP TABLE IF EXISTS wp_latepoint_order_invoices
+[2025-04-17 20:37:20][notice]DROP TABLE IF EXISTS wp_latepoint_order_items
+[2025-04-17 20:37:20][notice]DROP TABLE IF EXISTS wp_latepoint_order_meta
+[2025-04-17 20:37:20][notice]DROP TABLE IF EXISTS wp_latepoint_orders
+[2025-04-17 20:37:20][notice]DROP TABLE IF EXISTS wp_latepoint_payment_requests
+[2025-04-17 20:37:20][notice]DROP TABLE IF EXISTS wp_latepoint_process_jobs
+[2025-04-17 20:37:20][notice]DROP TABLE IF EXISTS wp_latepoint_processes
+[2025-04-17 20:37:20][notice]DROP TABLE IF EXISTS wp_latepoint_recurrences
+[2025-04-17 20:37:20][notice]DROP TABLE IF EXISTS wp_latepoint_service_categories
+[2025-04-17 20:37:20][notice]DROP TABLE IF EXISTS wp_latepoint_service_meta
+[2025-04-17 20:37:20][notice]DROP TABLE IF EXISTS wp_latepoint_services
+[2025-04-17 20:37:20][notice]DROP TABLE IF EXISTS wp_latepoint_sessions
+[2025-04-17 20:37:20][notice]DROP TABLE IF EXISTS wp_latepoint_settings
+[2025-04-17 20:37:20][notice]DROP TABLE IF EXISTS wp_latepoint_step_settings
+[2025-04-17 20:37:20][notice]DROP TABLE IF EXISTS wp_latepoint_steps
+[2025-04-17 20:37:20][notice]DROP TABLE IF EXISTS wp_latepoint_transaction_intents
+[2025-04-17 20:37:20][notice]DROP TABLE IF EXISTS wp_latepoint_transaction_refunds
+[2025-04-17 20:37:20][notice]DROP TABLE IF EXISTS wp_latepoint_transactions
+[2025-04-17 20:37:20][notice]DROP TABLE IF EXISTS wp_latepoint_work_periods
+[2025-04-17 20:37:20][notice]DROP TABLE IF EXISTS wp_links
+[2025-04-17 20:37:21][notice]DROP TABLE IF EXISTS wp_options
+[2025-04-17 20:37:21][notice]DROP TABLE IF EXISTS wp_postmeta
+[2025-04-17 20:37:22][notice]DROP TABLE IF EXISTS wp_posts
+[2025-04-17 20:37:22][notice]DROP TABLE IF EXISTS wp_srfm_entries
+[2025-04-17 20:37:22][notice]DROP TABLE IF EXISTS wp_suremails_email_log
+[2025-04-17 20:37:22][notice]DROP TABLE IF EXISTS wp_suretriggers_webhook_requests
+[2025-04-17 20:37:22][notice]DROP TABLE IF EXISTS wp_term_relationships
+[2025-04-17 20:37:22][notice]DROP TABLE IF EXISTS wp_term_taxonomy
+[2025-04-17 20:37:22][notice]DROP TABLE IF EXISTS wp_termmeta
+[2025-04-17 20:37:22][notice]DROP TABLE IF EXISTS wp_terms
+[2025-04-17 20:37:22][notice]DROP TABLE IF EXISTS wp_usermeta
+[2025-04-17 20:37:22][notice]DROP TABLE IF EXISTS wp_users
+[2025-04-17 20:37:22][notice]RENAME TABLE tmpa4b641_actionscheduler_actions TO wp_actionscheduler_actions
+[2025-04-17 20:37:22][notice]RENAME TABLE tmpa4b641_actionscheduler_claims TO wp_actionscheduler_claims
+[2025-04-17 20:37:22][notice]RENAME TABLE tmpa4b641_actionscheduler_groups TO wp_actionscheduler_groups
+[2025-04-17 20:37:22][notice]RENAME TABLE tmpa4b641_actionscheduler_logs TO wp_actionscheduler_logs
+[2025-04-17 20:37:22][notice]RENAME TABLE tmpa4b641_commentmeta TO wp_commentmeta
+[2025-04-17 20:37:22][notice]RENAME TABLE tmpa4b641_comments TO wp_comments
+[2025-04-17 20:37:22][notice]RENAME TABLE tmpa4b641_latepoint_activities TO wp_latepoint_activities
+[2025-04-17 20:37:22][notice]RENAME TABLE tmpa4b641_latepoint_agent_meta TO wp_latepoint_agent_meta
+[2025-04-17 20:37:22][notice]RENAME TABLE tmpa4b641_latepoint_agents TO wp_latepoint_agents
+[2025-04-17 20:37:22][notice]RENAME TABLE tmpa4b641_latepoint_agents_services TO wp_latepoint_agents_services
+[2025-04-17 20:37:22][notice]RENAME TABLE tmpa4b641_latepoint_blocked_periods TO wp_latepoint_blocked_periods
+[2025-04-17 20:37:22][notice]RENAME TABLE tmpa4b641_latepoint_booking_meta TO wp_latepoint_booking_meta
+[2025-04-17 20:37:22][notice]RENAME TABLE tmpa4b641_latepoint_bookings TO wp_latepoint_bookings
+[2025-04-17 20:37:22][notice]RENAME TABLE tmpa4b641_latepoint_bundles TO wp_latepoint_bundles
+[2025-04-17 20:37:22][notice]RENAME TABLE tmpa4b641_latepoint_bundles_services TO wp_latepoint_bundles_services
+[2025-04-17 20:37:22][notice]RENAME TABLE tmpa4b641_latepoint_cart_items TO wp_latepoint_cart_items
+[2025-04-17 20:37:22][notice]RENAME TABLE tmpa4b641_latepoint_cart_meta TO wp_latepoint_cart_meta
+[2025-04-17 20:37:22][notice]RENAME TABLE tmpa4b641_latepoint_carts TO wp_latepoint_carts
+[2025-04-17 20:37:22][notice]RENAME TABLE tmpa4b641_latepoint_custom_prices TO wp_latepoint_custom_prices
+[2025-04-17 20:37:22][notice]RENAME TABLE tmpa4b641_latepoint_customer_meta TO wp_latepoint_customer_meta
+[2025-04-17 20:37:22][notice]RENAME TABLE tmpa4b641_latepoint_customers TO wp_latepoint_customers
+[2025-04-17 20:37:22][notice]RENAME TABLE tmpa4b641_latepoint_location_categories TO wp_latepoint_location_categories
+[2025-04-17 20:37:22][notice]RENAME TABLE tmpa4b641_latepoint_locations TO wp_latepoint_locations
+[2025-04-17 20:37:23][notice]RENAME TABLE tmpa4b641_latepoint_order_intents TO wp_latepoint_order_intents
+[2025-04-17 20:37:23][notice]RENAME TABLE tmpa4b641_latepoint_order_invoices TO wp_latepoint_order_invoices
+[2025-04-17 20:37:23][notice]RENAME TABLE tmpa4b641_latepoint_order_items TO wp_latepoint_order_items
+[2025-04-17 20:37:23][notice]RENAME TABLE tmpa4b641_latepoint_order_meta TO wp_latepoint_order_meta
+[2025-04-17 20:37:23][notice]RENAME TABLE tmpa4b641_latepoint_orders TO wp_latepoint_orders
+[2025-04-17 20:37:23][notice]RENAME TABLE tmpa4b641_latepoint_payment_requests TO wp_latepoint_payment_requests
+[2025-04-17 20:37:23][notice]RENAME TABLE tmpa4b641_latepoint_process_jobs TO wp_latepoint_process_jobs
+[2025-04-17 20:37:23][notice]RENAME TABLE tmpa4b641_latepoint_processes TO wp_latepoint_processes
+[2025-04-17 20:37:23][notice]RENAME TABLE tmpa4b641_latepoint_recurrences TO wp_latepoint_recurrences
+[2025-04-17 20:37:23][notice]RENAME TABLE tmpa4b641_latepoint_service_categories TO wp_latepoint_service_categories
+[2025-04-17 20:37:23][notice]RENAME TABLE tmpa4b641_latepoint_service_meta TO wp_latepoint_service_meta
+[2025-04-17 20:37:23][notice]RENAME TABLE tmpa4b641_latepoint_services TO wp_latepoint_services
+[2025-04-17 20:37:23][notice]RENAME TABLE tmpa4b641_latepoint_sessions TO wp_latepoint_sessions
+[2025-04-17 20:37:23][notice]RENAME TABLE tmpa4b641_latepoint_settings TO wp_latepoint_settings
+[2025-04-17 20:37:23][notice]RENAME TABLE tmpa4b641_latepoint_step_settings TO wp_latepoint_step_settings
+[2025-04-17 20:37:23][notice]RENAME TABLE tmpa4b641_latepoint_steps TO wp_latepoint_steps
+[2025-04-17 20:37:23][notice]RENAME TABLE tmpa4b641_latepoint_transaction_intents TO wp_latepoint_transaction_intents
+[2025-04-17 20:37:23][notice]RENAME TABLE tmpa4b641_latepoint_transaction_refunds TO wp_latepoint_transaction_refunds
+[2025-04-17 20:37:23][notice]RENAME TABLE tmpa4b641_latepoint_transactions TO wp_latepoint_transactions
+[2025-04-17 20:37:23][notice]RENAME TABLE tmpa4b641_latepoint_work_periods TO wp_latepoint_work_periods
+[2025-04-17 20:37:23][notice]RENAME TABLE tmpa4b641_links TO wp_links
+[2025-04-17 20:37:23][notice]RENAME TABLE tmpa4b641_options TO wp_options
+[2025-04-17 20:37:23][notice]RENAME TABLE tmpa4b641_postmeta TO wp_postmeta
+[2025-04-17 20:37:23][notice]RENAME TABLE tmpa4b641_posts TO wp_posts
+[2025-04-17 20:37:23][notice]RENAME TABLE tmpa4b641_srfm_entries TO wp_srfm_entries
+[2025-04-17 20:37:23][notice]RENAME TABLE tmpa4b641_suremails_email_log TO wp_suremails_email_log
+[2025-04-17 20:37:23][notice]RENAME TABLE tmpa4b641_suretriggers_webhook_requests TO wp_suretriggers_webhook_requests
+[2025-04-17 20:37:23][notice]RENAME TABLE tmpa4b641_term_relationships TO wp_term_relationships
+[2025-04-17 20:37:23][notice]RENAME TABLE tmpa4b641_term_taxonomy TO wp_term_taxonomy
+[2025-04-17 20:37:23][notice]RENAME TABLE tmpa4b641_termmeta TO wp_termmeta
+[2025-04-17 20:37:23][notice]RENAME TABLE tmpa4b641_terms TO wp_terms
+[2025-04-17 20:37:23][notice]RENAME TABLE tmpa4b641_usermeta TO wp_usermeta
+[2025-04-17 20:37:23][notice]RENAME TABLE tmpa4b641_users TO wp_users
+[2025-04-17 20:37:23][notice]Replacing table prefix succeeded.
+[2025-04-17 20:37:23][notice]Delete migration option failed.
+[2025-04-17 20:37:23][notice]Deleting temp files.

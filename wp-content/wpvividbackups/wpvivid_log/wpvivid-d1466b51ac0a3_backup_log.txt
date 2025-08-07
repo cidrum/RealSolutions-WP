@@ -1,0 +1,212 @@
+Log created: 2025-07-28 04:08:19
+Type: backup
+[2025-07-28 04:08:19][notice]Start backing up.
+[2025-07-28 04:08:19][notice]server info fcgi:Off max execution time: 300 wp version:6.8.2 php version:8.0.30 db version:8.0.41 php ini:safe_mode: memory_limit:512M memory_get_usage:16.69 MB memory_get_peak_usage:17.36 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2025-07-28 04:08:19][notice]Prepare to backup backup_db files.
+[2025-07-28 04:08:19][notice]Start exporting database.
+[2025-07-28 04:08:19][notice]Preparing to dump table wp_latepoint_activities
+[2025-07-28 04:08:19][notice]Preparing to dump table wp_latepoint_process_jobs
+[2025-07-28 04:08:19][notice]Preparing to dump table wp_latepoint_processes
+[2025-07-28 04:08:19][notice]Preparing to dump table wp_latepoint_recurrences
+[2025-07-28 04:08:19][notice]Preparing to dump table wp_latepoint_steps
+[2025-07-28 04:08:19][notice]Preparing to dump table wp_latepoint_transaction_refunds
+[2025-07-28 04:08:19][notice]Preparing to dump table wp_latepoint_transactions
+[2025-07-28 04:08:19][notice]Preparing to dump table wp_suretriggers_webhook_requests
+[2025-07-28 04:08:19][notice]Preparing to dump table wp_actionscheduler_claims
+[2025-07-28 04:08:19][notice]Preparing to dump table wp_actionscheduler_groups
+[2025-07-28 04:08:19][notice]Preparing to dump table wp_aioseo_blc_link_status
+[2025-07-28 04:08:19][notice]Preparing to dump table wp_aioseo_blc_posts
+[2025-07-28 04:08:19][notice]Preparing to dump table wp_aioseo_crawl_cleanup_logs
+[2025-07-28 04:08:19][notice]Preparing to dump table wp_latepoint_agents
+[2025-07-28 04:08:19][notice]Preparing to dump table wp_latepoint_locations
+[2025-07-28 04:08:19][notice]Preparing to dump table wp_latepoint_order_intents
+[2025-07-28 04:08:19][notice]Preparing to dump table wp_latepoint_order_items
+[2025-07-28 04:08:19][notice]Preparing to dump table wp_latepoint_orders
+[2025-07-28 04:08:19][notice]Preparing to dump table wp_latepoint_sessions
+[2025-07-28 04:08:19][notice]Preparing to dump table wp_latepoint_settings
+[2025-07-28 04:08:19][notice]Preparing to dump table wp_latepoint_transaction_intents
+[2025-07-28 04:08:19][notice]Preparing to dump table wp_links
+[2025-07-28 04:08:19][notice]Preparing to dump table wp_term_relationships
+[2025-07-28 04:08:19][notice]Preparing to dump table wp_actionscheduler_logs
+[2025-07-28 04:08:19][notice]Preparing to dump table wp_aioseo_blc_cache
+[2025-07-28 04:08:19][notice]Preparing to dump table wp_aioseo_blc_links
+[2025-07-28 04:08:19][notice]Preparing to dump table wp_aioseo_crawl_cleanup_blocked_args
+[2025-07-28 04:08:20][notice]Preparing to dump table wp_aioseo_writing_assistant_keywords
+[2025-07-28 04:08:20][notice]Preparing to dump table wp_aioseo_writing_assistant_posts
+[2025-07-28 04:08:20][notice]Preparing to dump table wp_commentmeta
+[2025-07-28 04:08:20][notice]Preparing to dump table wp_latepoint_agent_meta
+[2025-07-28 04:08:20][notice]Preparing to dump table wp_latepoint_booking_meta
+[2025-07-28 04:08:20][notice]Preparing to dump table wp_latepoint_bundles
+[2025-07-28 04:08:20][notice]Preparing to dump table wp_latepoint_bundles_services
+[2025-07-28 04:08:20][notice]Preparing to dump table wp_latepoint_cart_items
+[2025-07-28 04:08:20][notice]Preparing to dump table wp_latepoint_cart_meta
+[2025-07-28 04:08:20][notice]Preparing to dump table wp_latepoint_customer_meta
+[2025-07-28 04:08:20][notice]Preparing to dump table wp_latepoint_location_categories
+[2025-07-28 04:08:20][notice]Preparing to dump table wp_latepoint_order_invoices
+[2025-07-28 04:08:20][notice]Preparing to dump table wp_latepoint_order_meta
+[2025-07-28 04:08:20][notice]Preparing to dump table wp_latepoint_payment_requests
+[2025-07-28 04:08:20][notice]Preparing to dump table wp_latepoint_service_categories
+[2025-07-28 04:08:20][notice]Preparing to dump table wp_latepoint_service_meta
+[2025-07-28 04:08:20][notice]Preparing to dump table wp_latepoint_step_settings
+[2025-07-28 04:08:20][notice]Preparing to dump table wp_suremails_email_log
+[2025-07-28 04:08:20][notice]Preparing to dump table wp_term_taxonomy
+[2025-07-28 04:08:20][notice]Preparing to dump table wp_termmeta
+[2025-07-28 04:08:20][notice]Preparing to dump table wp_terms
+[2025-07-28 04:08:20][notice]Preparing to dump table wp_usermeta
+[2025-07-28 04:08:20][notice]Preparing to dump table wp_aioseo_cache
+[2025-07-28 04:08:20][notice]Preparing to dump table wp_aioseo_posts
+[2025-07-28 04:08:20][notice]Preparing to dump table wp_latepoint_agents_services
+[2025-07-28 04:08:20][notice]Preparing to dump table wp_latepoint_carts
+[2025-07-28 04:08:20][notice]Preparing to dump table wp_latepoint_custom_prices
+[2025-07-28 04:08:20][notice]Preparing to dump table wp_latepoint_customers
+[2025-07-28 04:08:20][notice]Preparing to dump table wp_latepoint_services
+[2025-07-28 04:08:20][notice]Preparing to dump table wp_srfm_entries
+[2025-07-28 04:08:20][notice]Preparing to dump table wp_users
+[2025-07-28 04:08:20][notice]Preparing to dump table wp_aioseo_blc_notifications
+[2025-07-28 04:08:20][notice]Preparing to dump table wp_aioseo_notifications
+[2025-07-28 04:08:20][notice]Preparing to dump table wp_comments
+[2025-07-28 04:08:20][notice]Preparing to dump table wp_latepoint_blocked_periods
+[2025-07-28 04:08:20][notice]Preparing to dump table wp_latepoint_work_periods
+[2025-07-28 04:08:20][notice]Preparing to dump table wp_latepoint_bookings
+[2025-07-28 04:08:20][notice]Preparing to dump table wp_actionscheduler_actions
+[2025-07-28 04:08:20][notice]Preparing to dump table wp_posts
+[2025-07-28 04:08:20][notice]Preparing to dump table wp_postmeta
+[2025-07-28 04:08:20][notice]Preparing to dump table wp_options
+[2025-07-28 04:08:20][notice]Exporting database finished.
+[2025-07-28 04:08:20][notice]Start compressing database
+[2025-07-28 04:08:20][notice]Prepare to zip file. file: www.realsolutions.ai_wpvivid-d1466b51ac0a3_2025-07-28-04-08_backup_db.sql
+[2025-07-28 04:08:20][notice]Adding zip files completed.www.realsolutions.ai_wpvivid-d1466b51ac0a3_2025-07-28-04-08_backup_db.part001.zip, filesize: 277.65 KB
+[2025-07-28 04:08:20][notice]Compressing database completed
+[2025-07-28 04:08:20][notice]Backing up backup_db completed.
+[2025-07-28 04:08:20][notice]Prepare to backup backup_themes files.
+[2025-07-28 04:08:20][notice]Compressing zip file:www.realsolutions.ai_wpvivid-d1466b51ac0a3_2025-07-28-04-08_backup_themes.part001.zip index:1103
+[2025-07-28 04:08:22][notice]Compressing zip file:www.realsolutions.ai_wpvivid-d1466b51ac0a3_2025-07-28-04-08_backup_themes.part001.zip success. index:1103 file size:19.63 MB
+[2025-07-28 04:08:22][notice]Backing up backup_themes completed.
+[2025-07-28 04:08:22][notice]Prepare to backup backup_plugin files.
+[2025-07-28 04:08:23][notice]Compressing zip file:www.realsolutions.ai_wpvivid-d1466b51ac0a3_2025-07-28-04-08_backup_plugin.part001.zip index:6311
+[2025-07-28 04:08:33][notice]Compressing zip file:www.realsolutions.ai_wpvivid-d1466b51ac0a3_2025-07-28-04-08_backup_plugin.part001.zip success. index:6311 file size:48.18 MB
+[2025-07-28 04:08:33][notice]Backing up backup_plugin completed.
+[2025-07-28 04:08:33][notice]Prepare to backup backup_uploads files.
+[2025-07-28 04:08:33][notice]Compressing zip file:www.realsolutions.ai_wpvivid-d1466b51ac0a3_2025-07-28-04-08_backup_uploads.part001.zip index:85
+[2025-07-28 04:08:33][notice]Compressing zip file:www.realsolutions.ai_wpvivid-d1466b51ac0a3_2025-07-28-04-08_backup_uploads.part001.zip success. index:85 file size:2.90 MB
+[2025-07-28 04:08:34][notice]Backing up backup_uploads completed.
+[2025-07-28 04:08:34][notice]Prepare to backup backup_content files.
+[2025-07-28 04:08:34][notice]Compressing zip file:www.realsolutions.ai_wpvivid-d1466b51ac0a3_2025-07-28-04-08_backup_content.part001.zip index:1
+[2025-07-28 04:08:34][notice]Compressing zip file:www.realsolutions.ai_wpvivid-d1466b51ac0a3_2025-07-28-04-08_backup_content.part001.zip success. index:1 file size:242.00 B
+[2025-07-28 04:08:34][notice]Backing up backup_content completed.
+[2025-07-28 04:08:34][notice]Prepare to backup backup_core files.
+[2025-07-28 04:08:34][notice]Compressing zip file:www.realsolutions.ai_wpvivid-d1466b51ac0a3_2025-07-28-04-08_backup_core.part001.zip index:2799
+[2025-07-28 04:08:38][notice]Compressing zip file:www.realsolutions.ai_wpvivid-d1466b51ac0a3_2025-07-28-04-08_backup_core.part001.zip success. index:2799 file size:14.49 MB
+[2025-07-28 04:08:38][notice]Backing up backup_core completed.
+[2025-07-28 04:08:38][notice]Prepare to backup backup_merge files.
+[2025-07-28 04:08:38][notice]Prepare to zip file. file: www.realsolutions.ai_wpvivid-d1466b51ac0a3_2025-07-28-04-08_backup_db.zip
+[2025-07-28 04:08:38][notice]Adding zip files completed.www.realsolutions.ai_wpvivid-d1466b51ac0a3_2025-07-28-04-08_backup_all.part001.zip, filesize: 268.50 KB
+[2025-07-28 04:08:38][notice]Prepare to zip file. file: www.realsolutions.ai_wpvivid-d1466b51ac0a3_2025-07-28-04-08_backup_themes.zip
+[2025-07-28 04:08:39][notice]Adding zip files completed.www.realsolutions.ai_wpvivid-d1466b51ac0a3_2025-07-28-04-08_backup_all.part001.zip, filesize: 19.67 MB
+[2025-07-28 04:08:39][notice]Prepare to zip file. file: www.realsolutions.ai_wpvivid-d1466b51ac0a3_2025-07-28-04-08_backup_plugin.zip
+[2025-07-28 04:08:41][notice]Adding zip files completed.www.realsolutions.ai_wpvivid-d1466b51ac0a3_2025-07-28-04-08_backup_all.part001.zip, filesize: 66.53 MB
+[2025-07-28 04:08:41][notice]Prepare to zip file. file: www.realsolutions.ai_wpvivid-d1466b51ac0a3_2025-07-28-04-08_backup_uploads.zip
+[2025-07-28 04:08:41][notice]Adding zip files completed.www.realsolutions.ai_wpvivid-d1466b51ac0a3_2025-07-28-04-08_backup_all.part001.zip, filesize: 69.36 MB
+[2025-07-28 04:08:41][notice]Prepare to zip file. file: www.realsolutions.ai_wpvivid-d1466b51ac0a3_2025-07-28-04-08_backup_content.zip
+[2025-07-28 04:08:42][notice]Adding zip files completed.www.realsolutions.ai_wpvivid-d1466b51ac0a3_2025-07-28-04-08_backup_all.part001.zip, filesize: 69.36 MB
+[2025-07-28 04:08:42][notice]Prepare to zip file. file: www.realsolutions.ai_wpvivid-d1466b51ac0a3_2025-07-28-04-08_backup_core.zip
+[2025-07-28 04:08:43][notice]Adding zip files completed.www.realsolutions.ai_wpvivid-d1466b51ac0a3_2025-07-28-04-08_backup_all.part001.zip, filesize: 83.44 MB
+[2025-07-28 04:08:43][notice]Backing up backup_merge completed.
+[2025-07-28 04:08:43][notice]files: ["\/home\/realsolutions\/htdocs\/www.realsolutions.ai\/wp-content\/wpvividbackups\/www.realsolutions.ai_wpvivid-d1466b51ac0a3_2025-07-28-04-08_backup_all.zip"]
+[2025-07-28 04:08:43][notice]Check upload folder wpvivid_backup
+[2025-07-28 04:08:44][notice]Start uploading www.realsolutions.ai_wpvivid-d1466b51ac0a3_2025-07-28-04-08_backup_all.zip
+[2025-07-28 04:08:44][notice]Check if the server already has the same name file.
+[2025-07-28 04:08:44][notice]Initiate a resumable upload session.
+[2025-07-28 04:08:45][notice]progress:1048576.
+[2025-07-28 04:08:45][notice]progress:2097152.
+[2025-07-28 04:08:45][notice]progress:3145728.
+[2025-07-28 04:08:46][notice]progress:4194304.
+[2025-07-28 04:08:46][notice]progress:5242880.
+[2025-07-28 04:08:46][notice]progress:6291456.
+[2025-07-28 04:08:47][notice]progress:7340032.
+[2025-07-28 04:08:47][notice]progress:8388608.
+[2025-07-28 04:08:47][notice]progress:9437184.
+[2025-07-28 04:08:47][notice]progress:10485760.
+[2025-07-28 04:08:48][notice]Uploading www.realsolutions.ai_wpvivid-d1466b51ac0a3_2025-07-28-04-08_backup_all.zip Total size: 83.44 MB Uploaded: 11.00 MB speed:2883.58kb/s
+[2025-07-28 04:08:48][notice]progress:11534336.
+[2025-07-28 04:08:48][notice]progress:12582912.
+[2025-07-28 04:08:48][notice]progress:13631488.
+[2025-07-28 04:08:48][notice]progress:14680064.
+[2025-07-28 04:08:49][notice]progress:15728640.
+[2025-07-28 04:08:49][notice]progress:16777216.
+[2025-07-28 04:08:49][notice]progress:17825792.
+[2025-07-28 04:08:50][notice]progress:18874368.
+[2025-07-28 04:08:50][notice]progress:19922944.
+[2025-07-28 04:08:50][notice]progress:20971520.
+[2025-07-28 04:08:50][notice]progress:22020096.
+[2025-07-28 04:08:51][notice]progress:23068672.
+[2025-07-28 04:08:51][notice]progress:24117248.
+[2025-07-28 04:08:51][notice]progress:25165824.
+[2025-07-28 04:08:52][notice]Uploading www.realsolutions.ai_wpvivid-d1466b51ac0a3_2025-07-28-04-08_backup_all.zip Total size: 83.44 MB Uploaded: 25.00 MB speed:3670.02kb/s
+[2025-07-28 04:08:52][notice]progress:26214400.
+[2025-07-28 04:08:52][notice]progress:27262976.
+[2025-07-28 04:08:52][notice]progress:28311552.
+[2025-07-28 04:08:52][notice]progress:29360128.
+[2025-07-28 04:08:53][notice]progress:30408704.
+[2025-07-28 04:08:53][notice]progress:31457280.
+[2025-07-28 04:08:53][notice]progress:32505856.
+[2025-07-28 04:08:54][notice]progress:33554432.
+[2025-07-28 04:08:54][notice]progress:34603008.
+[2025-07-28 04:08:54][notice]progress:35651584.
+[2025-07-28 04:08:54][notice]progress:36700160.
+[2025-07-28 04:08:55][notice]progress:37748736.
+[2025-07-28 04:08:55][notice]progress:38797312.
+[2025-07-28 04:08:55][notice]progress:39845888.
+[2025-07-28 04:08:56][notice]Uploading www.realsolutions.ai_wpvivid-d1466b51ac0a3_2025-07-28-04-08_backup_all.zip Total size: 83.44 MB Uploaded: 39.00 MB speed:3670.02kb/s
+[2025-07-28 04:08:56][notice]progress:40894464.
+[2025-07-28 04:08:56][notice]progress:41943040.
+[2025-07-28 04:08:56][notice]progress:42991616.
+[2025-07-28 04:08:56][notice]progress:44040192.
+[2025-07-28 04:08:57][notice]progress:45088768.
+[2025-07-28 04:08:57][notice]progress:46137344.
+[2025-07-28 04:08:57][notice]progress:47185920.
+[2025-07-28 04:08:57][notice]progress:48234496.
+[2025-07-28 04:08:58][notice]progress:49283072.
+[2025-07-28 04:08:58][notice]progress:50331648.
+[2025-07-28 04:08:58][notice]progress:51380224.
+[2025-07-28 04:08:58][notice]progress:52428800.
+[2025-07-28 04:08:58][notice]progress:53477376.
+[2025-07-28 04:08:59][notice]progress:54525952.
+[2025-07-28 04:08:59][notice]progress:55574528.
+[2025-07-28 04:08:59][notice]progress:56623104.
+[2025-07-28 04:09:00][notice]Uploading www.realsolutions.ai_wpvivid-d1466b51ac0a3_2025-07-28-04-08_backup_all.zip Total size: 83.44 MB Uploaded: 55.00 MB speed:4194.3kb/s
+[2025-07-28 04:09:00][notice]progress:57671680.
+[2025-07-28 04:09:00][notice]progress:58720256.
+[2025-07-28 04:09:00][notice]progress:59768832.
+[2025-07-28 04:09:00][notice]progress:60817408.
+[2025-07-28 04:09:01][notice]progress:61865984.
+[2025-07-28 04:09:01][notice]progress:62914560.
+[2025-07-28 04:09:01][notice]progress:63963136.
+[2025-07-28 04:09:01][notice]progress:65011712.
+[2025-07-28 04:09:02][notice]progress:66060288.
+[2025-07-28 04:09:02][notice]progress:67108864.
+[2025-07-28 04:09:02][notice]progress:68157440.
+[2025-07-28 04:09:02][notice]progress:69206016.
+[2025-07-28 04:09:03][notice]progress:70254592.
+[2025-07-28 04:09:03][notice]progress:71303168.
+[2025-07-28 04:09:03][notice]progress:72351744.
+[2025-07-28 04:09:04][notice]Uploading www.realsolutions.ai_wpvivid-d1466b51ac0a3_2025-07-28-04-08_backup_all.zip Total size: 83.44 MB Uploaded: 70.00 MB speed:3932.16kb/s
+[2025-07-28 04:09:04][notice]progress:73400320.
+[2025-07-28 04:09:04][notice]progress:74448896.
+[2025-07-28 04:09:04][notice]progress:75497472.
+[2025-07-28 04:09:04][notice]progress:76546048.
+[2025-07-28 04:09:05][notice]progress:77594624.
+[2025-07-28 04:09:05][notice]progress:78643200.
+[2025-07-28 04:09:05][notice]progress:79691776.
+[2025-07-28 04:09:06][notice]progress:80740352.
+[2025-07-28 04:09:06][notice]progress:81788928.
+[2025-07-28 04:09:06][notice]progress:82837504.
+[2025-07-28 04:09:06][notice]progress:83886080.
+[2025-07-28 04:09:07][notice]progress:84934656.
+[2025-07-28 04:09:07][notice]progress:85983232.
+[2025-07-28 04:09:07][notice]progress:87031808.
+[2025-07-28 04:09:08][notice]Uploading www.realsolutions.ai_wpvivid-d1466b51ac0a3_2025-07-28-04-08_backup_all.zip Total size: 83.44 MB Uploaded: 83.44 MB speed:3522.59kb/s
+[2025-07-28 04:09:08][notice]progress:87031808.
+[2025-07-28 04:09:08][notice]Finished uploading www.realsolutions.ai_wpvivid-d1466b51ac0a3_2025-07-28-04-08_backup_all.zip
+[2025-07-28 04:09:08][notice]Upload success.
+[2025-07-28 04:09:08][notice]Finish upload to googledrive

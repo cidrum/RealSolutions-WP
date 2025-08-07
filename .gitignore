@@ -1,0 +1,6 @@
+wp-config.php
+wp-content/uploads/
+.htaccess
+error_log
+debug.log
+*.log
