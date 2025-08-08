@@ -1,42 +1,87 @@
-name: Deploy to VPS (force overwrite)
+name: Deploy to VPS (RealSolutions)
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-realsolutions
+  cancel-in-progress: false
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout (optional but nice for logs/tests)
-        uses: actions/checkout@v3
+      - name: Checkout (shallow)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
 
-      - name: Deploy over SSH (force overwrite)
+      - name: Deploy over SSH (force overwrite, safe excludes)
         uses: appleboy/ssh-action@v0.1.8
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
+          port: ${{ secrets.PORT || 22 }}
           script_stop: true
           command_timeout: 10m
           script: |
             set -euo pipefail
-            cd /home/realsolutions/htdocs/www.realsolutions.ai
 
-            # Make the working tree EXACTLY match origin/main
+            # === paths & variables ===
+            SITE_DIR="/home/realsolutions/htdocs/www.realsolutions.ai"
+            KEEP_CONFIG="/home/realsolutions/wp-config.php"   # server copy of wp-config.php (outside repo)
+            DOMAIN="www.realsolutions.ai"
+
+            cd "$SITE_DIR"
+
+            # 1) One-time safety: if a config exists in the webroot, save a copy outside the repo
+            if [ -f wp-config.php ] && [ ! -f "$KEEP_CONFIG" ]; then
+              cp wp-config.php "$KEEP_CONFIG"
+            fi
+
+            # 2) Make the working tree EXACTLY match origin/main (code overwrite)
             git fetch origin main
             git reset --hard origin/main
 
-            # Remove all untracked AND ignored files/dirs (nukes caches, uploads, etc.)
-            # Use -fdx to be thorough; switch to the "safe exclusions" variant below if needed.
-            git clean -fdx
+            # 3) Remove all untracked/ignored files EXCEPT critical site data
+            #    (keep server wp-config, uploads, htaccess, debug log)
+            git clean -fdx \
+              -e wp-config.php \
+              -e wp-content/uploads/ \
+              -e .htaccess \
+              -e wp-content/debug.log
 
-            # (Optional) reload PHP-FPM to clear opcode cache; ignore if not present
-            sudo systemctl reload php-fpm || sudo systemctl reload php8.2-fpm || true
+            # 4) Ensure wp-config.php exists after clean (restore from server copy if needed)
+            if [ ! -f wp-config.php ] && [ -f "$KEEP_CONFIG" ]; then
+              cp "$KEEP_CONFIG" wp-config.php
+            fi
 
-            # Permissions & cache purge
+            # 5) Fix permissions (typical WordPress baseline)
+            #    Tight config, writable wp-content, safe defaults elsewhere
+            if [ -d wp-content ]; then
+              find wp-content -type d -exec chmod 775 {} \;
+              find wp-content -type f -exec chmod 664 {} \;
+            fi
+
+            # wp-config is sensitive: owner rw, group r, no world
+            if [ -f wp-config.php ]; then
+              chmod 640 wp-config.php
+              # If you use a custom php-fpm group "clp", give group ownership (no-op if group doesn't exist)
+              if getent group clp >/dev/null 2>&1; then chgrp clp wp-config.php || true; fi
+            fi
+
+            # Reasonable baseline for the rest
             chown -R realsolutions:realsolutions .
-            chmod -R 755 .
-            sudo varnishadm "ban req.http.host ~ www.realsolutions.ai"
+            find . -type d -not -path "./wp-content/*" -exec chmod 755 {} \;
+            find . -type f -not -path "./wp-content/*" -not -name "wp-config.php" -exec chmod 644 {} \;
+
+            # 6) Opcache / service reloads (best-effort)
+            sudo systemctl reload php8.1-fpm || sudo systemctl reload php-fpm || true
+            sudo systemctl reload nginx || true
+
+            # 7) Purge Varnish (best-effort)
+            sudo varnishadm "ban req.http.host ~ ${DOMAIN}" || true
