@@ -536,12 +536,13 @@ get_header(); ?>
 <style>
 /* Base styles similar to other service pages */
 .inventory-supply-chain-page {
-    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
 }
 
 .inventory-supply-chain-page h1, .inventory-supply-chain-page h2, .inventory-supply-chain-page h3, .inventory-supply-chain-page h4 {
-    font-family: 'Lexend', -apple-system, BlinkMacSystemFont, sans-serif;
-    letter-spacing: -1px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.5px;
 }
 
 .inventory-supply-chain-page .service-hero {

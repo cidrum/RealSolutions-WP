@@ -523,12 +523,13 @@ get_header(); ?>
 
 <style>
 .financial-assistant-page {
-    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
 }
 
 .financial-assistant-page h1, .financial-assistant-page h2, .financial-assistant-page h3, .financial-assistant-page h4 {
-    font-family: 'Lexend', -apple-system, BlinkMacSystemFont, sans-serif;
-    letter-spacing: -1px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.5px;
 }
 
 .financial-assistant-page .service-hero {

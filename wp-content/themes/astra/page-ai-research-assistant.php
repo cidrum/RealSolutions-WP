@@ -456,12 +456,13 @@ get_header(); ?>
 <style>
 /* Base styles inherited from other service pages */
 .research-assistant-page {
-    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
 }
 
 .research-assistant-page h1, .research-assistant-page h2, .research-assistant-page h3, .research-assistant-page h4 {
-    font-family: 'Lexend', -apple-system, BlinkMacSystemFont, sans-serif;
-    letter-spacing: -1px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.5px;
 }
 
 .research-assistant-page .service-hero {

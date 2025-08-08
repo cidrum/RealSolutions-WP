@@ -438,7 +438,7 @@ get_header(); ?>
 /* Dark theme styling to match website design */
 .customer-service-page {
     background: #f8fafc;
-    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
 }
 
 .customer-service-page .service-hero {
@@ -448,8 +448,9 @@ get_header(); ?>
 }
 
 .customer-service-page h1, .customer-service-page h2, .customer-service-page h3, .customer-service-page h4 {
-    font-family: 'Lexend', -apple-system, BlinkMacSystemFont, sans-serif;
-    letter-spacing: -1px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.5px;
 }
 
 .hero-stats {

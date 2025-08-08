@@ -292,14 +292,15 @@ get_header(); ?>
 
 <style>
 .ai-service-page {
-    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
     line-height: 1.6;
-    color: #333;
+    color: #1e293b;
 }
 
 .sales-agent-page h1, .sales-agent-page h2, .sales-agent-page h3, .sales-agent-page h4 {
-    font-family: 'Lexend', -apple-system, BlinkMacSystemFont, sans-serif;
-    letter-spacing: -1px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.5px;
 }
 
 .service-hero {
