@@ -1,16 +1,16 @@
-name: Deploy to VPS
+name: Deploy to VPS (force overwrite)
 
 on:
   push:
     branches:
-      - main   # Deploy when pushing to main branch
+      - main
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout (optional but nice for logs/tests)
         uses: actions/checkout@v3
 
       - name: Deploy over SSH (force overwrite)
@@ -24,9 +24,19 @@ jobs:
           script: |
             set -euo pipefail
             cd /home/realsolutions/htdocs/www.realsolutions.ai
+
+            # Make the working tree EXACTLY match origin/main
             git fetch origin main
             git reset --hard origin/main
-            git clean -fd
+
+            # Remove all untracked AND ignored files/dirs (nukes caches, uploads, etc.)
+            # Use -fdx to be thorough; switch to the "safe exclusions" variant below if needed.
+            git clean -fdx
+
+            # (Optional) reload PHP-FPM to clear opcode cache; ignore if not present
+            sudo systemctl reload php-fpm || sudo systemctl reload php8.2-fpm || true
+
+            # Permissions & cache purge
             chown -R realsolutions:realsolutions .
             chmod -R 755 .
             sudo varnishadm "ban req.http.host ~ www.realsolutions.ai"
