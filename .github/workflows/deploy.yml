@@ -25,7 +25,8 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
-          port: ${{ secrets.PORT || 22 }}
+          # Omit port to use default 22, or uncomment the next line if you set one:
+          # port: ${{ secrets.PORT }}
           script_stop: true
           command_timeout: 10m
           script: |
@@ -60,21 +61,17 @@ jobs:
               cp "$KEEP_CONFIG" wp-config.php
             fi
 
-            # 5) Fix permissions (typical WordPress baseline)
-            #    Tight config, writable wp-content, safe defaults elsewhere
+            # 5) Permissions
             if [ -d wp-content ]; then
               find wp-content -type d -exec chmod 775 {} \;
               find wp-content -type f -exec chmod 664 {} \;
             fi
 
-            # wp-config is sensitive: owner rw, group r, no world
             if [ -f wp-config.php ]; then
               chmod 640 wp-config.php
-              # If you use a custom php-fpm group "clp", give group ownership (no-op if group doesn't exist)
               if getent group clp >/dev/null 2>&1; then chgrp clp wp-config.php || true; fi
             fi
 
-            # Reasonable baseline for the rest
             chown -R realsolutions:realsolutions .
             find . -type d -not -path "./wp-content/*" -exec chmod 755 {} \;
             find . -type f -not -path "./wp-content/*" -not -name "wp-config.php" -exec chmod 644 {} \;
