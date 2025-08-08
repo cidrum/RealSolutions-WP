@@ -534,7 +534,7 @@ get_header(); ?>
 </div>
 
 <style>
-/* Base styles similar to other service pages */
+/* Dark theme styling to match website design */
 .inventory-supply-chain-page {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
 }
@@ -547,51 +547,8 @@ get_header(); ?>
 
 .inventory-supply-chain-page .service-hero {
     background: linear-gradient(135deg, #0F172A 0%, #070614 100%);
-}
-
-.supply-chain-challenges {
-    padding: 80px 0;
-    background: white;
-}
-
-.ai-solution {
-    padding: 80px 0;
-    background: #f8fafc;
-}
-
-.core-capabilities {
-    padding: 80px 0;
-    background: white;
-}
-
-.industry-applications {
-    padding: 80px 0;
-    background: #f8fafc;
-}
-
-.roi-calculator {
-    padding: 80px 0;
-    background: white;
-}
-
-.implementation-process {
-    padding: 80px 0;
-    background: #f8fafc;
-    text-align: center;
-}
-
-.pricing-section {
-    padding: 80px 0;
-    background: #0F172A;
     color: white;
-    text-align: center;
-}
-
-.consultation-cta {
-    background: #0F172A;
-    color: white;
-    padding: 80px 0;
-    text-align: center;
+    padding: 100px 0;
 }
 
 .hero-metrics {
@@ -621,6 +578,61 @@ get_header(); ?>
     background: #f8fafc;
 }
 
+.supply-chain-challenges h2 {
+    text-align: center;
+    color: #0F172A;
+    margin-bottom: 40px;
+}
+
+.ai-solution {
+    padding: 80px 0;
+    background: white;
+}
+
+.core-capabilities {
+    padding: 80px 0;
+    background: #f8fafc;
+}
+
+.industry-applications {
+    padding: 80px 0;
+    background: white;
+}
+
+.roi-calculator {
+    padding: 80px 0;
+    background: #f8fafc;
+}
+
+.implementation-process {
+    padding: 80px 0;
+    background: white;
+}
+
+.pricing-section {
+    padding: 80px 0;
+    background: #0F172A;
+    color: white;
+}
+
+.pricing-section h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.consultation-cta {
+    background: #0F172A;
+    color: white;
+    padding: 100px 0;
+}
+
+.consultation-cta h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
 .challenges-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -631,18 +643,15 @@ get_header(); ?>
 .challenge-item {
     text-align: center;
     padding: 30px 20px;
-    background: #fff5f5;
+    background: white;
     border-radius: 12px;
-    border-left: 4px solid #dc2626;
+    border-left: 4px solid #ef4444;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 .challenge-icon {
     font-size: 2.5rem;
     margin-bottom: 15px;
-}
-
-.ai-solution {
-    padding: 80px 0;
 }
 
 .solution-overview {
@@ -772,7 +781,7 @@ get_header(); ?>
 }
 
 .tab-btn:hover {
-    background: rgba(30, 41, 59, 0.1);
+    background: rgba(15, 23, 42, 0.1);
 }
 
 .tab-content {
@@ -810,7 +819,7 @@ get_header(); ?>
 }
 
 .forecasting-chart, .procurement-dashboard, .tracking-interface, .compliance-monitor {
-    background: #0F172A;
+    background: #1e293b;
     padding: 25px;
     border-radius: 8px;
     color: white;
@@ -849,7 +858,7 @@ get_header(); ?>
 
 .bar-fill {
     height: 100%;
-    background: linear-gradient(90deg, #0085FF 0%, #0F172A 100%);
+    background: linear-gradient(90deg, #0085FF 0%, #0067CC 100%);
     border-radius: 4px;
 }
 
@@ -977,7 +986,7 @@ get_header(); ?>
     color: #0085FF;
     margin-bottom: 20px;
     padding-bottom: 10px;
-    border-bottom: 2px solid #0F172A;
+    border-bottom: 2px solid #0085FF;
 }
 
 .application-card ul {
@@ -1003,9 +1012,9 @@ get_header(); ?>
 .result-highlight {
     text-align: center;
     padding: 20px;
-    background: rgba(5, 150, 105, 0.1);
+    background: rgba(0, 133, 255, 0.1);
     border-radius: 8px;
-    border: 2px solid rgba(5, 150, 105, 0.2);
+    border: 2px solid rgba(0, 133, 255, 0.2);
 }
 
 .result-number {
@@ -1017,13 +1026,7 @@ get_header(); ?>
 
 .result-text {
     font-size: 0.9rem;
-    color: #047857;
-}
-
-.roi-calculator {
-    padding: 80px 0;
-    background: white;
-    text-align: center;
+    color: #0F172A;
 }
 
 .calculator-container {
@@ -1063,7 +1066,7 @@ get_header(); ?>
 }
 
 .input-group input:focus {
-    border-color: #0F172A;
+    border-color: #0085FF;
     outline: none;
 }
 
@@ -1077,7 +1080,7 @@ get_header(); ?>
 
 .result-metric.roi-metric {
     border-bottom: none;
-    background: rgba(5, 150, 105, 0.1);
+    background: rgba(0, 133, 255, 0.1);
     margin: 20px -40px -40px;
     padding: 30px 40px;
     border-radius: 0 0 12px 12px;
@@ -1121,7 +1124,7 @@ get_header(); ?>
 }
 
 .step-number {
-    background: #0F172A;
+    background: #0085FF;
     color: white;
     width: 50px;
     height: 50px;
@@ -1145,13 +1148,153 @@ get_header(); ?>
 
 .step-duration {
     display: inline-block;
-    background: rgba(5, 150, 105, 0.1);
-    color: #047857;
+    background: rgba(0, 133, 255, 0.1);
+    color: #0F172A;
     padding: 5px 12px;
     border-radius: 20px;
     font-size: 0.8rem;
     font-weight: 600;
     margin-top: 10px;
+}
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    justify-items: center;
+}
+
+.pricing-card {
+    background: white;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    text-align: center;
+    position: relative;
+    color: #1e293b;
+    width: 100%;
+    max-width: 350px;
+}
+
+.pricing-card h3 {
+    color: #0F172A;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #0085FF;
+    margin-bottom: 30px;
+}
+
+.price span {
+    font-size: 1rem;
+    color: #64748b;
+    font-weight: 400;
+}
+
+.features {
+    list-style: none;
+    padding: 0;
+    margin: 30px 0;
+}
+
+.features li {
+    padding: 10px 0;
+    border-bottom: 1px solid #e2e8f0;
+    color: #64748b;
+}
+
+.features li:last-child {
+    border-bottom: none;
+}
+
+.pricing-card.featured {
+    border: 3px solid #0085FF;
+    transform: scale(1.05);
+}
+
+.featured-badge {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #0085FF;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.cta-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.consultation-form {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+}
+
+.form-row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.form-row input, .form-row select {
+    flex: 1;
+    padding: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 1rem;
+}
+
+.form-row input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.form-row select {
+    color: white;
+}
+
+.form-row select option {
+    background: #0F172A;
+    color: white;
+}
+
+.btn-large {
+    width: 100%;
+    padding: 18px 40px;
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+
+.form-note {
+    text-align: center;
+    font-size: 0.9rem;
+    opacity: 0.8;
+    margin-top: 15px;
+}
+
+.cta-benefits {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px 0;
+    flex-wrap: wrap;
+}
+
+.benefit {
+    color: #0085FF;
+    font-weight: 600;
 }
 
 @media (max-width: 768px) {
@@ -1184,63 +1327,19 @@ get_header(); ?>
         flex-direction: column;
         text-align: center;
     }
-}
-
-.form-note {
-    text-align: center;
-    font-size: 0.9rem;
-    opacity: 0.8;
-    margin-top: 15px;
-}
-
-.cta-form {
-    background: rgba(255,255,255,0.1);
-    padding: 40px;
-    border-radius: 12px;
-    margin-top: 40px;
-    backdrop-filter: blur(10px);
-    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
-}
-
-.consultation-form .form-row {
-    display: flex;
-    gap: 20px;
-    margin-bottom: 20px;
-    flex-wrap: wrap;
-}
-
-.consultation-form .form-row input,
-.consultation-form .form-row select {
-    flex: 1;
-    min-width: 250px;
-    padding: 15px;
-    border: 2px solid rgba(255,255,255,0.2);
-    border-radius: 8px;
-    background: rgba(255,255,255,0.9);
-    color: #2d3748;
-    font-size: 1rem;
-    transition: all 0.3s ease;
-}
-
-.consultation-form .form-row input:focus,
-.consultation-form .form-row select:focus {
-    outline: none;
-    border-color: #0085FF;
-    box-shadow: 0 0 0 3px rgba(0, 133, 255, 0.1);
-}
-
-.consultation-form .form-row input::placeholder {
-    color: #718096;
-}
-
-@media (max-width: 768px) {
-    .consultation-form .form-row {
+    
+    .form-row {
         flex-direction: column;
+        gap: 15px;
     }
     
-    .consultation-form .form-row input,
-    .consultation-form .form-row select {
-        min-width: 100%;
+    .consultation-form {
+        padding: 30px 20px;
+    }
+    
+    .cta-benefits {
+        flex-direction: column;
+        gap: 15px;
     }
 }
 
@@ -1281,7 +1380,6 @@ get_header(); ?>
     color: white;
     border-color: #0085FF;
 }
-
 </style>
 
 <script>
@@ -1345,6 +1443,5 @@ document.addEventListener('DOMContentLoaded', function() {
     calculateROI();
 });
 </script>
-</style>
 
 <?php get_footer(); ?>
