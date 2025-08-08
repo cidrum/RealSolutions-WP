@@ -523,7 +523,42 @@ get_header(); ?>
 
 <style>
 .financial-assistant-page .service-hero {
-    background: linear-gradient(135deg, #2E7D32 0%, #388E3C 100%);
+    background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+}
+
+.financial-challenges {
+    padding: 80px 0;
+    background: white;
+}
+
+.solution-overview {
+    padding: 80px 0;
+    background: #f8fafc;
+}
+
+.service-modules {
+    padding: 80px 0;
+    background: white;
+}
+
+.industry-applications {
+    padding: 80px 0;
+    background: #f8fafc;
+}
+
+.integration-ecosystem {
+    padding: 80px 0;
+    background: white;
+}
+
+.roi-analysis {
+    padding: 80px 0;
+    background: #f8fafc;
+}
+
+.implementation-timeline {
+    padding: 80px 0;
+    background: white;
 }
 
 .hero-metrics {
@@ -544,7 +579,7 @@ get_header(); ?>
     display: block;
     font-size: 2.5rem;
     font-weight: 700;
-    color: #4CAF50;
+    color: #10b981;
 }
 
 .challenges-overview {
@@ -631,10 +666,10 @@ get_header(); ?>
     margin-bottom: 5px;
 }
 
-.metric-value.green { color: #4CAF50; }
-.metric-value.blue { color: #2196F3; }
-.metric-value.orange { color: #FF9800; }
-.metric-value.purple { color: #9C27B0; }
+.metric-value.green { color: #10b981; }
+.metric-value.blue { color: #3b82f6; }
+.metric-value.orange { color: #f59e0b; }
+.metric-value.purple { color: #8b5cf6; }
 
 .metric-change {
     font-size: 0.8rem;
@@ -661,7 +696,7 @@ get_header(); ?>
 }
 
 .module-header {
-    background: linear-gradient(135deg, #2E7D32, #4CAF50);
+    background: linear-gradient(135deg, #1e293b, #10b981);
     color: white;
     padding: 25px;
     display: flex;
@@ -695,7 +730,7 @@ get_header(); ?>
 
 .roi-value {
     font-size: 1.5rem;
-    color: #2E7D32;
+    color: #1e293b;
 }
 
 .application-tabs {
@@ -723,7 +758,7 @@ get_header(); ?>
 }
 
 .app-tab-btn.active {
-    background: #2E7D32;
+    background: #1e293b;
     color: white;
 }
 
@@ -775,7 +810,7 @@ get_header(); ?>
     color: #2d3748;
     margin-bottom: 20px;
     padding-bottom: 10px;
-    border-bottom: 2px solid #2E7D32;
+    border-bottom: 2px solid #1e293b;
 }
 
 .integration-items {
@@ -829,7 +864,7 @@ get_header(); ?>
 }
 
 .calculate-btn {
-    background: #2E7D32;
+    background: #1e293b;
     color: white;
     padding: 15px 30px;
     border: none;
@@ -840,7 +875,7 @@ get_header(); ?>
 }
 
 .calculate-btn:hover {
-    background: #1B5E20;
+    background: #334155;
 }
 
 .calculator-results {
@@ -863,18 +898,18 @@ get_header(); ?>
 
 .result-item.total {
     background: rgba(46, 125, 50, 0.1);
-    border: 2px solid #2E7D32;
+    border: 2px solid #1e293b;
     font-weight: 700;
 }
 
 .result-value {
     font-size: 1.2rem;
     font-weight: 700;
-    color: #2E7D32;
+    color: #1e293b;
 }
 
 .result-value.roi {
-    color: #FF9800;
+    color: #f59e0b;
 }
 
 .timeline {
@@ -890,7 +925,7 @@ get_header(); ?>
     top: 0;
     height: 100%;
     width: 2px;
-    background: #2E7D32;
+    background: #1e293b;
 }
 
 .timeline-item {
@@ -905,7 +940,7 @@ get_header(); ?>
     top: 0;
     width: 30px;
     height: 30px;
-    background: #2E7D32;
+    background: #1e293b;
     color: white;
     border-radius: 50%;
     display: flex;

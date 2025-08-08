@@ -536,7 +536,49 @@ get_header(); ?>
 <style>
 /* Base styles similar to other service pages */
 .inventory-supply-chain-page .service-hero {
-    background: linear-gradient(135deg, #059669 0%, #10b981 100%);
+    background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+}
+
+.supply-chain-challenges {
+    padding: 80px 0;
+    background: white;
+}
+
+.ai-solution {
+    padding: 80px 0;
+    background: #f8fafc;
+}
+
+.core-capabilities {
+    padding: 80px 0;
+    background: white;
+}
+
+.industry-applications {
+    padding: 80px 0;
+    background: #f8fafc;
+}
+
+.roi-calculator {
+    padding: 80px 0;
+    background: white;
+}
+
+.implementation-process {
+    padding: 80px 0;
+    background: #f8fafc;
+}
+
+.pricing-section {
+    padding: 80px 0;
+    background: #1e293b;
+    color: white;
+}
+
+.consultation-cta {
+    background: #1e293b;
+    color: white;
+    padding: 80px 0;
 }
 
 .hero-metrics {
@@ -553,7 +595,7 @@ get_header(); ?>
     display: block;
     font-size: 2rem;
     font-weight: 700;
-    color: #6ee7b7;
+    color: #10b981;
 }
 
 .metric-label {
@@ -618,7 +660,7 @@ get_header(); ?>
     content: "✓";
     position: absolute;
     left: 0;
-    color: #059669;
+    color: #10b981;
     font-weight: bold;
 }
 
@@ -712,12 +754,12 @@ get_header(); ?>
 }
 
 .tab-btn.active {
-    background: #059669;
+    background: #1e293b;
     color: white;
 }
 
 .tab-btn:hover {
-    background: rgba(5, 150, 105, 0.1);
+    background: rgba(30, 41, 59, 0.1);
 }
 
 .tab-content {
@@ -781,7 +823,7 @@ get_header(); ?>
 .forecast-accuracy {
     min-width: 40px;
     font-weight: 600;
-    color: #6ee7b7;
+    color: #10b981;
 }
 
 .forecast-bar {
@@ -794,7 +836,7 @@ get_header(); ?>
 
 .bar-fill {
     height: 100%;
-    background: linear-gradient(90deg, #6ee7b7 0%, #10b981 100%);
+    background: linear-gradient(90deg, #10b981 0%, #1e293b 100%);
     border-radius: 4px;
 }
 
@@ -815,7 +857,7 @@ get_header(); ?>
     display: block;
     font-size: 1.5rem;
     font-weight: 700;
-    color: #6ee7b7;
+    color: #10b981;
     margin-bottom: 5px;
 }
 
@@ -899,7 +941,7 @@ get_header(); ?>
 
 .alert-action {
     font-size: 0.8rem;
-    color: #6ee7b7;
+    color: #10b981;
     cursor: pointer;
 }
 
@@ -919,10 +961,10 @@ get_header(); ?>
 }
 
 .application-card h3 {
-    color: #059669;
+    color: #10b981;
     margin-bottom: 20px;
     padding-bottom: 10px;
-    border-bottom: 2px solid #059669;
+    border-bottom: 2px solid #1e293b;
 }
 
 .application-card ul {
@@ -941,7 +983,7 @@ get_header(); ?>
     content: "→";
     position: absolute;
     left: 0;
-    color: #059669;
+    color: #10b981;
     font-weight: bold;
 }
 
@@ -957,7 +999,7 @@ get_header(); ?>
     display: block;
     font-size: 2rem;
     font-weight: 700;
-    color: #059669;
+    color: #10b981;
 }
 
 .result-text {
@@ -967,7 +1009,7 @@ get_header(); ?>
 
 .roi-calculator {
     padding: 80px 0;
-    background: #f8fafc;
+    background: white;
 }
 
 .calculator-container {
@@ -1007,7 +1049,7 @@ get_header(); ?>
 }
 
 .input-group input:focus {
-    border-color: #059669;
+    border-color: #1e293b;
     outline: none;
 }
 
@@ -1035,7 +1077,7 @@ get_header(); ?>
 .result-value {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #059669;
+    color: #10b981;
 }
 
 .roi-disclaimer {
@@ -1065,7 +1107,7 @@ get_header(); ?>
 }
 
 .step-number {
-    background: #059669;
+    background: #1e293b;
     color: white;
     width: 50px;
     height: 50px;

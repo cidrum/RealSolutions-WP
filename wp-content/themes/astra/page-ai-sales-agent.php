@@ -298,7 +298,7 @@ get_header(); ?>
 }
 
 .service-hero {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
     color: white;
     padding: 80px 0;
     margin-top: -80px;
@@ -365,12 +365,12 @@ get_header(); ?>
 
 .btn-secondary:hover {
     background: white;
-    color: #667eea;
+    color: #1e293b;
 }
 
 .service-benefits {
     padding: 80px 0;
-    background: #f8fafc;
+    background: white;
 }
 
 .service-benefits h2 {
@@ -415,6 +415,17 @@ get_header(); ?>
 
 .service-features {
     padding: 80px 0;
+    background: #f8fafc;
+}
+
+.industry-focus {
+    padding: 80px 0;
+    background: white;
+}
+
+.implementation-process {
+    padding: 80px 0;
+    background: #f8fafc;
 }
 
 .features-content {
@@ -442,7 +453,7 @@ get_header(); ?>
 
 .feature-item h4 {
     font-size: 1.3rem;
-    color: #667eea;
+    color: #1e293b;
     margin-bottom: 10px;
 }
 
@@ -481,14 +492,15 @@ get_header(); ?>
 
 .pricing-section {
     padding: 80px 0;
-    background: #f8fafc;
+    background: #1e293b;
+    color: white;
 }
 
 .pricing-section h2 {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 60px;
-    color: #2d3748;
+    color: white;
 }
 
 .pricing-grid {
@@ -510,7 +522,7 @@ get_header(); ?>
 }
 
 .pricing-card.featured {
-    border: 3px solid #667eea;
+    border: 3px solid #1e293b;
     transform: scale(1.05);
 }
 
@@ -519,7 +531,7 @@ get_header(); ?>
     top: -15px;
     left: 50%;
     transform: translateX(-50%);
-    background: #667eea;
+    background: #1e293b;
     color: white;
     padding: 8px 20px;
     border-radius: 20px;
@@ -536,7 +548,7 @@ get_header(); ?>
 .price {
     font-size: 3rem;
     font-weight: 700;
-    color: #667eea;
+    color: #1e293b;
     margin-bottom: 30px;
 }
 
@@ -561,13 +573,15 @@ get_header(); ?>
     max-width: 600px;
     margin: 0 auto;
     padding: 40px;
-    background: white;
+    background: rgba(255,255,255,0.1);
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    color: white;
 }
 
 .case-studies {
     padding: 80px 0;
+    background: white;
 }
 
 .case-studies h2 {
@@ -601,7 +615,7 @@ get_header(); ?>
 }
 
 .industry-tag {
-    background: #667eea;
+    background: #1e293b;
     color: white;
     padding: 5px 15px;
     border-radius: 20px;
@@ -631,7 +645,7 @@ get_header(); ?>
 }
 
 .consultation-cta {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: #1e293b;
     color: white;
     padding: 80px 0;
 }

@@ -456,7 +456,49 @@ get_header(); ?>
 <style>
 /* Base styles inherited from other service pages */
 .research-assistant-page .service-hero {
-    background: linear-gradient(135deg, #4338ca 0%, #6366f1 100%);
+    background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+}
+
+.research-challenges {
+    padding: 80px 0;
+    background: white;
+}
+
+.research-solution {
+    padding: 80px 0;
+    background: #f8fafc;
+}
+
+.research-capabilities {
+    padding: 80px 0;
+    background: white;
+}
+
+.research-applications {
+    padding: 80px 0;
+    background: #f8fafc;
+}
+
+.roi-calculator {
+    padding: 80px 0;
+    background: white;
+}
+
+.compliance-security {
+    padding: 80px 0;
+    background: #f8fafc;
+}
+
+.pricing-section {
+    padding: 80px 0;
+    background: #1e293b;
+    color: white;
+}
+
+.consultation-cta {
+    background: #1e293b;
+    color: white;
+    padding: 80px 0;
 }
 
 .hero-stats {
@@ -473,7 +515,7 @@ get_header(); ?>
     display: block;
     font-size: 2rem;
     font-weight: 700;
-    color: #a5b4fc;
+    color: #10b981;
 }
 
 .stat-label {
@@ -521,7 +563,7 @@ get_header(); ?>
     padding: 30px;
     background: #f0f9ff;
     border-radius: 12px;
-    border-left: 4px solid #4338ca;
+    border-left: 4px solid #1e293b;
 }
 
 .solution-icon {
@@ -555,12 +597,12 @@ get_header(); ?>
 }
 
 .tab-btn.active {
-    background: #4338ca;
+    background: #1e293b;
     color: white;
 }
 
 .tab-btn:hover {
-    background: rgba(67, 56, 202, 0.1);
+    background: rgba(30, 41, 59, 0.1);
 }
 
 .tab-content {
@@ -622,7 +664,7 @@ get_header(); ?>
     display: block;
     font-size: 1.5rem;
     font-weight: 700;
-    color: #a5b4fc;
+    color: #10b981;
 }
 
 .evidence-quality {
@@ -732,7 +774,7 @@ get_header(); ?>
     display: block;
     font-size: 2rem;
     font-weight: 700;
-    color: #a5b4fc;
+    color: #10b981;
 }
 
 .market-growth {
@@ -768,10 +810,10 @@ get_header(); ?>
 }
 
 .application-category h3 {
-    color: #4338ca;
+    color: #1e293b;
     margin-bottom: 20px;
     padding-bottom: 10px;
-    border-bottom: 2px solid #4338ca;
+    border-bottom: 2px solid #1e293b;
 }
 
 .application-list {
@@ -790,13 +832,13 @@ get_header(); ?>
     content: "→";
     position: absolute;
     left: 0;
-    color: #4338ca;
+    color: #1e293b;
     font-weight: bold;
 }
 
 .roi-calculator {
     padding: 80px 0;
-    background: #f8fafc;
+    background: white;
 }
 
 .calculator-container {
@@ -836,7 +878,7 @@ get_header(); ?>
 }
 
 .input-group input:focus {
-    border-color: #4338ca;
+    border-color: #1e293b;
     outline: none;
 }
 
@@ -856,7 +898,7 @@ get_header(); ?>
 .result-value {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #4338ca;
+    color: #1e293b;
 }
 
 @media (max-width: 768px) {

@@ -435,9 +435,16 @@ get_header(); ?>
 </div>
 
 <style>
-/* Inherit base styles from sales agent page */
+/* Dark theme styling to match website design */
+.customer-service-page {
+    background: #f8fafc;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+}
+
 .customer-service-page .service-hero {
-    background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+    background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+    color: white;
+    padding: 100px 0;
 }
 
 .hero-stats {
@@ -454,7 +461,7 @@ get_header(); ?>
     display: block;
     font-size: 2rem;
     font-weight: 700;
-    color: #4fd1c7;
+    color: #10b981;
 }
 
 .stat-label {
@@ -464,6 +471,51 @@ get_header(); ?>
 
 .problem-solution {
     padding: 80px 0;
+    background: white;
+}
+
+.service-capabilities {
+    padding: 80px 0;
+    background: #f8fafc;
+}
+
+.integration-section {
+    padding: 80px 0;
+    background: white;
+}
+
+.roi-metrics {
+    padding: 80px 0;
+    background: #f8fafc;
+}
+
+.compliance-security {
+    padding: 80px 0;
+    background: white;
+}
+
+.pricing-section {
+    padding: 80px 0;
+    background: #1e293b;
+    color: white;
+}
+
+.pricing-section h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.consultation-cta {
+    padding: 100px 0;
+    background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+    color: white;
+}
+
+.consultation-cta h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .problem-section {
@@ -480,9 +532,10 @@ get_header(); ?>
 .challenge-item {
     text-align: center;
     padding: 30px 20px;
-    background: #fff5f5;
+    background: white;
     border-radius: 12px;
-    border-left: 4px solid #ff6b6b;
+    border-left: 4px solid #ef4444;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 .challenge-icon {
@@ -500,9 +553,10 @@ get_header(); ?>
 
 .solution-item {
     padding: 30px;
-    background: #f0fff4;
+    background: white;
     border-radius: 12px;
-    border-left: 4px solid #4CAF50;
+    border-left: 4px solid #10b981;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 .solution-icon {
@@ -537,12 +591,12 @@ get_header(); ?>
 }
 
 .tab-btn.active {
-    background: #4CAF50;
+    background: #1e293b;
     color: white;
 }
 
 .tab-btn:hover {
-    background: rgba(76, 175, 80, 0.1);
+    background: rgba(30, 41, 59, 0.1);
 }
 
 .tab-content {
@@ -613,10 +667,10 @@ get_header(); ?>
 }
 
 .integration-category h3 {
-    color: #2d3748;
+    color: #1e293b;
     margin-bottom: 20px;
     padding-bottom: 10px;
-    border-bottom: 2px solid #4CAF50;
+    border-bottom: 2px solid #10b981;
 }
 
 .integration-logos {
@@ -657,7 +711,7 @@ get_header(); ?>
     display: block;
     font-size: 3rem;
     font-weight: 700;
-    color: #4CAF50;
+    color: #10b981;
     margin-bottom: 10px;
 }
 
@@ -699,7 +753,7 @@ get_header(); ?>
 }
 
 .compliance-badge h4 {
-    color: #4CAF50;
+    color: #10b981;
     margin-bottom: 0;
 }
 
@@ -749,7 +803,7 @@ get_header(); ?>
 }
 
 input:checked + .slider {
-    background-color: #4CAF50;
+    background-color: #10b981;
 }
 
 input:checked + .slider:before {
@@ -772,7 +826,7 @@ input:checked + .slider:before {
     text-align: center;
     margin-top: 40px;
     padding: 30px;
-    background: rgba(76, 175, 80, 0.1);
+    background: rgba(16, 185, 129, 0.1);
     border-radius: 12px;
 }
 
@@ -785,7 +839,7 @@ input:checked + .slider:before {
 }
 
 .benefit {
-    color: #4fd1c7;
+    color: #10b981;
     font-weight: 600;
 }
 
