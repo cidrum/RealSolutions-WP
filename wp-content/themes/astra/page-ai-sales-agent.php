@@ -354,13 +354,15 @@ get_header(); ?>
 }
 
 .btn-primary {
-    background: #ff6b6b;
+    background: #0085FF;
     color: white;
+    border-color: #0085FF;
 }
 
 .btn-primary:hover {
-    background: #ff5252;
-    transform: translateY(-2px);
+    background: transparent;
+    color: #0085FF;
+    border-color: #0085FF;
 }
 
 .btn-secondary {
@@ -372,6 +374,7 @@ get_header(); ?>
 .btn-secondary:hover {
     background: white;
     color: #0F172A;
+    border-color: white;
 }
 
 .service-benefits {
@@ -500,6 +503,7 @@ get_header(); ?>
     padding: 80px 0;
     background: #0F172A;
     color: white;
+    text-align: center;
 }
 
 .pricing-section h2 {
@@ -588,6 +592,7 @@ get_header(); ?>
 .case-studies {
     padding: 80px 0;
     background: white;
+    text-align: center;
 }
 
 .case-studies h2 {
@@ -654,6 +659,7 @@ get_header(); ?>
     background: #0F172A;
     color: white;
     padding: 80px 0;
+    text-align: center;
 }
 
 .cta-content {
@@ -673,22 +679,41 @@ get_header(); ?>
     padding: 40px;
     border-radius: 12px;
     margin-top: 40px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
 }
 
 .form-row {
     display: flex;
     gap: 20px;
     margin-bottom: 20px;
+    flex-wrap: wrap;
 }
 
 .form-row input,
 .form-row select {
     flex: 1;
+    min-width: 250px;
     padding: 15px;
-    border: none;
+    border: 2px solid rgba(255,255,255,0.2);
     border-radius: 8px;
+    background: rgba(255,255,255,0.9);
+    color: #2d3748;
     font-size: 1rem;
+    transition: all 0.3s ease;
 }
+
+.form-row input:focus,
+.form-row select:focus {
+    outline: none;
+    border-color: #0085FF;
+    box-shadow: 0 0 0 3px rgba(0, 133, 255, 0.1);
+}
+
+.form-row input::placeholder {
+    color: #718096;
+}
+
 
 .btn-large {
     padding: 20px 40px;
@@ -750,6 +775,11 @@ get_header(); ?>
     
     .form-row {
         flex-direction: column;
+    }
+    
+    .form-row input,
+    .form-row select {
+        min-width: 100%;
     }
     
     .case-study-grid {

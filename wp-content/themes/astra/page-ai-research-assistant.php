@@ -934,6 +934,169 @@ get_header(); ?>
     }
 }
 
+/* Fix missing CSS classes and layout issues */
+.compliance-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.compliance-item {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.compliance-badge {
+    margin-bottom: 20px;
+}
+
+.badge-icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.compliance-badge h4 {
+    color: #0085FF;
+    margin-bottom: 0;
+}
+
+.compliance-security h2 {
+    text-align: center;
+    color: #0F172A;
+    margin-bottom: 40px;
+}
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    justify-items: center;
+}
+
+.pricing-section h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.pricing-card {
+    background: white;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    text-align: center;
+    position: relative;
+    color: #1e293b;
+    width: 100%;
+    max-width: 350px;
+}
+
+.pricing-card h3 {
+    color: #0F172A;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #0085FF;
+    margin-bottom: 30px;
+}
+
+.price span {
+    font-size: 1rem;
+    color: #64748b;
+    font-weight: 400;
+}
+
+.features {
+    list-style: none;
+    padding: 0;
+    margin: 30px 0;
+}
+
+.features li {
+    padding: 10px 0;
+    border-bottom: 1px solid #e2e8f0;
+    color: #64748b;
+}
+
+.features li:last-child {
+    border-bottom: none;
+}
+
+.cta-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.consultation-form {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+}
+
+.form-row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.form-row input, .form-row select {
+    flex: 1;
+    padding: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 1rem;
+}
+
+.form-row input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.form-row select {
+    color: white;
+}
+
+.form-row select option {
+    background: #0F172A;
+    color: white;
+}
+
+.btn-large {
+    width: 100%;
+    padding: 18px 40px;
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+
+.form-note {
+    text-align: center;
+    font-size: 0.9rem;
+    opacity: 0.8;
+    margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+    .form-row {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .consultation-form {
+        padding: 30px 20px;
+    }
+}
+
 /* Button Styling */
 .btn {
     padding: 16px 32px;
@@ -972,6 +1135,9 @@ get_header(); ?>
     border-color: #0085FF;
 }
 
+</style>
+
+<script>
 /* JavaScript for interactive functionality */
 document.addEventListener('DOMContentLoaded', function() {
     // Tab functionality
@@ -1020,6 +1186,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initial calculation
     calculateROI();
 });
-</style>
+</script>
 
 <?php get_footer(); ?>

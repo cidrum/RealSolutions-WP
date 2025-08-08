@@ -564,11 +564,13 @@ get_header(); ?>
 .roi-analysis {
     padding: 80px 0;
     background: #f8fafc;
+    text-align: center;
 }
 
 .implementation-timeline {
     padding: 80px 0;
     background: white;
+    text-align: center;
 }
 
 .hero-metrics {
@@ -999,6 +1001,64 @@ get_header(); ?>
     margin-top: 15px;
 }
 
+.consultation-cta {
+    padding: 100px 0;
+    background: linear-gradient(135deg, #1e293b 0%, #070614 100%);
+    color: white;
+    text-align: center;
+}
+
+.cta-form {
+    background: rgba(255,255,255,0.1);
+    padding: 40px;
+    border-radius: 12px;
+    margin-top: 40px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+}
+
+.consultation-form .form-row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.consultation-form .form-row input,
+.consultation-form .form-row select {
+    flex: 1;
+    min-width: 250px;
+    padding: 15px;
+    border: 2px solid rgba(255,255,255,0.2);
+    border-radius: 8px;
+    background: rgba(255,255,255,0.9);
+    color: #2d3748;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.consultation-form .form-row input:focus,
+.consultation-form .form-row select:focus {
+    outline: none;
+    border-color: #0085FF;
+    box-shadow: 0 0 0 3px rgba(0, 133, 255, 0.1);
+}
+
+.consultation-form .form-row input::placeholder {
+    color: #718096;
+}
+
+@media (max-width: 768px) {
+    .consultation-form .form-row {
+        flex-direction: column;
+    }
+    
+    .consultation-form .form-row input,
+    .consultation-form .form-row select {
+        min-width: 100%;
+    }
+}
+
 @media (max-width: 768px) {
     .hero-metrics {
         flex-direction: column;
@@ -1078,6 +1138,9 @@ get_header(); ?>
     border-color: #0085FF;
 }
 
+</style>
+
+<script>
 /* JavaScript for interactive elements */
 document.addEventListener('DOMContentLoaded', function() {
     // Tab functionality
@@ -1127,6 +1190,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
+</script>
 </style>
 
 <?php get_footer(); ?>
