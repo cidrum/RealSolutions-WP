@@ -1,26 +1,18 @@
-name: Deploy to VPS
-
-on:
-  push:
-    branches: [ main ]
-
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    
-    steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
-    
-    - name: Deploy to server
-      uses: appleboy/ssh-action@v0.1.8
-      with:
-        host: ${{ secrets.HOST }}
-        username: ${{ secrets.USERNAME }}
-        password: ${{ secrets.PASSWORD }}
-        script: |
-          cd /home/realsolutions/htdocs/www.realsolutions.ai
-          git pull origin main
-          chown -R realsolutions:realsolutions .
-          chmod -R 755 .
-          sudo varnishadm "ban req.http.host ~ www.realsolutions.ai"
+- name: Deploy over SSH (force overwrite)
+  uses: appleboy/ssh-action@v0.1.8
+  with:
+    host: ${{ secrets.HOST }}
+    username: ${{ secrets.USERNAME }}
+    password: ${{ secrets.PASSWORD }}
+    script_stop: true
+    command_timeout: 10m
+    script: |
+      set -euo pipefail
+      cd /home/realsolutions/htdocs/www.realsolutions.ai
+      git fetch origin main
+      git reset --hard origin/main
+      # Full cleanup (blunt): deletes untracked files/dirs
+      git clean -fd
+      chown -R realsolutions:realsolutions .
+      chmod -R 755 .
+      sudo varnishadm "ban req.http.host ~ www.realsolutions.ai"
