@@ -535,8 +535,17 @@ get_header(); ?>
 
 <style>
 /* Base styles similar to other service pages */
+.inventory-supply-chain-page {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+}
+
+.inventory-supply-chain-page h1, .inventory-supply-chain-page h2, .inventory-supply-chain-page h3, .inventory-supply-chain-page h4 {
+    font-family: 'Lexend', -apple-system, BlinkMacSystemFont, sans-serif;
+    letter-spacing: -1px;
+}
+
 .inventory-supply-chain-page .service-hero {
-    background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+    background: linear-gradient(135deg, #0F172A 0%, #070614 100%);
 }
 
 .supply-chain-challenges {
@@ -571,12 +580,12 @@ get_header(); ?>
 
 .pricing-section {
     padding: 80px 0;
-    background: #1e293b;
+    background: #0F172A;
     color: white;
 }
 
 .consultation-cta {
-    background: #1e293b;
+    background: #0F172A;
     color: white;
     padding: 80px 0;
 }
@@ -595,7 +604,7 @@ get_header(); ?>
     display: block;
     font-size: 2rem;
     font-weight: 700;
-    color: #10b981;
+    color: #0085FF;
 }
 
 .metric-label {
@@ -660,7 +669,7 @@ get_header(); ?>
     content: "✓";
     position: absolute;
     left: 0;
-    color: #10b981;
+    color: #0085FF;
     font-weight: bold;
 }
 
@@ -754,7 +763,7 @@ get_header(); ?>
 }
 
 .tab-btn.active {
-    background: #1e293b;
+    background: #0F172A;
     color: white;
 }
 
@@ -797,7 +806,7 @@ get_header(); ?>
 }
 
 .forecasting-chart, .procurement-dashboard, .tracking-interface, .compliance-monitor {
-    background: #1e293b;
+    background: #0F172A;
     padding: 25px;
     border-radius: 8px;
     color: white;
@@ -823,7 +832,7 @@ get_header(); ?>
 .forecast-accuracy {
     min-width: 40px;
     font-weight: 600;
-    color: #10b981;
+    color: #0085FF;
 }
 
 .forecast-bar {
@@ -836,7 +845,7 @@ get_header(); ?>
 
 .bar-fill {
     height: 100%;
-    background: linear-gradient(90deg, #10b981 0%, #1e293b 100%);
+    background: linear-gradient(90deg, #0085FF 0%, #0F172A 100%);
     border-radius: 4px;
 }
 
@@ -857,7 +866,7 @@ get_header(); ?>
     display: block;
     font-size: 1.5rem;
     font-weight: 700;
-    color: #10b981;
+    color: #0085FF;
     margin-bottom: 5px;
 }
 
@@ -941,7 +950,7 @@ get_header(); ?>
 
 .alert-action {
     font-size: 0.8rem;
-    color: #10b981;
+    color: #0085FF;
     cursor: pointer;
 }
 
@@ -961,10 +970,10 @@ get_header(); ?>
 }
 
 .application-card h3 {
-    color: #10b981;
+    color: #0085FF;
     margin-bottom: 20px;
     padding-bottom: 10px;
-    border-bottom: 2px solid #1e293b;
+    border-bottom: 2px solid #0F172A;
 }
 
 .application-card ul {
@@ -983,7 +992,7 @@ get_header(); ?>
     content: "→";
     position: absolute;
     left: 0;
-    color: #10b981;
+    color: #0085FF;
     font-weight: bold;
 }
 
@@ -999,7 +1008,7 @@ get_header(); ?>
     display: block;
     font-size: 2rem;
     font-weight: 700;
-    color: #10b981;
+    color: #0085FF;
 }
 
 .result-text {
@@ -1049,7 +1058,7 @@ get_header(); ?>
 }
 
 .input-group input:focus {
-    border-color: #1e293b;
+    border-color: #0F172A;
     outline: none;
 }
 
@@ -1077,7 +1086,7 @@ get_header(); ?>
 .result-value {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #10b981;
+    color: #0085FF;
 }
 
 .roi-disclaimer {
@@ -1107,7 +1116,7 @@ get_header(); ?>
 }
 
 .step-number {
-    background: #1e293b;
+    background: #0F172A;
     color: white;
     width: 50px;
     height: 50px;
@@ -1170,6 +1179,44 @@ get_header(); ?>
         flex-direction: column;
         text-align: center;
     }
+}
+
+/* Button Styling */
+.btn {
+    padding: 16px 32px;
+    border-radius: 2px;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+    border: 2px solid;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.btn-primary {
+    background: #0085FF;
+    color: white;
+    border-color: #0085FF;
+}
+
+.btn-primary:hover {
+    background: transparent;
+    color: #0085FF;
+    border-color: #0085FF;
+}
+
+.btn-secondary, .btn-outline {
+    background: transparent;
+    color: #0085FF;
+    border-color: #0085FF;
+}
+
+.btn-secondary:hover, .btn-outline:hover {
+    background: #0085FF;
+    color: white;
+    border-color: #0085FF;
 }
 
 /* JavaScript for interactive functionality */

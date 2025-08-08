@@ -455,8 +455,17 @@ get_header(); ?>
 
 <style>
 /* Base styles inherited from other service pages */
+.research-assistant-page {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+}
+
+.research-assistant-page h1, .research-assistant-page h2, .research-assistant-page h3, .research-assistant-page h4 {
+    font-family: 'Lexend', -apple-system, BlinkMacSystemFont, sans-serif;
+    letter-spacing: -1px;
+}
+
 .research-assistant-page .service-hero {
-    background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+    background: linear-gradient(135deg, #0F172A 0%, #070614 100%);
 }
 
 .research-challenges {
@@ -491,12 +500,12 @@ get_header(); ?>
 
 .pricing-section {
     padding: 80px 0;
-    background: #1e293b;
+    background: #0F172A;
     color: white;
 }
 
 .consultation-cta {
-    background: #1e293b;
+    background: #0F172A;
     color: white;
     padding: 80px 0;
 }
@@ -515,7 +524,7 @@ get_header(); ?>
     display: block;
     font-size: 2rem;
     font-weight: 700;
-    color: #10b981;
+    color: #0085FF;
 }
 
 .stat-label {
@@ -563,7 +572,7 @@ get_header(); ?>
     padding: 30px;
     background: #f0f9ff;
     border-radius: 12px;
-    border-left: 4px solid #1e293b;
+    border-left: 4px solid #0F172A;
 }
 
 .solution-icon {
@@ -597,7 +606,7 @@ get_header(); ?>
 }
 
 .tab-btn.active {
-    background: #1e293b;
+    background: #0F172A;
     color: white;
 }
 
@@ -640,7 +649,7 @@ get_header(); ?>
 }
 
 .literature-dashboard, .clinical-analysis, .regulatory-monitor, .market-intelligence {
-    background: #1e293b;
+    background: #0F172A;
     padding: 25px;
     border-radius: 8px;
     color: white;
@@ -664,7 +673,7 @@ get_header(); ?>
     display: block;
     font-size: 1.5rem;
     font-weight: 700;
-    color: #10b981;
+    color: #0085FF;
 }
 
 .evidence-quality {
@@ -774,7 +783,7 @@ get_header(); ?>
     display: block;
     font-size: 2rem;
     font-weight: 700;
-    color: #10b981;
+    color: #0085FF;
 }
 
 .market-growth {
@@ -810,10 +819,10 @@ get_header(); ?>
 }
 
 .application-category h3 {
-    color: #1e293b;
+    color: #0F172A;
     margin-bottom: 20px;
     padding-bottom: 10px;
-    border-bottom: 2px solid #1e293b;
+    border-bottom: 2px solid #0F172A;
 }
 
 .application-list {
@@ -832,7 +841,7 @@ get_header(); ?>
     content: "→";
     position: absolute;
     left: 0;
-    color: #1e293b;
+    color: #0F172A;
     font-weight: bold;
 }
 
@@ -878,7 +887,7 @@ get_header(); ?>
 }
 
 .input-group input:focus {
-    border-color: #1e293b;
+    border-color: #0F172A;
     outline: none;
 }
 
@@ -898,7 +907,7 @@ get_header(); ?>
 .result-value {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #1e293b;
+    color: #0F172A;
 }
 
 @media (max-width: 768px) {
@@ -922,6 +931,44 @@ get_header(); ?>
     .calculator-container {
         flex-direction: column;
     }
+}
+
+/* Button Styling */
+.btn {
+    padding: 16px 32px;
+    border-radius: 2px;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+    border: 2px solid;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.btn-primary {
+    background: #0085FF;
+    color: white;
+    border-color: #0085FF;
+}
+
+.btn-primary:hover {
+    background: transparent;
+    color: #0085FF;
+    border-color: #0085FF;
+}
+
+.btn-secondary, .btn-outline {
+    background: transparent;
+    color: #0085FF;
+    border-color: #0085FF;
+}
+
+.btn-secondary:hover, .btn-outline:hover {
+    background: #0085FF;
+    color: white;
+    border-color: #0085FF;
 }
 
 /* JavaScript for interactive functionality */

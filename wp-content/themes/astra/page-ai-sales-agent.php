@@ -292,13 +292,18 @@ get_header(); ?>
 
 <style>
 .ai-service-page {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     line-height: 1.6;
     color: #333;
 }
 
+.sales-agent-page h1, .sales-agent-page h2, .sales-agent-page h3, .sales-agent-page h4 {
+    font-family: 'Lexend', -apple-system, BlinkMacSystemFont, sans-serif;
+    letter-spacing: -1px;
+}
+
 .service-hero {
-    background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+    background: linear-gradient(135deg, #0F172A 0%, #070614 100%);
     color: white;
     padding: 80px 0;
     margin-top: -80px;
@@ -365,7 +370,7 @@ get_header(); ?>
 
 .btn-secondary:hover {
     background: white;
-    color: #1e293b;
+    color: #0F172A;
 }
 
 .service-benefits {
@@ -453,7 +458,7 @@ get_header(); ?>
 
 .feature-item h4 {
     font-size: 1.3rem;
-    color: #1e293b;
+    color: #0F172A;
     margin-bottom: 10px;
 }
 
@@ -487,12 +492,12 @@ get_header(); ?>
     display: block;
     font-size: 2rem;
     font-weight: 700;
-    color: #4fd1c7;
+    color: #0085FF;
 }
 
 .pricing-section {
     padding: 80px 0;
-    background: #1e293b;
+    background: #0F172A;
     color: white;
 }
 
@@ -522,7 +527,7 @@ get_header(); ?>
 }
 
 .pricing-card.featured {
-    border: 3px solid #1e293b;
+    border: 3px solid #0F172A;
     transform: scale(1.05);
 }
 
@@ -531,7 +536,7 @@ get_header(); ?>
     top: -15px;
     left: 50%;
     transform: translateX(-50%);
-    background: #1e293b;
+    background: #0F172A;
     color: white;
     padding: 8px 20px;
     border-radius: 20px;
@@ -548,7 +553,7 @@ get_header(); ?>
 .price {
     font-size: 3rem;
     font-weight: 700;
-    color: #1e293b;
+    color: #0F172A;
     margin-bottom: 30px;
 }
 
@@ -615,7 +620,7 @@ get_header(); ?>
 }
 
 .industry-tag {
-    background: #1e293b;
+    background: #0F172A;
     color: white;
     padding: 5px 15px;
     border-radius: 20px;
@@ -636,7 +641,7 @@ get_header(); ?>
     display: block;
     font-size: 2.5rem;
     font-weight: 700;
-    color: #4fd1c7;
+    color: #0085FF;
 }
 
 .result-label {
@@ -645,7 +650,7 @@ get_header(); ?>
 }
 
 .consultation-cta {
-    background: #1e293b;
+    background: #0F172A;
     color: white;
     padding: 80px 0;
 }
@@ -688,6 +693,44 @@ get_header(); ?>
     padding: 20px 40px;
     font-size: 1.1rem;
     width: 100%;
+}
+
+/* Button Styling */
+.btn {
+    padding: 16px 32px;
+    border-radius: 2px;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+    border: 2px solid;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.btn-primary {
+    background: #0085FF;
+    color: white;
+    border-color: #0085FF;
+}
+
+.btn-primary:hover {
+    background: transparent;
+    color: #0085FF;
+    border-color: #0085FF;
+}
+
+.btn-secondary, .btn-outline {
+    background: transparent;
+    color: #0085FF;
+    border-color: #0085FF;
+}
+
+.btn-secondary:hover, .btn-outline:hover {
+    background: #0085FF;
+    color: white;
+    border-color: #0085FF;
 }
 
 @media (max-width: 768px) {

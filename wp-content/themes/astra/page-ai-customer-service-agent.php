@@ -438,13 +438,18 @@ get_header(); ?>
 /* Dark theme styling to match website design */
 .customer-service-page {
     background: #f8fafc;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
 }
 
 .customer-service-page .service-hero {
-    background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+    background: linear-gradient(135deg, #0F172A 0%, #070614 100%);
     color: white;
     padding: 100px 0;
+}
+
+.customer-service-page h1, .customer-service-page h2, .customer-service-page h3, .customer-service-page h4 {
+    font-family: 'Lexend', -apple-system, BlinkMacSystemFont, sans-serif;
+    letter-spacing: -1px;
 }
 
 .hero-stats {
@@ -461,7 +466,7 @@ get_header(); ?>
     display: block;
     font-size: 2rem;
     font-weight: 700;
-    color: #10b981;
+    color: #0085FF;
 }
 
 .stat-label {
@@ -496,7 +501,7 @@ get_header(); ?>
 
 .pricing-section {
     padding: 80px 0;
-    background: #1e293b;
+    background: #070614;
     color: white;
 }
 
@@ -508,7 +513,7 @@ get_header(); ?>
 
 .consultation-cta {
     padding: 100px 0;
-    background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+    background: linear-gradient(135deg, #1e293b 0%, #070614 100%);
     color: white;
 }
 
@@ -555,7 +560,7 @@ get_header(); ?>
     padding: 30px;
     background: white;
     border-radius: 12px;
-    border-left: 4px solid #10b981;
+    border-left: 4px solid #0085FF;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
@@ -591,7 +596,7 @@ get_header(); ?>
 }
 
 .tab-btn.active {
-    background: #1e293b;
+    background: #0F172A;
     color: white;
 }
 
@@ -670,7 +675,7 @@ get_header(); ?>
     color: #1e293b;
     margin-bottom: 20px;
     padding-bottom: 10px;
-    border-bottom: 2px solid #10b981;
+    border-bottom: 2px solid #0085FF;
 }
 
 .integration-logos {
@@ -711,7 +716,7 @@ get_header(); ?>
     display: block;
     font-size: 3rem;
     font-weight: 700;
-    color: #10b981;
+    color: #0085FF;
     margin-bottom: 10px;
 }
 
@@ -753,7 +758,7 @@ get_header(); ?>
 }
 
 .compliance-badge h4 {
-    color: #10b981;
+    color: #0085FF;
     margin-bottom: 0;
 }
 
@@ -803,7 +808,7 @@ get_header(); ?>
 }
 
 input:checked + .slider {
-    background-color: #10b981;
+    background-color: #0085FF;
 }
 
 input:checked + .slider:before {
@@ -839,7 +844,7 @@ input:checked + .slider:before {
 }
 
 .benefit {
-    color: #10b981;
+    color: #0085FF;
     font-weight: 600;
 }
 
@@ -872,6 +877,44 @@ input:checked + .slider:before {
         flex-direction: column;
         gap: 15px;
     }
+}
+
+/* Button Styling */
+.btn {
+    padding: 16px 32px;
+    border-radius: 2px;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+    border: 2px solid;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.btn-primary {
+    background: #0085FF;
+    color: white;
+    border-color: #0085FF;
+}
+
+.btn-primary:hover {
+    background: transparent;
+    color: #0085FF;
+    border-color: #0085FF;
+}
+
+.btn-secondary, .btn-outline {
+    background: transparent;
+    color: #0085FF;
+    border-color: #0085FF;
+}
+
+.btn-secondary:hover, .btn-outline:hover {
+    background: #0085FF;
+    color: white;
+    border-color: #0085FF;
 }
 
 /* JavaScript for tab functionality */

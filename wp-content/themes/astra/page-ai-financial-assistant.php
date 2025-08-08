@@ -522,8 +522,17 @@ get_header(); ?>
 </div>
 
 <style>
+.financial-assistant-page {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+}
+
+.financial-assistant-page h1, .financial-assistant-page h2, .financial-assistant-page h3, .financial-assistant-page h4 {
+    font-family: 'Lexend', -apple-system, BlinkMacSystemFont, sans-serif;
+    letter-spacing: -1px;
+}
+
 .financial-assistant-page .service-hero {
-    background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+    background: linear-gradient(135deg, #0F172A 0%, #070614 100%);
 }
 
 .financial-challenges {
@@ -579,7 +588,7 @@ get_header(); ?>
     display: block;
     font-size: 2.5rem;
     font-weight: 700;
-    color: #10b981;
+    color: #0085FF;
 }
 
 .challenges-overview {
@@ -666,7 +675,7 @@ get_header(); ?>
     margin-bottom: 5px;
 }
 
-.metric-value.green { color: #10b981; }
+.metric-value.green { color: #0085FF; }
 .metric-value.blue { color: #3b82f6; }
 .metric-value.orange { color: #f59e0b; }
 .metric-value.purple { color: #8b5cf6; }
@@ -696,7 +705,7 @@ get_header(); ?>
 }
 
 .module-header {
-    background: linear-gradient(135deg, #1e293b, #10b981);
+    background: linear-gradient(135deg, #0F172A, #0085FF);
     color: white;
     padding: 25px;
     display: flex;
@@ -730,7 +739,7 @@ get_header(); ?>
 
 .roi-value {
     font-size: 1.5rem;
-    color: #1e293b;
+    color: #0F172A;
 }
 
 .application-tabs {
@@ -758,7 +767,7 @@ get_header(); ?>
 }
 
 .app-tab-btn.active {
-    background: #1e293b;
+    background: #0F172A;
     color: white;
 }
 
@@ -810,7 +819,7 @@ get_header(); ?>
     color: #2d3748;
     margin-bottom: 20px;
     padding-bottom: 10px;
-    border-bottom: 2px solid #1e293b;
+    border-bottom: 2px solid #0F172A;
 }
 
 .integration-items {
@@ -864,7 +873,7 @@ get_header(); ?>
 }
 
 .calculate-btn {
-    background: #1e293b;
+    background: #0F172A;
     color: white;
     padding: 15px 30px;
     border: none;
@@ -875,7 +884,7 @@ get_header(); ?>
 }
 
 .calculate-btn:hover {
-    background: #334155;
+    background: #070614;
 }
 
 .calculator-results {
@@ -898,14 +907,14 @@ get_header(); ?>
 
 .result-item.total {
     background: rgba(46, 125, 50, 0.1);
-    border: 2px solid #1e293b;
+    border: 2px solid #0F172A;
     font-weight: 700;
 }
 
 .result-value {
     font-size: 1.2rem;
     font-weight: 700;
-    color: #1e293b;
+    color: #0F172A;
 }
 
 .result-value.roi {
@@ -925,7 +934,7 @@ get_header(); ?>
     top: 0;
     height: 100%;
     width: 2px;
-    background: #1e293b;
+    background: #0F172A;
 }
 
 .timeline-item {
@@ -940,7 +949,7 @@ get_header(); ?>
     top: 0;
     width: 30px;
     height: 30px;
-    background: #1e293b;
+    background: #0F172A;
     color: white;
     border-radius: 50%;
     display: flex;
@@ -1028,6 +1037,44 @@ get_header(); ?>
     .timeline-item {
         padding-left: 60px;
     }
+}
+
+/* Button Styling */
+.btn {
+    padding: 16px 32px;
+    border-radius: 2px;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+    border: 2px solid;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.btn-primary {
+    background: #0085FF;
+    color: white;
+    border-color: #0085FF;
+}
+
+.btn-primary:hover {
+    background: transparent;
+    color: #0085FF;
+    border-color: #0085FF;
+}
+
+.btn-secondary, .btn-outline {
+    background: transparent;
+    color: #0085FF;
+    border-color: #0085FF;
+}
+
+.btn-secondary:hover, .btn-outline:hover {
+    background: #0085FF;
+    color: white;
+    border-color: #0085FF;
 }
 
 /* JavaScript for interactive elements */
