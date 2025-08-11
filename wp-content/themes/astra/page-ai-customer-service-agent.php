@@ -1113,6 +1113,5 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 </script>
-</style>
 
 <?php get_footer(); ?>
