@@ -1,6 +1,12 @@
 wp-config.php
+wp-config-local.php
 wp-content/uploads/
+wp-content/backups-dup-lite/
+wp-content/cache/
+wp-content/debug.log
 .htaccess
 error_log
 debug.log
 *.log
+*.sql
+*.zip
