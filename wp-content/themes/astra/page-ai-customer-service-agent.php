@@ -437,7 +437,7 @@ get_header(); ?>
 <style>
 /* Dark theme styling to match website design */
 .customer-service-page {
-    background: #f8fafc;
+    background: #070614;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
 }
 
@@ -477,27 +477,32 @@ get_header(); ?>
 
 .problem-solution {
     padding: 80px 0;
-    background: white;
+    background: #1e293b;
+    color: white;
 }
 
 .service-capabilities {
     padding: 80px 0;
-    background: #f8fafc;
+    background: #070614;
+    color: white;
 }
 
 .integration-section {
     padding: 80px 0;
-    background: white;
+    background: #1e293b;
+    color: white;
 }
 
 .roi-metrics {
     padding: 80px 0;
-    background: #f8fafc;
+    background: #070614;
+    color: white;
 }
 
 .compliance-security {
     padding: 80px 0;
-    background: white;
+    background: #1e293b;
+    color: white;
     text-align: center;
 }
 
@@ -574,15 +579,15 @@ get_header(); ?>
 }
 
 .capabilities-tabs {
-    background: white;
+    background: #2d3748;
     border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
     overflow: hidden;
 }
 
 .tab-navigation {
     display: flex;
-    background: #f8fafc;
+    background: #1e293b;
     flex-wrap: wrap;
 }
 
@@ -593,7 +598,7 @@ get_header(); ?>
     background: transparent;
     cursor: pointer;
     font-weight: 600;
-    color: #718096;
+    color: #cbd5e1;
     transition: all 0.3s ease;
     min-width: 200px;
 }
@@ -604,12 +609,15 @@ get_header(); ?>
 }
 
 .tab-btn:hover {
-    background: rgba(30, 41, 59, 0.1);
+    background: rgba(15, 23, 42, 0.7);
+    color: white;
 }
 
 .tab-content {
     display: none;
     padding: 40px;
+    background: #2d3748;
+    color: white;
 }
 
 .tab-content.active {
@@ -642,7 +650,7 @@ get_header(); ?>
 }
 
 .chat-simulation {
-    background: #f8fafc;
+    background: #1a202c;
     padding: 20px;
     border-radius: 8px;
     max-height: 300px;
