@@ -435,29 +435,22 @@ get_header(); ?>
 </div>
 
 <style>
-/* Import fonts to match main site */
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
-
-/* Design system to match realsolutions.ai */
+/* Dark theme styling to match website design */
 .customer-service-page {
-    background: #0F172A;
-    font-family: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
-    color: #fff;
-    line-height: 1.8;
-    font-size: 17px;
+    background: #f8fafc;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
 }
 
 .customer-service-page .service-hero {
-    background: #0F172A;
+    background: linear-gradient(135deg, #0F172A 0%, #070614 100%);
     color: white;
     padding: 100px 0;
 }
 
 .customer-service-page h1, .customer-service-page h2, .customer-service-page h3, .customer-service-page h4 {
-    font-family: "Lexend", -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
     font-weight: 600;
-    letter-spacing: -1px;
-    color: #fff;
+    letter-spacing: -0.5px;
 }
 
 .hero-stats {
@@ -484,33 +477,33 @@ get_header(); ?>
 
 .problem-solution {
     padding: 80px 0;
-    background: #1E293B;
+    background: white;
 }
 
 .service-capabilities {
     padding: 80px 0;
-    background: #0F172A;
+    background: #f8fafc;
 }
 
 .integration-section {
     padding: 80px 0;
-    background: #1E293B;
+    background: white;
 }
 
 .roi-metrics {
     padding: 80px 0;
-    background: #0F172A;
+    background: #f8fafc;
 }
 
 .compliance-security {
     padding: 80px 0;
-    background: #1E293B;
+    background: white;
     text-align: center;
 }
 
 .pricing-section {
     padding: 80px 0;
-    background: #0F172A;
+    background: #070614;
     color: white;
     text-align: center;
 }
@@ -523,7 +516,7 @@ get_header(); ?>
 
 .consultation-cta {
     padding: 100px 0;
-    background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%);
+    background: linear-gradient(135deg, #1e293b 0%, #070614 100%);
     color: white;
 }
 
@@ -547,10 +540,10 @@ get_header(); ?>
 .challenge-item {
     text-align: center;
     padding: 30px 20px;
-    background: rgba(255,255,255,0.05);
-    border-radius: 8px;
-    border: 1px solid rgba(255,255,255,0.1);
-    backdrop-filter: blur(10px);
+    background: white;
+    border-radius: 12px;
+    border-left: 4px solid #ef4444;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 .challenge-icon {
@@ -568,10 +561,10 @@ get_header(); ?>
 
 .solution-item {
     padding: 30px;
-    background: rgba(255,255,255,0.05);
-    border-radius: 8px;
-    border: 1px solid rgba(0, 133, 255, 0.3);
-    backdrop-filter: blur(10px);
+    background: white;
+    border-radius: 12px;
+    border-left: 4px solid #0085FF;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 .solution-icon {
@@ -581,16 +574,15 @@ get_header(); ?>
 }
 
 .capabilities-tabs {
-    background: rgba(255,255,255,0.03);
-    border-radius: 8px;
-    border: 1px solid rgba(255,255,255,0.1);
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
     overflow: hidden;
-    backdrop-filter: blur(10px);
 }
 
 .tab-navigation {
     display: flex;
-    background: rgba(255,255,255,0.05);
+    background: #f8fafc;
     flex-wrap: wrap;
 }
 
@@ -607,12 +599,12 @@ get_header(); ?>
 }
 
 .tab-btn.active {
-    background: #0085FF;
+    background: #0F172A;
     color: white;
 }
 
 .tab-btn:hover {
-    background: rgba(0, 133, 255, 0.2);
+    background: rgba(30, 41, 59, 0.1);
 }
 
 .tab-content {
@@ -650,12 +642,11 @@ get_header(); ?>
 }
 
 .chat-simulation {
-    background: rgba(255,255,255,0.05);
+    background: #f8fafc;
     padding: 20px;
     border-radius: 8px;
     max-height: 300px;
     overflow-y: auto;
-    border: 1px solid rgba(255,255,255,0.1);
 }
 
 .message {
@@ -666,13 +657,13 @@ get_header(); ?>
 }
 
 .message.patient {
-    background: rgba(0, 133, 255, 0.2);
+    background: #e3f2fd;
     margin-left: auto;
     text-align: right;
 }
 
 .message.ai {
-    background: rgba(255,255,255,0.1);
+    background: #e8f5e8;
     margin-right: auto;
 }
 
@@ -684,7 +675,7 @@ get_header(); ?>
 }
 
 .integration-category h3 {
-    color: #fff;
+    color: #1e293b;
     margin-bottom: 20px;
     padding-bottom: 10px;
     border-bottom: 2px solid #0085FF;
@@ -697,12 +688,12 @@ get_header(); ?>
 }
 
 .integration-item {
-    background: rgba(255,255,255,0.1);
+    background: white;
     padding: 10px 15px;
-    border-radius: 6px;
-    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     font-size: 0.9rem;
-    color: #fff;
+    color: #2d3748;
 }
 
 .metrics-grid {
@@ -712,12 +703,11 @@ get_header(); ?>
 }
 
 .metric-card {
-    background: rgba(255,255,255,0.05);
+    background: white;
     padding: 40px 30px;
-    border-radius: 8px;
-    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
     text-align: center;
-    backdrop-filter: blur(10px);
 }
 
 .metric-icon {
@@ -736,13 +726,13 @@ get_header(); ?>
 .metric-label {
     font-size: 1.2rem;
     font-weight: 600;
-    color: #fff;
+    color: #2d3748;
     margin-bottom: 10px;
 }
 
 .metric-detail {
     font-size: 0.9rem;
-    color: rgba(255,255,255,0.7);
+    color: #718096;
 }
 
 .compliance-grid {
@@ -754,12 +744,11 @@ get_header(); ?>
 }
 
 .compliance-item {
-    background: rgba(255,255,255,0.05);
+    background: white;
     padding: 30px;
-    border-radius: 8px;
-    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
     text-align: center;
-    backdrop-filter: blur(10px);
 }
 
 .compliance-badge {
@@ -846,9 +835,8 @@ input:checked + .slider:before {
     text-align: center;
     margin-top: 40px;
     padding: 30px;
-    background: rgba(0, 133, 255, 0.1);
-    border-radius: 8px;
-    border: 1px solid rgba(0, 133, 255, 0.2);
+    background: rgba(16, 185, 129, 0.1);
+    border-radius: 12px;
 }
 
 .cta-benefits {
@@ -899,89 +887,6 @@ input:checked + .slider:before {
     color: #718096;
 }
 
-/* Additional styling for better visual consistency */
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-.pricing-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-    margin-top: 40px;
-}
-
-.pricing-card {
-    background: rgba(255,255,255,0.05);
-    padding: 40px 30px;
-    border-radius: 8px;
-    border: 1px solid rgba(255,255,255,0.1);
-    text-align: center;
-    position: relative;
-    backdrop-filter: blur(10px);
-}
-
-.pricing-card.featured {
-    border-color: #0085FF;
-    transform: scale(1.05);
-}
-
-.featured-badge {
-    position: absolute;
-    top: -15px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: #0085FF;
-    color: white;
-    padding: 8px 20px;
-    border-radius: 20px;
-    font-size: 0.8rem;
-    font-weight: 600;
-}
-
-.pricing-card h3 {
-    margin-bottom: 20px;
-}
-
-.price {
-    margin-bottom: 30px;
-}
-
-.price span:first-child {
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: #0085FF;
-}
-
-.price span:first-child span {
-    font-size: 1rem;
-    color: rgba(255,255,255,0.7);
-}
-
-.features {
-    list-style: none;
-    padding: 0;
-    margin-bottom: 30px;
-    text-align: left;
-}
-
-.features li {
-    padding: 10px 0;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
-    position: relative;
-    padding-left: 25px;
-}
-
-.features li:before {
-    content: "✓";
-    position: absolute;
-    left: 0;
-    color: #0085FF;
-    font-weight: bold;
-}
-
 @media (max-width: 768px) {
     .consultation-form .form-row {
         flex-direction: column;
@@ -1029,10 +934,10 @@ input:checked + .slider:before {
     }
 }
 
-/* Button Styling - Match main site */
+/* Button Styling */
 .btn {
     padding: 16px 32px;
-    border-radius: 0;
+    border-radius: 2px;
     text-decoration: none;
     font-weight: 600;
     text-transform: uppercase;
@@ -1041,7 +946,6 @@ input:checked + .slider:before {
     border: 2px solid;
     transition: all 0.3s ease;
     display: inline-block;
-    font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .btn-primary {
@@ -1051,9 +955,9 @@ input:checked + .slider:before {
 }
 
 .btn-primary:hover {
-    background: #0177E3;
-    color: white;
-    border-color: #0177E3;
+    background: transparent;
+    color: #0085FF;
+    border-color: #0085FF;
 }
 
 .btn-secondary, .btn-outline {
@@ -1066,11 +970,6 @@ input:checked + .slider:before {
     background: #0085FF;
     color: white;
     border-color: #0085FF;
-}
-
-.btn-large {
-    padding: 20px 40px;
-    font-size: 1rem;
 }
 
 </style>
