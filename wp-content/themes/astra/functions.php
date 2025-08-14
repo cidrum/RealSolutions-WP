@@ -204,3 +204,91 @@ require_once ASTRA_THEME_DIR . 'inc/core/markup/class-astra-markup.php';
 require_once ASTRA_THEME_DIR . 'inc/core/deprecated/deprecated-filters.php';
 require_once ASTRA_THEME_DIR . 'inc/core/deprecated/deprecated-hooks.php';
 require_once ASTRA_THEME_DIR . 'inc/core/deprecated/deprecated-functions.php';
+
+/**
+ * Custom navigation dropdown styling
+ */
+function realsolutions_custom_navigation_styles() {
+    ?>
+    <style>
+    /* Fix navigation dropdown spacing and formatting */
+    .main-header-menu .sub-menu,
+    .ast-header-menu .sub-menu {
+        min-width: 220px;
+        padding: 10px 0;
+        background: #ffffff;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+        border-radius: 8px;
+        border: 1px solid #e2e8f0;
+    }
+
+    .main-header-menu .sub-menu li,
+    .ast-header-menu .sub-menu li {
+        padding: 0;
+        margin: 0;
+        border: none;
+    }
+
+    .main-header-menu .sub-menu li a,
+    .ast-header-menu .sub-menu li a {
+        padding: 12px 20px;
+        line-height: 1.4;
+        color: #2d3748;
+        font-weight: 500;
+        font-size: 14px;
+        text-decoration: none;
+        display: block;
+        transition: all 0.3s ease;
+        border-bottom: 1px solid #f7fafc;
+    }
+
+    .main-header-menu .sub-menu li:last-child a,
+    .ast-header-menu .sub-menu li:last-child a {
+        border-bottom: none;
+    }
+
+    .main-header-menu .sub-menu li a:hover,
+    .ast-header-menu .sub-menu li a:hover {
+        background: #f8fafc;
+        color: #0085FF;
+        padding-left: 25px;
+    }
+
+    /* Ensure dropdown appears properly on hover */
+    .main-header-menu .menu-item-has-children:hover .sub-menu,
+    .ast-header-menu .menu-item-has-children:hover .sub-menu {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+
+    /* Arrow indicator for dropdown */
+    .main-header-menu .menu-item-has-children > a::after,
+    .ast-header-menu .menu-item-has-children > a::after {
+        content: '▼';
+        font-size: 10px;
+        margin-left: 8px;
+        transition: transform 0.3s ease;
+    }
+
+    .main-header-menu .menu-item-has-children:hover > a::after,
+    .ast-header-menu .menu-item-has-children:hover > a::after {
+        transform: rotate(180deg);
+    }
+
+    /* Mobile menu improvements */
+    @media (max-width: 768px) {
+        .main-header-menu .sub-menu,
+        .ast-header-menu .sub-menu {
+            position: static;
+            box-shadow: none;
+            background: #f8fafc;
+            margin-left: 20px;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+    }
+    </style>
+    <?php
+}
+add_action('wp_head', 'realsolutions_custom_navigation_styles');
