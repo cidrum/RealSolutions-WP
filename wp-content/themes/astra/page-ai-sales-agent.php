@@ -420,7 +420,7 @@ get_header(); ?>
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 60px;
-    color: #2d3748;
+    color: white;
 }
 
 .benefits-grid {
@@ -496,7 +496,7 @@ get_header(); ?>
 .features-text h2 {
     font-size: 2.5rem;
     margin-bottom: 40px;
-    color: #2d3748;
+    color: white;
 }
 
 .feature-item {
@@ -660,6 +660,19 @@ get_header(); ?>
     padding: 40px;
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    color: #2d3748;
+}
+
+.case-study h4 {
+    color: #1a202c;
+}
+
+.case-study p {
+    color: #4a5568;
+}
+
+.case-study cite {
+    color: #4a5568;
 }
 
 .case-study-header {

@@ -532,6 +532,10 @@ get_header(); ?>
     letter-spacing: -0.5px;
 }
 
+.financial-assistant-page h2 {
+    text-align: center;
+}
+
 .financial-assistant-page .service-hero {
     background: linear-gradient(135deg, #0F172A 0%, #070614 100%);
 }
@@ -708,6 +712,19 @@ get_header(); ?>
     box-shadow: 0 4px 20px rgba(0,0,0,0.1);
     overflow: hidden;
     transition: transform 0.3s ease;
+    color: #2d3748;
+}
+
+.module-card h3 {
+    color: #1a202c;
+}
+
+.module-card h4 {
+    color: #1a202c;
+}
+
+.module-card p {
+    color: #4a5568;
 }
 
 .module-card:hover {
@@ -857,6 +874,19 @@ get_header(); ?>
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0,0,0,0.1);
     margin-top: 40px;
+    color: #2d3748;
+}
+
+.roi-calculator h3 {
+    color: #1a202c;
+}
+
+.roi-calculator h4 {
+    color: #1a202c;
+}
+
+.roi-calculator p {
+    color: #4a5568;
 }
 
 .calculator-inputs {

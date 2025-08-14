@@ -545,6 +545,10 @@ get_header(); ?>
     letter-spacing: -0.5px;
 }
 
+.inventory-supply-chain-page h2 {
+    text-align: center;
+}
+
 .inventory-supply-chain-page .service-hero {
     background: linear-gradient(135deg, #0F172A 0%, #070614 100%);
     color: white;

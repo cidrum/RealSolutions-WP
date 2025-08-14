@@ -465,6 +465,10 @@ get_header(); ?>
     letter-spacing: -0.5px;
 }
 
+.research-assistant-page h2 {
+    text-align: center;
+}
+
 .research-assistant-page .service-hero {
     background: linear-gradient(135deg, #0F172A 0%, #070614 100%);
 }
@@ -556,9 +560,20 @@ get_header(); ?>
 .challenge-item {
     text-align: center;
     padding: 30px 20px;
-    background: #fff5f5;
+    background: white;
     border-radius: 12px;
     border-left: 4px solid #dc2626;
+    color: #2d3748;
+}
+
+.challenge-item h4 {
+    color: #1a202c;
+    margin-bottom: 15px;
+}
+
+.challenge-item p {
+    color: #4a5568;
+    line-height: 1.6;
 }
 
 .challenge-icon {
@@ -976,7 +991,7 @@ get_header(); ?>
 
 .compliance-security h2 {
     text-align: center;
-    color: #0F172A;
+    color: white;
     margin-bottom: 40px;
 }
 
