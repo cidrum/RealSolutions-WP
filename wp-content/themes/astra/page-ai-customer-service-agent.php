@@ -93,8 +93,6 @@ get_header(); ?>
                 <div class="tab-navigation">
                     <button class="tab-btn active" data-tab="appointment">Appointment Management</button>
                     <button class="tab-btn" data-tab="billing">Billing & Insurance</button>
-                    <button class="tab-btn" data-tab="clinical">Clinical Support</button>
-                    <button class="tab-btn" data-tab="emergency">Emergency Protocols</button>
                 </div>
                 
                 <div class="tab-content active" id="appointment">
@@ -157,67 +155,6 @@ get_header(); ?>
                     </div>
                 </div>
                 
-                <div class="tab-content" id="clinical">
-                    <div class="capability-detail">
-                        <div class="capability-text">
-                            <h3>Clinical Support Services</h3>
-                            <ul class="capability-list">
-                                <li><strong>Prescription Refills:</strong> Automated refill requests with pharmacy coordination</li>
-                                <li><strong>Test Results:</strong> Secure delivery of lab results with basic interpretation</li>
-                                <li><strong>Symptom Assessment:</strong> Initial triage with appropriate urgency routing</li>
-                                <li><strong>Care Plan Updates:</strong> Medication adherence reminders and lifestyle guidance</li>
-                                <li><strong>Specialist Referrals:</strong> Coordinate referrals and transfer medical records</li>
-                            </ul>
-                        </div>
-                        <div class="capability-visual">
-                            <div class="clinical-protocols">
-                                <h4>Clinical Decision Tree</h4>
-                                <div class="protocol-flow">
-                                    <div class="protocol-step">Patient Inquiry</div>
-                                    <div class="protocol-arrow">↓</div>
-                                    <div class="protocol-step">Symptom Assessment</div>
-                                    <div class="protocol-arrow">↓</div>
-                                    <div class="protocol-decision">
-                                        <span class="urgent">Urgent → Nurse</span>
-                                        <span class="routine">Routine → AI Response</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="tab-content" id="emergency">
-                    <div class="capability-detail">
-                        <div class="capability-text">
-                            <h3>Emergency Protocol Management</h3>
-                            <ul class="capability-list">
-                                <li><strong>Crisis Recognition:</strong> Immediate identification of emergency keywords and situations</li>
-                                <li><strong>911 Dispatch:</strong> Automatic emergency services contact with location data</li>
-                                <li><strong>On-Call Routing:</strong> Instant connection to on-call physicians or nurses</li>
-                                <li><strong>Emergency Contacts:</strong> Notification of family members and emergency contacts</li>
-                                <li><strong>Documentation:</strong> Complete logging of emergency interactions for legal compliance</li>
-                            </ul>
-                        </div>
-                        <div class="capability-visual">
-                            <div class="emergency-protocol">
-                                <h4>Emergency Response Time</h4>
-                                <div class="response-time">
-                                    <div class="time-metric">
-                                        <span class="time-value">< 5</span>
-                                        <span class="time-unit">seconds</span>
-                                        <span class="time-label">Crisis Detection</span>
-                                    </div>
-                                    <div class="time-metric">
-                                        <span class="time-value">< 15</span>
-                                        <span class="time-unit">seconds</span>
-                                        <span class="time-label">Emergency Routing</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
@@ -260,37 +197,6 @@ get_header(); ?>
         </div>
     </div>
 
-    <div class="roi-metrics">
-        <div class="container">
-            <h2>Proven Results for Healthcare Organizations</h2>
-            <div class="metrics-grid">
-                <div class="metric-card">
-                    <div class="metric-icon">⚡</div>
-                    <div class="metric-value">89%</div>
-                    <div class="metric-label">Reduction in Response Time</div>
-                    <div class="metric-detail">Average response time decreased from 4.2 hours to 28 seconds</div>
-                </div>
-                <div class="metric-card">
-                    <div class="metric-icon">😊</div>
-                    <div class="metric-value">94%</div>
-                    <div class="metric-label">Patient Satisfaction Score</div>
-                    <div class="metric-detail">Consistent high ratings for AI-assisted customer service</div>
-                </div>
-                <div class="metric-card">
-                    <div class="metric-icon">💰</div>
-                    <div class="metric-value">67%</div>
-                    <div class="metric-label">Cost Reduction</div>
-                    <div class="metric-detail">Significant savings on customer service staffing costs</div>
-                </div>
-                <div class="metric-card">
-                    <div class="metric-icon">📈</div>
-                    <div class="metric-value">156%</div>
-                    <div class="metric-label">Call Resolution Increase</div>
-                    <div class="metric-detail">More issues resolved on first contact without escalation</div>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <div class="compliance-security">
         <div class="container">
@@ -339,55 +245,101 @@ get_header(); ?>
                 </label>
                 <span class="toggle-label">Annual <span class="discount-badge">Save 25%</span></span>
             </div>
-            <div class="pricing-grid">
-                <div class="pricing-card basic">
-                    <h3>Basic Support</h3>
-                    <div class="price">
-                        <span class="monthly-price">$197<span>/month</span></span>
-                        <span class="annual-price">$148<span>/month</span></span>
-                    </div>
-                    <ul class="features">
-                        <li>Up to 1,000 interactions/month</li>
-                        <li>Basic appointment scheduling</li>
-                        <li>Email and chat support</li>
-                        <li>Standard integrations</li>
-                        <li>Basic reporting</li>
-                    </ul>
-                    <a href="#consultation" class="btn btn-outline">Start Free Trial</a>
-                </div>
-                <div class="pricing-card professional featured">
-                    <div class="featured-badge">Most Popular</div>
-                    <h3>Professional Support</h3>
-                    <div class="price">
-                        <span class="monthly-price">$497<span>/month</span></span>
-                        <span class="annual-price">$373<span>/month</span></span>
-                    </div>
-                    <ul class="features">
-                        <li>Up to 5,000 interactions/month</li>
-                        <li>Advanced scheduling & billing</li>
-                        <li>Multi-channel support</li>
-                        <li>Premium integrations</li>
-                        <li>Advanced analytics</li>
-                        <li>Priority support</li>
-                    </ul>
-                    <a href="#consultation" class="btn btn-primary">Start Free Trial</a>
-                </div>
-                <div class="pricing-card enterprise">
-                    <h3>Enterprise Support</h3>
-                    <div class="price">
-                        <span class="monthly-price">$997<span>/month</span></span>
-                        <span class="annual-price">$748<span>/month</span></span>
-                    </div>
-                    <ul class="features">
-                        <li>Unlimited interactions</li>
-                        <li>Custom workflows</li>
-                        <li>White-label options</li>
-                        <li>Custom integrations</li>
-                        <li>Dedicated success manager</li>
-                        <li>24/7 phone support</li>
-                    </ul>
-                    <a href="#consultation" class="btn btn-outline">Contact Sales</a>
-                </div>
+            <div class="pricing-table-container">
+                <table class="pricing-comparison-table">
+                    <thead>
+                        <tr>
+                            <th class="feature-column">Features</th>
+                            <th class="plan-column basic-plan">
+                                <div class="plan-header">
+                                    <h3>Basic Support</h3>
+                                    <div class="price">
+                                        <span class="monthly-price">$197<span>/month</span></span>
+                                        <span class="annual-price">$148<span>/month</span></span>
+                                    </div>
+                                    <a href="#consultation" class="btn btn-outline btn-small">Start Free Trial</a>
+                                </div>
+                            </th>
+                            <th class="plan-column professional-plan featured">
+                                <div class="plan-header">
+                                    <div class="featured-badge">Most Popular</div>
+                                    <h3>Professional Support</h3>
+                                    <div class="price">
+                                        <span class="monthly-price">$497<span>/month</span></span>
+                                        <span class="annual-price">$373<span>/month</span></span>
+                                    </div>
+                                    <a href="#consultation" class="btn btn-primary btn-small">Start Free Trial</a>
+                                </div>
+                            </th>
+                            <th class="plan-column enterprise-plan">
+                                <div class="plan-header">
+                                    <h3>Enterprise Support</h3>
+                                    <div class="price">
+                                        <span class="monthly-price">$997<span>/month</span></span>
+                                        <span class="annual-price">$748<span>/month</span></span>
+                                    </div>
+                                    <a href="#consultation" class="btn btn-outline btn-small">Contact Sales</a>
+                                </div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="feature-name">Monthly Interactions</td>
+                            <td class="feature-value">Up to 1,000</td>
+                            <td class="feature-value">Up to 5,000</td>
+                            <td class="feature-value">Unlimited</td>
+                        </tr>
+                        <tr>
+                            <td class="feature-name">Appointment Scheduling</td>
+                            <td class="feature-value">Basic</td>
+                            <td class="feature-value">Advanced</td>
+                            <td class="feature-value">Custom workflows</td>
+                        </tr>
+                        <tr>
+                            <td class="feature-name">Support Channels</td>
+                            <td class="feature-value">Email & chat</td>
+                            <td class="feature-value">Multi-channel</td>
+                            <td class="feature-value">All channels + phone</td>
+                        </tr>
+                        <tr>
+                            <td class="feature-name">Integrations</td>
+                            <td class="feature-value">Standard</td>
+                            <td class="feature-value">Premium</td>
+                            <td class="feature-value">Custom</td>
+                        </tr>
+                        <tr>
+                            <td class="feature-name">Analytics & Reporting</td>
+                            <td class="feature-value">Basic</td>
+                            <td class="feature-value">Advanced</td>
+                            <td class="feature-value">Enterprise-grade</td>
+                        </tr>
+                        <tr>
+                            <td class="feature-name">Billing Support</td>
+                            <td class="feature-value">—</td>
+                            <td class="feature-value">✓</td>
+                            <td class="feature-value">✓</td>
+                        </tr>
+                        <tr>
+                            <td class="feature-name">White-label Options</td>
+                            <td class="feature-value">—</td>
+                            <td class="feature-value">—</td>
+                            <td class="feature-value">✓</td>
+                        </tr>
+                        <tr>
+                            <td class="feature-name">Success Manager</td>
+                            <td class="feature-value">—</td>
+                            <td class="feature-value">Priority support</td>
+                            <td class="feature-value">Dedicated</td>
+                        </tr>
+                        <tr>
+                            <td class="feature-name">24/7 Phone Support</td>
+                            <td class="feature-value">—</td>
+                            <td class="feature-value">—</td>
+                            <td class="feature-value">✓</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
             <div class="pricing-guarantee">
                 <p><strong>30-Day Money-Back Guarantee</strong> - If you're not completely satisfied with the improvement in your patient satisfaction scores, we'll refund your first month.</p>
@@ -477,7 +429,7 @@ get_header(); ?>
 
 .problem-solution {
     padding: 80px 0;
-    background: #1e293b;
+    background: #070614;
     color: white;
 }
 
@@ -489,19 +441,13 @@ get_header(); ?>
 
 .integration-section {
     padding: 80px 0;
-    background: #1e293b;
-    color: white;
-}
-
-.roi-metrics {
-    padding: 80px 0;
     background: #070614;
     color: white;
 }
 
 .compliance-security {
     padding: 80px 0;
-    background: #1e293b;
+    background: #070614;
     color: white;
     text-align: center;
 }
@@ -549,6 +495,17 @@ get_header(); ?>
     border-radius: 12px;
     border-left: 4px solid #ef4444;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    color: #2d3748;
+}
+
+.challenge-item h4 {
+    color: #1a202c;
+    margin-bottom: 15px;
+}
+
+.challenge-item p {
+    color: #4a5568;
+    line-height: 1.6;
 }
 
 .challenge-icon {
@@ -570,6 +527,17 @@ get_header(); ?>
     border-radius: 12px;
     border-left: 4px solid #0085FF;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    color: #2d3748;
+}
+
+.solution-item h4 {
+    color: #1a202c;
+    margin-bottom: 15px;
+}
+
+.solution-item p {
+    color: #4a5568;
+    line-height: 1.6;
 }
 
 .solution-icon {
@@ -683,7 +651,7 @@ get_header(); ?>
 }
 
 .integration-category h3 {
-    color: #1e293b;
+    color: white;
     margin-bottom: 20px;
     padding-bottom: 10px;
     border-bottom: 2px solid #0085FF;
@@ -837,6 +805,105 @@ input:checked + .slider:before {
 
 .annual-price {
     display: none;
+}
+
+/* Pricing Table Styles */
+.pricing-table-container {
+    overflow-x: auto;
+    margin-top: 40px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    border-radius: 12px;
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+}
+
+.pricing-comparison-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background: transparent;
+    color: white;
+}
+
+.pricing-comparison-table th,
+.pricing-comparison-table td {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.feature-column {
+    text-align: left;
+    font-weight: 600;
+    background: rgba(255,255,255,0.05);
+    color: #0085FF;
+    width: 25%;
+}
+
+.plan-column {
+    width: 25%;
+    position: relative;
+    background: rgba(255,255,255,0.02);
+}
+
+.plan-column.featured {
+    background: rgba(0, 133, 255, 0.1);
+    border: 2px solid #0085FF;
+}
+
+.plan-header {
+    padding: 20px;
+}
+
+.plan-header h3 {
+    color: white;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.plan-header .price {
+    margin: 15px 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #0085FF;
+}
+
+.feature-name {
+    background: rgba(255,255,255,0.05);
+    font-weight: 500;
+    color: #cbd5e1;
+    text-align: left;
+}
+
+.feature-value {
+    color: white;
+    font-weight: 500;
+}
+
+.featured-badge {
+    background: #0085FF;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.btn-small {
+    padding: 10px 20px;
+    font-size: 0.8rem;
+}
+
+@media (max-width: 768px) {
+    .pricing-table-container {
+        overflow-x: scroll;
+    }
+    
+    .pricing-comparison-table {
+        min-width: 800px;
+    }
 }
 
 .pricing-guarantee {
