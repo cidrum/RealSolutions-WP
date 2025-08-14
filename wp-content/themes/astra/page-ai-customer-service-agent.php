@@ -453,8 +453,8 @@ get_header(); ?>
 }
 
 .pricing-section {
-    padding: 80px 0;
-    background: #070614;
+    padding: 80px 0 40px 0;
+    background: linear-gradient(180deg, #070614 0%, #1e293b 100%);
     color: white;
     text-align: center;
 }
@@ -466,8 +466,8 @@ get_header(); ?>
 }
 
 .consultation-cta {
-    padding: 100px 0;
-    background: linear-gradient(135deg, #1e293b 0%, #070614 100%);
+    padding: 60px 0 100px 0;
+    background: linear-gradient(180deg, #1e293b 0%, #070614 100%);
     color: white;
 }
 
@@ -636,11 +636,13 @@ get_header(); ?>
     background: #e3f2fd;
     margin-left: auto;
     text-align: right;
+    color: #1a202c;
 }
 
 .message.ai {
     background: #e8f5e8;
     margin-right: auto;
+    color: #1a202c;
 }
 
 .integration-grid {
@@ -725,6 +727,13 @@ get_header(); ?>
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0,0,0,0.1);
     text-align: center;
+    color: #2d3748;
+}
+
+.compliance-item p {
+    color: #4a5568;
+    line-height: 1.6;
+    font-size: 0.95rem;
 }
 
 .compliance-badge {
