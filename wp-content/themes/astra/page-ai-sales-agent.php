@@ -105,21 +105,53 @@ get_header(); ?>
             <div class="industry-tabs">
                 <div class="tab-content active" id="practitioners">
                     <h3>Healthcare Practitioners</h3>
-                    <ul class="industry-benefits">
-                        <li><strong>Patient Acquisition:</strong> Automated lead nurturing for new patient inquiries with appointment scheduling</li>
-                        <li><strong>Referral Management:</strong> Streamlined communication with referring physicians and specialists</li>
-                        <li><strong>Insurance Verification:</strong> Automated insurance eligibility checks and pre-authorization workflows</li>
-                        <li><strong>Follow-up Automation:</strong> Post-treatment follow-up and care plan adherence monitoring</li>
-                    </ul>
+                    <div class="healthcare-benefits-grid">
+                        <div class="benefit-card">
+                            <div class="benefit-icon">🎯</div>
+                            <h4>Patient Acquisition</h4>
+                            <p>Automated lead nurturing for new patient inquiries with appointment scheduling</p>
+                        </div>
+                        <div class="benefit-card">
+                            <div class="benefit-icon">🤝</div>
+                            <h4>Referral Management</h4>
+                            <p>Streamlined communication with referring physicians and specialists</p>
+                        </div>
+                        <div class="benefit-card">
+                            <div class="benefit-icon">🔍</div>
+                            <h4>Insurance Verification</h4>
+                            <p>Automated insurance eligibility checks and pre-authorization workflows</p>
+                        </div>
+                        <div class="benefit-card">
+                            <div class="benefit-icon">📋</div>
+                            <h4>Follow-up Automation</h4>
+                            <p>Post-treatment follow-up and care plan adherence monitoring</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="tab-content" id="medical-devices">
                     <h3>Medical Device Companies</h3>
-                    <ul class="industry-benefits">
-                        <li><strong>Regulatory Compliance:</strong> Ensure all communications meet FDA and healthcare regulations</li>
-                        <li><strong>Technical Sales Support:</strong> AI trained on device specifications, clinical studies, and ROI data</li>
-                        <li><strong>Hospital System Outreach:</strong> Navigate complex healthcare procurement processes</li>
-                        <li><strong>Clinical Evidence Presentation:</strong> Automated generation of evidence-based sales materials</li>
-                    </ul>
+                    <div class="healthcare-benefits-grid">
+                        <div class="benefit-card">
+                            <div class="benefit-icon">⚖️</div>
+                            <h4>Regulatory Compliance</h4>
+                            <p>Ensure all communications meet FDA and healthcare regulations</p>
+                        </div>
+                        <div class="benefit-card">
+                            <div class="benefit-icon">🔧</div>
+                            <h4>Technical Sales Support</h4>
+                            <p>AI trained on device specifications, clinical studies, and ROI data</p>
+                        </div>
+                        <div class="benefit-card">
+                            <div class="benefit-icon">🏥</div>
+                            <h4>Hospital System Outreach</h4>
+                            <p>Navigate complex healthcare procurement processes</p>
+                        </div>
+                        <div class="benefit-card">
+                            <div class="benefit-icon">📊</div>
+                            <h4>Clinical Evidence Presentation</h4>
+                            <p>Automated generation of evidence-based sales materials</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -258,31 +290,32 @@ get_header(); ?>
                 <h2>Ready to Transform Your Healthcare Sales?</h2>
                 <p>Schedule a free 30-minute consultation to see how our AI sales agents can increase your revenue while reducing your workload.</p>
                 <div class="cta-form">
-                    <form class="consultation-form">
+                    <form class="consultation-form" action="mailto:sales@realsolutions-ai.com" method="post" enctype="text/plain">
                         <div class="form-row">
-                            <input type="text" placeholder="Your Name" required>
-                            <input type="email" placeholder="Business Email" required>
+                            <input type="text" name="name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Business Email" required>
                         </div>
                         <div class="form-row">
-                            <input type="tel" placeholder="Phone Number" required>
-                            <select required>
-                                <option>Select Your Industry</option>
-                                <option>Healthcare Practitioner</option>
-                                <option>Medical Device Company</option>
-                                <option>Healthcare Technology</option>
-                                <option>Other Healthcare</option>
+                            <input type="tel" name="phone" placeholder="Phone Number" required>
+                            <select name="industry" required>
+                                <option value="">Select Your Industry</option>
+                                <option value="healthcare-practitioner">Healthcare Practitioner</option>
+                                <option value="medical-device">Medical Device Company</option>
+                                <option value="healthcare-technology">Healthcare Technology</option>
+                                <option value="other">Other Healthcare</option>
                             </select>
                         </div>
                         <div class="form-row">
-                            <select required>
-                                <option>Current Monthly Lead Volume</option>
-                                <option>Less than 100</option>
-                                <option>100-500</option>
-                                <option>500-1000</option>
-                                <option>1000+</option>
+                            <select name="lead-volume" required>
+                                <option value="">Current Monthly Lead Volume</option>
+                                <option value="less-than-100">Less than 100</option>
+                                <option value="100-500">100-500</option>
+                                <option value="500-1000">500-1000</option>
+                                <option value="1000-plus">1000+</option>
                             </select>
                         </div>
                         <button type="submit" class="btn btn-primary btn-large">Schedule Free Consultation</button>
+                        <p class="form-disclaimer">No commitment required. Form submissions will be sent to sales@realsolutions-ai.com for a custom ROI analysis within 24 hours.</p>
                     </form>
                 </div>
             </div>
@@ -379,7 +412,8 @@ get_header(); ?>
 
 .service-benefits {
     padding: 80px 0;
-    background: white;
+    background: #070614;
+    color: white;
 }
 
 .service-benefits h2 {
@@ -424,7 +458,8 @@ get_header(); ?>
 
 .service-features {
     padding: 80px 0;
-    background: #f8fafc;
+    background: #070614;
+    color: white;
 }
 
 .industry-focus {
@@ -434,7 +469,15 @@ get_header(); ?>
 
 .implementation-process {
     padding: 80px 0;
-    background: #f8fafc;
+    background: #070614;
+    color: white;
+}
+
+.implementation-process h2 {
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
 }
 
 .features-content {
@@ -500,8 +543,8 @@ get_header(); ?>
 }
 
 .pricing-section {
-    padding: 80px 0;
-    background: #0F172A;
+    padding: 80px 0 40px 0;
+    background: linear-gradient(180deg, #070614 0%, #1e293b 100%);
     color: white;
     text-align: center;
 }
@@ -591,7 +634,8 @@ get_header(); ?>
 
 .case-studies {
     padding: 80px 0;
-    background: white;
+    background: #070614;
+    color: white;
     text-align: center;
 }
 
@@ -599,7 +643,7 @@ get_header(); ?>
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 60px;
-    color: #2d3748;
+    color: white;
 }
 
 .case-study-grid {
@@ -714,11 +758,179 @@ get_header(); ?>
     color: #718096;
 }
 
+.form-disclaimer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #cbd5e1;
+    margin-top: 15px;
+    opacity: 0.8;
+}
+
 
 .btn-large {
     padding: 20px 40px;
     font-size: 1.1rem;
     width: 100%;
+}
+
+/* Fix benefit card text readability */
+.benefit-item {
+    background: white;
+    color: #2d3748;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.benefit-item h3 {
+    color: #1a202c;
+    margin-bottom: 15px;
+}
+
+.benefit-item p {
+    color: #4a5568;
+    line-height: 1.6;
+}
+
+/* Fix pricing card text */
+.pricing-card {
+    color: #2d3748;
+}
+
+.pricing-card h3 {
+    color: #1a202c;
+}
+
+.pricing-card .features {
+    color: #4a5568;
+}
+
+/* Fix feature items */
+.feature-item {
+    color: white;
+}
+
+.feature-item h4 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.feature-item p {
+    color: #cbd5e1;
+    line-height: 1.6;
+}
+
+/* Fix dashboard preview */
+.dashboard-preview {
+    background: #1a202c;
+    color: white;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+/* Healthcare Benefits Grid Styling */
+.healthcare-benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.benefit-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+    color: #2d3748;
+}
+
+.benefit-card:hover {
+    transform: translateY(-5px);
+}
+
+.benefit-icon {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.benefit-card h4 {
+    color: #1a202c;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+.benefit-card p {
+    color: #4a5568;
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+/* Implementation Process Styling */
+.process-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 800px;
+    margin: 40px auto 0;
+    position: relative;
+}
+
+.process-timeline::before {
+    content: '';
+    position: absolute;
+    left: 30px;
+    top: 0;
+    height: 100%;
+    width: 2px;
+    background: #0085FF;
+    z-index: 1;
+}
+
+.process-step {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    position: relative;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 30px;
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+}
+
+.step-number {
+    width: 60px;
+    height: 60px;
+    background: #0085FF;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 2;
+}
+
+.process-step h4 {
+    color: white;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+}
+
+.process-step p {
+    color: #cbd5e1;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.step-duration {
+    color: #0085FF;
+    font-weight: 600;
+    font-size: 0.9rem;
 }
 
 /* Button Styling */

@@ -575,38 +575,44 @@ get_header(); ?>
 
 .supply-chain-challenges {
     padding: 80px 0;
-    background: #f8fafc;
+    background: #070614;
+    color: white;
 }
 
 .supply-chain-challenges h2 {
     text-align: center;
-    color: #0F172A;
+    color: white;
     margin-bottom: 40px;
 }
 
 .ai-solution {
     padding: 80px 0;
-    background: white;
+    background: #070614;
+    color: white;
 }
 
 .core-capabilities {
     padding: 80px 0;
-    background: #f8fafc;
+    background: #070614;
+    color: white;
 }
 
 .industry-applications {
     padding: 80px 0;
-    background: white;
+    background: #070614;
+    color: white;
 }
 
 .roi-calculator {
     padding: 80px 0;
-    background: #f8fafc;
+    background: #070614;
+    color: white;
 }
 
 .implementation-process {
     padding: 80px 0;
-    background: white;
+    background: #070614;
+    color: white;
 }
 
 .pricing-section {
@@ -622,9 +628,10 @@ get_header(); ?>
 }
 
 .consultation-cta {
-    background: #0F172A;
+    background: linear-gradient(180deg, #1e293b 0%, #070614 100%);
     color: white;
-    padding: 100px 0;
+    padding: 60px 0 100px 0;
+    text-align: center;
 }
 
 .consultation-cta h2 {
@@ -1341,6 +1348,80 @@ get_header(); ?>
         flex-direction: column;
         gap: 15px;
     }
+}
+
+/* Fix challenge card text readability */
+.challenge-item {
+    background: white;
+    color: #2d3748;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.challenge-item h4 {
+    color: #1a202c;
+    margin-bottom: 15px;
+}
+
+.challenge-item p {
+    color: #4a5568;
+    line-height: 1.6;
+}
+
+/* Fix capabilities tabs */
+.capabilities-tabs {
+    color: #2d3748;
+}
+
+.tab-content {
+    color: #2d3748;
+}
+
+/* Fix application cards */
+.application-card {
+    color: #2d3748;
+}
+
+.application-card h4 {
+    color: #1a202c;
+}
+
+.application-card p {
+    color: #4a5568;
+    line-height: 1.6;
+}
+
+/* Fix calculator sections */
+.calculator-inputs, .calculator-results {
+    color: #2d3748;
+}
+
+/* Fix implementation process cards */
+.process-step {
+    color: #2d3748;
+}
+
+.process-step h4 {
+    color: #1a202c;
+}
+
+.process-step p {
+    color: #4a5568;
+    line-height: 1.6;
+}
+
+/* Fix pricing cards */
+.pricing-card {
+    color: #2d3748;
+}
+
+.pricing-card h3 {
+    color: #1a202c;
+}
+
+.pricing-card .features {
+    color: #4a5568;
 }
 
 /* Button Styling */

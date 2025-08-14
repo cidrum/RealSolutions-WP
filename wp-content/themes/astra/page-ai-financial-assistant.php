@@ -15,7 +15,7 @@ get_header(); ?>
                 <p class="hero-subtitle">Streamline financial operations with intelligent AI agents that handle billing, revenue cycle management, insurance processing, and financial reporting for healthcare practices and medical device companies.</p>
                 <div class="hero-cta">
                     <a href="#consultation" class="btn btn-primary">Schedule Financial Audit</a>
-                    <a href="#demo" class="btn btn-secondary">View ROI Calculator</a>
+                    <a href="#roi-analysis" class="btn btn-secondary">View ROI Calculator</a>
                 </div>
             </div>
             <div class="hero-metrics">
@@ -364,7 +364,7 @@ get_header(); ?>
         </div>
     </div>
 
-    <div class="roi-analysis">
+    <div class="roi-analysis" id="roi-analysis">
         <div class="container">
             <h2>Return on Investment Analysis</h2>
             <div class="roi-calculator">
@@ -538,38 +538,45 @@ get_header(); ?>
 
 .financial-challenges {
     padding: 80px 0;
-    background: white;
+    background: #070614;
+    color: white;
 }
 
 .solution-overview {
     padding: 80px 0;
-    background: #f8fafc;
+    background: #070614;
+    color: white;
 }
 
 .service-modules {
     padding: 80px 0;
-    background: white;
+    background: #070614;
+    color: white;
 }
 
 .industry-applications {
     padding: 80px 0;
-    background: #f8fafc;
+    background: #070614;
+    color: white;
 }
 
 .integration-ecosystem {
     padding: 80px 0;
-    background: white;
+    background: #070614;
+    color: white;
 }
 
 .roi-analysis {
     padding: 80px 0;
-    background: #f8fafc;
+    background: #070614;
+    color: white;
     text-align: center;
 }
 
 .implementation-timeline {
     padding: 80px 0;
-    background: white;
+    background: #070614;
+    color: white;
     text-align: center;
 }
 
@@ -1002,8 +1009,8 @@ get_header(); ?>
 }
 
 .consultation-cta {
-    padding: 100px 0;
-    background: linear-gradient(135deg, #1e293b 0%, #070614 100%);
+    padding: 60px 0 100px 0;
+    background: linear-gradient(180deg, #1e293b 0%, #070614 100%);
     color: white;
     text-align: center;
 }
@@ -1098,6 +1105,58 @@ get_header(); ?>
     .timeline-item {
         padding-left: 60px;
     }
+}
+
+/* Fix challenge card text readability */
+.challenges-grid .challenge-item {
+    background: white;
+    color: #2d3748;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.challenge-item h4 {
+    color: #1a202c;
+    margin-bottom: 15px;
+}
+
+.challenge-item p {
+    color: #4a5568;
+    line-height: 1.6;
+}
+
+/* Fix module card text */
+.module-card {
+    color: #2d3748;
+}
+
+.module-features {
+    color: #2d3748;
+}
+
+/* Fix integration section headings */
+.integration-cat h3 {
+    color: white;
+}
+
+/* Fix application tabs */
+.application-tabs {
+    color: #2d3748;
+}
+
+.app-tab-content {
+    color: #2d3748;
+}
+
+/* Fix timeline cards */
+.timeline-content {
+    color: #2d3748;
+}
+
+/* Fix ROI calculator */
+.roi-calculator {
+    color: #2d3748;
 }
 
 /* Button Styling */

@@ -471,32 +471,38 @@ get_header(); ?>
 
 .research-challenges {
     padding: 80px 0;
-    background: white;
+    background: #070614;
+    color: white;
 }
 
 .research-solution {
     padding: 80px 0;
-    background: #f8fafc;
+    background: #070614;
+    color: white;
 }
 
 .research-capabilities {
     padding: 80px 0;
-    background: white;
+    background: #070614;
+    color: white;
 }
 
 .research-applications {
     padding: 80px 0;
-    background: #f8fafc;
+    background: #070614;
+    color: white;
 }
 
 .roi-calculator {
     padding: 80px 0;
-    background: white;
+    background: #070614;
+    color: white;
 }
 
 .compliance-security {
     padding: 80px 0;
-    background: #f8fafc;
+    background: #070614;
+    color: white;
 }
 
 .pricing-section {
@@ -506,9 +512,10 @@ get_header(); ?>
 }
 
 .consultation-cta {
-    background: #0F172A;
+    background: linear-gradient(180deg, #1e293b 0%, #070614 100%);
     color: white;
-    padding: 80px 0;
+    padding: 60px 0 100px 0;
+    text-align: center;
 }
 
 .hero-stats {
@@ -535,7 +542,8 @@ get_header(); ?>
 
 .research-challenges {
     padding: 80px 0;
-    background: #f8fafc;
+    background: #070614;
+    color: white;
 }
 
 .challenges-grid {
@@ -848,7 +856,8 @@ get_header(); ?>
 
 .roi-calculator {
     padding: 80px 0;
-    background: white;
+    background: #070614;
+    color: white;
 }
 
 .calculator-container {
@@ -1095,6 +1104,67 @@ get_header(); ?>
     .consultation-form {
         padding: 30px 20px;
     }
+}
+
+/* Fix challenge card text readability */
+.challenge-item {
+    background: white;
+    color: #2d3748;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.challenge-item h4 {
+    color: #1a202c;
+    margin-bottom: 15px;
+}
+
+.challenge-item p {
+    color: #4a5568;
+    line-height: 1.6;
+}
+
+/* Fix capabilities tabs */
+.capabilities-tabs {
+    color: #2d3748;
+}
+
+.tab-content {
+    color: #2d3748;
+}
+
+/* Fix application category cards */
+.application-category {
+    color: #2d3748;
+}
+
+/* Fix calculator sections */
+.calculator-inputs, .calculator-results {
+    color: #2d3748;
+}
+
+/* Fix compliance items */
+.compliance-item {
+    color: #2d3748;
+}
+
+.compliance-item p {
+    color: #4a5568;
+    line-height: 1.6;
+}
+
+/* Fix pricing cards */
+.pricing-card {
+    color: #2d3748;
+}
+
+.pricing-card h3 {
+    color: #1a202c;
+}
+
+.pricing-card .features {
+    color: #4a5568;
 }
 
 /* Button Styling */
