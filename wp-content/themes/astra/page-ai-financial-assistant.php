@@ -1227,6 +1227,64 @@ get_header(); ?>
     border-color: #0085FF;
 }
 
+/* Fix white text on white background issues */
+.solution-overview {
+    background: white;
+}
+
+.solution-overview h2,
+.solution-overview h3,
+.solution-overview h4 {
+    color: #1a202c !important;
+}
+
+.solution-overview p {
+    color: #4a5568 !important;
+}
+
+.benefit-text h4 {
+    color: #1a202c !important;
+}
+
+.benefit-text p {
+    color: #4a5568 !important;
+}
+
+.module-card h3 {
+    color: #1a202c !important;
+}
+
+.module-features li {
+    color: #4a5568 !important;
+}
+
+.implementation-step {
+    color: #2d3748 !important;
+}
+
+.implementation-step h4 {
+    color: #1a202c !important;
+}
+
+.implementation-step p {
+    color: #4a5568 !important;
+    line-height: 1.6;
+}
+
+/* Fix any tabs or application sections */
+.app-tab-content h3 {
+    color: #1a202c !important;
+}
+
+.app-tab-content h4 {
+    color: #1a202c !important;
+}
+
+.app-tab-content p,
+.app-tab-content li {
+    color: #4a5568 !important;
+}
+
 </style>
 
 <script>

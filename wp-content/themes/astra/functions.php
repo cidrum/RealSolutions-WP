@@ -221,6 +221,18 @@ function realsolutions_custom_navigation_styles() {
         border-radius: 8px;
         border: 1px solid #e2e8f0;
     }
+    
+    /* Trim width for AI Agent Catalog submenu - multiple selector approaches */
+    .menu-item-has-children:nth-child(3) .sub-menu,
+    .menu-item:contains("AI Agent Catalog") .sub-menu,
+    .main-header-menu li:nth-child(3) .sub-menu,
+    .ast-header-menu li:nth-child(3) .sub-menu,
+    .menu-item[class*="ai-agent"] .sub-menu,
+    .menu-item[class*="catalog"] .sub-menu {
+        min-width: 180px !important;
+        width: 180px !important;
+        max-width: 180px !important;
+    }
 
     .main-header-menu .sub-menu li,
     .ast-header-menu .sub-menu li {
@@ -276,6 +288,39 @@ function realsolutions_custom_navigation_styles() {
         transform: rotate(180deg);
     }
 
+    /* Add margin between main nav and page header */
+    .ai-service-page .service-hero {
+        margin-top: 20px !important;
+        padding-top: 100px !important;
+    }
+    
+    .service-hero {
+        margin-top: 20px;
+    }
+    
+    /* General spacing for all page headers */
+    .entry-header,
+    .page-header,
+    .ast-article-single .entry-header {
+        margin-top: 40px;
+        padding-top: 20px;
+    }
+    
+    /* Consistent section padding across all AI service pages */
+    .ai-service-page > div:not(.service-hero) {
+        padding: 80px 0 !important;
+    }
+    
+    .ai-service-page .service-hero {
+        padding: 100px 0 !important;
+    }
+    
+    .ai-service-page .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
     /* Mobile menu improvements */
     @media (max-width: 768px) {
         .main-header-menu .sub-menu,
@@ -286,6 +331,11 @@ function realsolutions_custom_navigation_styles() {
             margin-left: 20px;
             border-radius: 4px;
             margin-top: 10px;
+        }
+        
+        .ai-service-page .service-hero {
+            margin-top: 10px !important;
+            padding-top: 80px !important;
         }
     }
     </style>

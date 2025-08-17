@@ -594,14 +594,25 @@ get_header(); ?>
 
 .solution-item {
     padding: 30px;
-    background: #f0f9ff;
+    background: #1e293b;
     border-radius: 12px;
-    border-left: 4px solid #0F172A;
+    border-left: 4px solid #0085FF;
+    color: white;
 }
 
 .solution-icon {
     font-size: 2rem;
     margin-bottom: 15px;
+}
+
+.solution-item h4 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.solution-item p {
+    color: #cbd5e1;
+    line-height: 1.6;
 }
 
 .capabilities-tabs {
@@ -1131,12 +1142,12 @@ get_header(); ?>
 }
 
 .challenge-item h4 {
-    color: #1a202c;
+    color: #1a202c !important;
     margin-bottom: 15px;
 }
 
 .challenge-item p {
-    color: #4a5568;
+    color: #4a5568 !important;
     line-height: 1.6;
 }
 
@@ -1146,12 +1157,32 @@ get_header(); ?>
 }
 
 .tab-content {
-    color: #2d3748;
+    color: #2d3748 !important;
+}
+
+.tab-content h3 {
+    color: #1a202c !important;
+}
+
+.tab-content h4 {
+    color: #1a202c !important;
+}
+
+.tab-content p {
+    color: #4a5568 !important;
 }
 
 /* Fix application category cards */
 .application-category {
     color: #2d3748;
+}
+
+.application-category h3 {
+    color: #1a202c !important;
+}
+
+.application-category p {
+    color: #4a5568 !important;
 }
 
 /* Fix calculator sections */

@@ -19,7 +19,7 @@ get_header(); ?>
                 </div>
             </div>
             <div class="hero-image">
-                <img src="/wp-content/uploads/ai-sales-agent-hero.svg" alt="AI Sales Agent Dashboard" loading="lazy">
+                <!-- <img src="/wp-content/uploads/ai-sales-agent-hero.svg" alt="AI Sales Agent Dashboard" loading="lazy"> -->
             </div>
         </div>
     </div>
@@ -467,6 +467,16 @@ get_header(); ?>
     background: white;
 }
 
+.industry-focus h2 {
+    color: #1a202c !important;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.industry-focus h3 {
+    color: #1a202c !important;
+}
+
 .implementation-process {
     padding: 80px 0;
     background: #070614;
@@ -789,19 +799,19 @@ get_header(); ?>
 /* Fix benefit card text readability */
 .benefit-item {
     background: white;
-    color: #2d3748;
+    color: #2d3748 !important;
     padding: 30px 20px;
     border-radius: 12px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 .benefit-item h3 {
-    color: #1a202c;
+    color: #1a202c !important;
     margin-bottom: 15px;
 }
 
 .benefit-item p {
-    color: #4a5568;
+    color: #4a5568 !important;
     line-height: 1.6;
 }
 
@@ -856,7 +866,7 @@ get_header(); ?>
     box-shadow: 0 4px 20px rgba(0,0,0,0.1);
     text-align: center;
     transition: transform 0.3s ease;
-    color: #2d3748;
+    color: #2d3748 !important;
 }
 
 .benefit-card:hover {
@@ -869,13 +879,13 @@ get_header(); ?>
 }
 
 .benefit-card h4 {
-    color: #1a202c;
+    color: #1a202c !important;
     margin-bottom: 15px;
     font-size: 1.1rem;
 }
 
 .benefit-card p {
-    color: #4a5568;
+    color: #4a5568 !important;
     line-height: 1.6;
     font-size: 0.95rem;
 }
