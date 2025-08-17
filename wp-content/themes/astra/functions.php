@@ -229,9 +229,20 @@ function realsolutions_custom_navigation_styles() {
     .ast-header-menu li:nth-child(3) .sub-menu,
     .menu-item[class*="ai-agent"] .sub-menu,
     .menu-item[class*="catalog"] .sub-menu {
-        min-width: 180px !important;
-        width: 180px !important;
-        max-width: 180px !important;
+        min-width: 150px !important;
+        width: 150px !important;
+        max-width: 150px !important;
+    }
+    
+    /* Make sure submenu items fit properly in the smaller width */
+    .menu-item-has-children:nth-child(3) .sub-menu li a,
+    .main-header-menu li:nth-child(3) .sub-menu li a,
+    .ast-header-menu li:nth-child(3) .sub-menu li a {
+        font-size: 13px !important;
+        padding: 10px 15px !important;
+        white-space: nowrap !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
     }
 
     .main-header-menu .sub-menu li,

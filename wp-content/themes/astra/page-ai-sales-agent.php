@@ -19,7 +19,7 @@ get_header(); ?>
                 </div>
             </div>
             <div class="hero-image">
-                <!-- <img src="/wp-content/uploads/ai-sales-agent-hero.svg" alt="AI Sales Agent Dashboard" loading="lazy"> -->
+                <img src="/wp-content/uploads/2024/01/ai-dashboard-hero.svg" alt="AI Sales Agent Dashboard" loading="lazy">
             </div>
         </div>
     </div>
