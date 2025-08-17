@@ -101,7 +101,7 @@ get_header(); ?>
                         <span class="feature-tag">Insurance Verification</span>
                         <span class="feature-tag">Patient Communication</span>
                     </div>
-                    <a href="/ai-customer-service-agent" class="agent-link">Learn More →</a>
+                    <a href="<?php echo home_url('/ai-customer-service-agent/'); ?>" class="agent-link">Learn More →</a>
                 </div>
 
                 <div class="agent-card">
@@ -113,7 +113,7 @@ get_header(); ?>
                         <span class="feature-tag">Claims Processing</span>
                         <span class="feature-tag">Financial Analytics</span>
                     </div>
-                    <a href="/ai-financial-assistant" class="agent-link">Learn More →</a>
+                    <a href="<?php echo home_url('/ai-financial-assistant/'); ?>" class="agent-link">Learn More →</a>
                 </div>
 
                 <div class="agent-card">
@@ -125,7 +125,7 @@ get_header(); ?>
                         <span class="feature-tag">CRM Integration</span>
                         <span class="feature-tag">Pipeline Management</span>
                     </div>
-                    <a href="/ai-sales-agent" class="agent-link">Learn More →</a>
+                    <a href="<?php echo home_url('/ai-sales-agent/'); ?>" class="agent-link">Learn More →</a>
                 </div>
 
                 <div class="agent-card">
@@ -137,7 +137,7 @@ get_header(); ?>
                         <span class="feature-tag">Data Analysis</span>
                         <span class="feature-tag">Clinical Studies</span>
                     </div>
-                    <a href="/ai-research-assistant" class="agent-link">Learn More →</a>
+                    <a href="<?php echo home_url('/ai-research-assistant/'); ?>" class="agent-link">Learn More →</a>
                 </div>
 
                 <div class="agent-card">
@@ -149,7 +149,7 @@ get_header(); ?>
                         <span class="feature-tag">Automated Ordering</span>
                         <span class="feature-tag">Supply Optimization</span>
                     </div>
-                    <a href="/ai-inventory-supply-chain" class="agent-link">Learn More →</a>
+                    <a href="<?php echo home_url('/ai-inventory-supply-chain/'); ?>" class="agent-link">Learn More →</a>
                 </div>
             </div>
         </div>
