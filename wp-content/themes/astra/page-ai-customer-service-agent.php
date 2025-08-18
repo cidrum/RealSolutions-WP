@@ -15,7 +15,6 @@ get_header(); ?>
                 <p class="hero-subtitle">Deliver exceptional 24/7 patient and customer support with HIPAA-compliant AI agents that understand healthcare needs, reduce response times, and improve satisfaction scores.</p>
                 <div class="hero-cta">
                     <a href="#consultation" class="btn btn-primary">Start Free Trial</a>
-                    <a href="#demo" class="btn btn-secondary">See Live Demo</a>
                 </div>
             </div>
             <div class="hero-stats">

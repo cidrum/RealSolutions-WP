@@ -15,7 +15,6 @@ get_header(); ?>
                 <p class="hero-subtitle">Transform your healthcare supply chain with intelligent AI that predicts demand, automates procurement, prevents stockouts, and ensures HIPAA-compliant inventory management across all locations.</p>
                 <div class="hero-cta">
                     <a href="#consultation" class="btn btn-primary">Optimize Supply Chain</a>
-                    <a href="#demo" class="btn btn-secondary">View Live Demo</a>
                 </div>
             </div>
             <div class="hero-metrics">
@@ -781,7 +780,7 @@ get_header(); ?>
     background: transparent;
     cursor: pointer;
     font-weight: 600;
-    color: #718096;
+    color: #2d3748;
     transition: all 0.3s ease;
     min-width: 180px;
 }

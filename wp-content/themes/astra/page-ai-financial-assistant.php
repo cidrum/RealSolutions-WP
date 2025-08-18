@@ -789,7 +789,7 @@ get_header(); ?>
     background: transparent;
     cursor: pointer;
     font-weight: 600;
-    color: #718096;
+    color: #2d3748;
     transition: all 0.3s ease;
 }
 

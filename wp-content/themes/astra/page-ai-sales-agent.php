@@ -19,7 +19,25 @@ get_header(); ?>
                 </div>
             </div>
             <div class="hero-image">
-                <img src="/wp-content/uploads/2024/01/ai-dashboard-hero.svg" alt="AI Sales Agent Dashboard" loading="lazy">
+                <div class="hero-placeholder">
+                    <div class="placeholder-content">
+                        <h3>AI Sales Agent Dashboard</h3>
+                        <div class="mock-dashboard">
+                            <div class="mock-metric">
+                                <span class="mock-number">156</span>
+                                <span class="mock-label">Qualified Leads</span>
+                            </div>
+                            <div class="mock-metric">
+                                <span class="mock-number">89%</span>
+                                <span class="mock-label">Response Rate</span>
+                            </div>
+                            <div class="mock-metric">
+                                <span class="mock-number">$127K</span>
+                                <span class="mock-label">Pipeline Value</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -374,6 +392,51 @@ get_header(); ?>
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
+}
+
+.hero-image {
+    flex: 1;
+    min-width: 400px;
+}
+
+.hero-placeholder {
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    padding: 30px;
+    text-align: center;
+}
+
+.placeholder-content h3 {
+    color: white;
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+}
+
+.mock-dashboard {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 20px;
+}
+
+.mock-metric {
+    background: rgba(255,255,255,0.1);
+    padding: 20px 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.mock-number {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #0085FF;
+    margin-bottom: 5px;
+}
+
+.mock-label {
+    font-size: 0.9rem;
+    color: #cbd5e1;
 }
 
 .btn {
